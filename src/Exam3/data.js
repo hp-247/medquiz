@@ -1,366 +1,237 @@
 const data = [
   {
-    question: "This is exam 3?",
-    incorrectAnswers: [
-      "Barrier, absorption, and excretion",
-      "Tranformation, absorption, and secretion",
-      "Immunity, protection, and absorption",
-    ],
-    correctAnswer: "Barrier, absorption, and secretion",
+    question:
+      "The neuron that receives stimuli from the environment and transmits it to CNS is known as",
+    incorrectAnswers: ["motor neurons", "interneurons", "neuron stimulus"],
+    correctAnswer: "sensory neuron",
   },
 
   {
     question:
-      "A group of organized __________ working together forms __________. An organized group of the latter work together to form __________.",
+      "At the end of nerve fiber, the chemical which is secreted in response to the arrival of the nerve impulse, named as",
+    incorrectAnswers: ["glands", "hormones", "enzymes"],
+    correctAnswer: "neurotransmitter",
+  },
+  {
+    question:
+      "The synapse between the cell body and axon of the neuron is called",
+    incorrectAnswers: ["Axodendritic synapse", "Axoaxonix synapse", "synapse"],
+    correctAnswer: "Axosomatic synapse",
+  },
+  {
+    question: "Perikaryon composed of",
+    incorrectAnswers: ["nucleus only", "cytoplasm only", "golgi apparatus"],
+    correctAnswer: "nucleus and cytoplasm",
+  },
+  {
+    question: "The synapse between two axons is named as",
+    incorrectAnswers: ["Axosomatic synapse", "Axodendritic synapse", "synapse"],
+    correctAnswer: "Axoaxonix synapse",
+  },
+  {
+    question: "The innermost layer of the meninges is named as",
+    incorrectAnswers: ["Arachnoi mater", "covering", "none of above"],
+    correctAnswer: "pia",
+  },
+  {
+    question: "Ruffini's corpuscles are",
     incorrectAnswers: [
-      "tissues; organs; cells",
-      "organs; cells; tissue",
-      "None of the options",
+      "encapsulated nerve endings only",
+      "fusiform structures only",
+      "non active",
     ],
-    correctAnswer: "cells; tissue; organs",
+    correctAnswer: "encapsulated nerve endings and fusiform structures",
+  },
+  {
+    question: "The tough and thick outermost layer of the meninges, named as",
+    incorrectAnswers: ["tunica intima", "tunica media", "intima"],
+    correctAnswer: "dura mater",
   },
   {
     question:
-      "Which of the following tissue types make up the inside or outside lining of something?",
-    incorrectAnswers: ["connective", "muscular", "nervous"],
-    correctAnswer: "epithelial",
+      "The capability of responding to chemical and physical stimuli by the generation of electric impulse is called.",
+    incorrectAnswers: ["conductivity", "reactivity", "activity"],
+    correctAnswer: "excitability",
   },
   {
-    question:
-      "If you observe a layer of columnar cells of varying heights, they would be called __________ columnar cells.",
-    incorrectAnswers: ["simple", "stratified", "complex"],
-    correctAnswer: "pseudostratified",
-  },
-  {
-    question: "An epithelial membrane consists of __________ tissue.",
+    question: "The axoplasm of the axon, containing",
     incorrectAnswers: [
-      "muscular and neural",
-      "connective and muscular",
-      "nervous and connective",
+      "mitochondria",
+      "microtubules",
+      "Neurofliment and smooth endoplasmic reticulum",
     ],
-    correctAnswer: "epithelial and connective",
+    correctAnswer: "all of above",
   },
   {
     question:
-      "The epithelial membrane that surrounds the heart and lungs separately is called a __________ membrane.",
-    incorrectAnswers: ["cutaneous", "synovial", "apical"],
-    correctAnswer: "serous",
-  },
-  {
-    question:
-      "What type of gland is being described? Part of the actual cell breaks away in order to release its products.",
-    incorrectAnswers: ["holocrine", "merocrine", "endocrine"],
-    correctAnswer: "apocrine",
-  },
-  {
-    question:
-      "Lining layer of fallopian tubes, bronchi and bronchioles consists of",
+      "The innermost layer of the dura mater, surrounding the brain, known as",
     incorrectAnswers: [
-      "Colummar epithelium",
-      "Cubical epithelium",
-      "squamous epithelium",
+      "spinal dura mater",
+      "posterior dura mater",
+      "dura mater",
     ],
-    correctAnswer: "Ciliated epithelium",
+    correctAnswer: "menigeal dura mater",
+  },
+  {
+    question: "The diameter of the presynaptic knob, approximately",
+    incorrectAnswers: ["20-30 nm", "10-40 nm", "40-80 nm"],
+    correctAnswer: "40-60 nm",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+      "The neurons that transfer impulses from the central nervous system to the effector is called",
+    incorrectAnswers: ["sensory neurons", "interneurons", "neuron stimulus"],
+    correctAnswer: "motor neurons",
   },
   {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+    question: "The nerve cell body is also called",
+    incorrectAnswers: ["nerves", "nerves network", "nerves cells"],
+    correctAnswer: "Perikaryon",
   },
   {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+    question: "In the nerve fibers, the axons are covered by",
+    incorrectAnswers: ["myelin sheath only", "neurilemma only", "meninges"],
+    correctAnswer: "myelin sheath and neurilemma",
   },
   {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+    question: "The neurons, be composed of",
+    incorrectAnswers: ["cell body", "axons", "dendrites"],
+    correctAnswer: "all of above",
+  },
+  {
+    question: "The length of the Pacinian corpuscles is nearly",
+    incorrectAnswers: ["1-3 mm", "1-5 mm", "1-6 mm"],
+    correctAnswer: "1-2 mm",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+      "The two types of the tissues that are especially present in the central nervous system, included",
+    incorrectAnswers: ["grey matter only", "white matter only", "soft tissues"],
+    correctAnswer: "grey and white matter",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
+      "The proportion of lipids and protein in the myelin is approximately",
     incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
+      "20% and 80% respectively",
+      "30% and 40% respectively",
+      "100% and 90% respectively",
     ],
-    correctAnswer: "apical and basal domains",
+    correctAnswer: "80% and 20% respectively",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+      "The subsidiary nerve centers that send and receive nerve fibers is formed by",
+    incorrectAnswers: ["glia", "ganglia", "mesoglea"],
+    correctAnswer: "neuroglia",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+      "The synapse that forms between the axon of one neuron and dendrites of another neuron, referred to as",
+    incorrectAnswers: ["Axosomatic synapse", "Axoaxonix synapse", "synapse"],
+    correctAnswer: "Axodendritic synapse",
   },
   {
-    question: "What the polarity of epithelial tissues",
+    question: "The cytoplasm of an axon is term as",
+    incorrectAnswers: ["cytoplasm", "neoplasm", "Axonoplasm"],
+    correctAnswer: "axoplasm",
+  },
+  {
+    question: "The myelin sheath is composed of lipoprotein named as",
     incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
+      "chylomicrons",
+      "high-density lipoproteins",
+      "low-density lipoproteins",
     ],
-    correctAnswer: "apical and basal domains",
+    correctAnswer: "myelin",
+  },
+  {
+    question: "The dura mater is composed of",
+    incorrectAnswers: [
+      "collagen fibers only",
+      "elastic fibers only",
+      "filaments",
+    ],
+    correctAnswer: "collagen and elastic fibers",
+  },
+  {
+    question: "The supporting cells of the central nervous system are",
+    incorrectAnswers: ["ganglia", "mesoglea", "glial cells"],
+    correctAnswer: "neuroglia",
+  },
+  {
+    question: "The color of white matter is due to presences of",
+    incorrectAnswers: ["nerves network", "soft tissues", "neurons"],
+    correctAnswer: "myelinated nerve fibers",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+      "The cluster of the nerve cell bodies outside the central system, regarded as",
+    incorrectAnswers: ["neuroglia", "glia", "glial cells"],
+    correctAnswer: "ganglia",
   },
   {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+    question: "The afferent extensions of the neurons are named as",
+    incorrectAnswers: ["axons", "cell body", "Perikaryon"],
+    correctAnswer: "dendrites",
   },
   {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+    question: "The diameter of the Pacinian corpuscles is about",
+    incorrectAnswers: ["0.1-1 mm", "0.3-4 mm", "0.5-7 mm"],
+    correctAnswer: "0.5-1 mm",
   },
   {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+    question: "Another name for the neurilemma is",
+    incorrectAnswers: ["mesoglea", "ganglion", "schwann cells"],
+    correctAnswer: "sheath of schwann",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+      "The intercellular gap between the presynaptic knob of one neuron and the postsynaptic membrane of second neuron, named as",
+    incorrectAnswers: ["gap", "junction", "cleft"],
+    correctAnswer: "synapse",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+      "The neurons that form the integrating and communicating circuits between sensory and motor neurons are called",
+    incorrectAnswers: ["junctions", "synapses", "dendrites"],
+    correctAnswer: "interneurons",
   },
   {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+    question: "The length of the Ruffini's corpuscles is",
+    incorrectAnswers: ["2-3 mm", "3-6 mm", "3-8 mm"],
+    correctAnswer: "1-2 mm",
   },
   {
     question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+      "During electric synapses, the movement of ions from neuron to neuron depends upon",
+    incorrectAnswers: ["axons", "dendrites", "ganglia"],
+    correctAnswer: "gap junctions",
   },
   {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+    question: "The grey matter composed of",
+    incorrectAnswers: ["nerves", "nerves network", "neuron"],
+    correctAnswer: "nerve cell bodies",
   },
   {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+    question: "At the synapse, the impulse transmission occurs",
+    incorrectAnswers: ["electrically only", "chemically only", "automatically"],
+    correctAnswer: "electrially and chemically",
   },
   {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+    question: "The neuroglia are commonly named as",
+    incorrectAnswers: ["nerves", "pia", "mesoglea"],
+    correctAnswer: "glia",
   },
   {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
+    question: "The diameter of the Ruffini's corpuscles is",
+    incorrectAnswers: ["0.1 mm", "0.3 mm", "0.4 mm"],
+    correctAnswer: "0.2 mm",
   },
   {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
-  },
-  {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
-  },
-  {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
-  },
-  {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
-  },
-  {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
-  },
-  {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
-  },
-  {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
-  },
-  {
-    question:
-      "The epithelial membrane that lines the body cavities that are exposed to the outside of the body is called a __________ membrane.",
-    incorrectAnswers: ["serous", "synovial", "basal membrane"],
-    correctAnswer: "mucous",
-  },
-  {
-    question: "What the polarity of epithelial tissues",
-    incorrectAnswers: [
-      "apical and complex",
-      "simple and basal domains",
-      "apical and regional",
-    ],
-    correctAnswer: "apical and basal domains",
+    question: "The presynaptic knob contains a large number of",
+    incorrectAnswers: ["nuclei", "vacuole", "granules"],
+    correctAnswer: "mitochondria",
   },
 ];
 

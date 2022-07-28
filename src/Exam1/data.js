@@ -77,6 +77,84 @@ const data = [
     ],
     correctAnswer: "apical and basal domains",
   },
+  {
+    question: "The stoma of the body, included",
+    incorrectAnswers: [
+      "supporting tissues only",
+      "connective tissues only",
+      "ducts",
+    ],
+    correctAnswer: "supporting and connective tissues",
+  },
+  {
+    question:
+      "A cluster apposed cells with very small amount of extracellular matrix, named",
+    incorrectAnswers: [
+      "supporting tissues only",
+      "connective tissues only",
+      "ducts",
+    ],
+    correctAnswer: "epithelium",
+  },
+  {
+    question:
+      "The organized aggregation of the identical cells, specialized to perform a particular function, known as",
+    incorrectAnswers: ["sheets", "bands", "cells"],
+    correctAnswer: "tissues",
+  },
+  {
+    question: "The diameter of the cilia is about",
+    incorrectAnswers: ["3-8 micrometer", "2-4 micrometer", "1-5 micrometer"],
+    correctAnswer: "5-10 micrometer",
+  },
+  {
+    question: "The parenchyma of the body composed of",
+    incorrectAnswers: ["cells only", "tissues only", "muscles"],
+    correctAnswer: "cells and tissues",
+  },
+  {
+    question:
+      "The epithelium that contains two or more layers of the cells, referred as",
+    incorrectAnswers: [
+      "unilaminar epithelium",
+      "covering epithelium",
+      "squamous epithelium",
+    ],
+    correctAnswer: "stratified epithelium",
+  },
+  {
+    question:
+      "The epithelium that contains only single layer of the cells is named",
+    incorrectAnswers: [
+      "simple epithelium only",
+      "unilaminar epithelium only",
+      "cover epithelium",
+    ],
+    correctAnswer: "simple and unilaminar epithelium",
+  },
+  {
+    question: "The body tissues can be categorized as",
+    incorrectAnswers: [
+      "epithelium",
+      "connective tissues and muscular tissues",
+      "nervous tissues",
+    ],
+    correctAnswer: "all of above",
+  },
+  {
+    question: "Most organs of the body composed of",
+    incorrectAnswers: ["parenchyma only", "stroma only", "ducts"],
+    correctAnswer: "parenchyma and stroma",
+  },
+  {
+    question: "Stratefied epithelium is also named as",
+    incorrectAnswers: [
+      "unilaminar epithelium",
+      "covering epithelium",
+      "squamous epithelium",
+    ],
+    correctAnswer: "multilaminar epithelium",
+  },
 ];
 
 export default data;

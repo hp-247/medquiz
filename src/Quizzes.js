@@ -4,6 +4,7 @@ import Exam1 from "./Exam1/Exam1";
 import Exam2 from "./Exam2/Exam2";
 import Exam3 from "./Exam3/Exam3";
 import Exam4 from "./Exam4/Exam4";
+import Exam5 from "./Exam5/Exam5";
 
 function Quizzes() {
   const [activeTab, setActiveTab] = useState("Epithelial Tissue");
@@ -20,6 +21,9 @@ function Quizzes() {
     setActiveTab("Nervous Tissue");
   };
   const handle4 = () => {
+    setActiveTab("Muscle Tissue");
+  };
+  const handle5 = () => {
     setActiveTab("Cartilage & Bone");
   };
 
@@ -31,8 +35,10 @@ function Quizzes() {
         return <Exam2 />;
       case "Nervous Tissue":
         return <Exam3 />;
+      case "Muscle Tissue":
+        return <h1>Coming Soon</h1>;
       case "Cartilage & Bone":
-        return <Exam4 />;
+        return <h1>Coming Soon</h1>;
       default:
         return null;
     }
@@ -51,7 +57,7 @@ function Quizzes() {
             }
             onClick={handle1}
           >
-            Epithelial Tissue
+            Epithelial Tissue <span className="coming">(20 questions)</span>
           </div>
           <div
             className={
@@ -61,7 +67,7 @@ function Quizzes() {
             }
             onClick={handle2}
           >
-            Connective Tissue
+            Connective Tissue <span className="coming">(73 questions)</span>
           </div>
           <div
             className={
@@ -71,7 +77,15 @@ function Quizzes() {
             }
             onClick={handle3}
           >
-            Nervous Tissue
+            Nervous Tissue <span className="coming">(39 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Muscle Tissue" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle4}
+          >
+            Muscle Tissue <span className="coming">TBD</span>
           </div>
           <div
             className={
@@ -79,9 +93,9 @@ function Quizzes() {
                 ? "each_topic active"
                 : "each_topic"
             }
-            onClick={handle4}
+            onClick={handle5}
           >
-            Cartilage & Bone
+            Cartilage & Bone <span className="coming">TBD</span>
           </div>
         </div>
       </div>
