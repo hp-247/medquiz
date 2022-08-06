@@ -21,9 +21,12 @@ function Quizzes() {
     setActiveTab("Nervous Tissue");
   };
   const handle4 = () => {
-    setActiveTab("Muscle Tissue");
+    setActiveTab("Abdomen");
   };
   const handle5 = () => {
+    setActiveTab("Muscle Tissue");
+  };
+  const handle6 = () => {
     setActiveTab("Cartilage & Bone");
   };
 
@@ -35,6 +38,8 @@ function Quizzes() {
         return <Exam2 />;
       case "Nervous Tissue":
         return <Exam3 />;
+      case "Abdomen":
+        return <Exam4 />;
       case "Muscle Tissue":
         return <h1>Coming Soon</h1>;
       case "Cartilage & Bone":
@@ -81,9 +86,17 @@ function Quizzes() {
           </div>
           <div
             className={
-              activeTab === "Muscle Tissue" ? "each_topic active" : "each_topic"
+              activeTab === "Abdomen" ? "each_topic active" : "each_topic"
             }
             onClick={handle4}
+          >
+            Abdomen <span className="coming">(90 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Muscle Tissue" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle5}
           >
             Muscle Tissue <span className="coming">TBD</span>
           </div>
@@ -93,7 +106,7 @@ function Quizzes() {
                 ? "each_topic active"
                 : "each_topic"
             }
-            onClick={handle5}
+            onClick={handle6}
           >
             Cartilage & Bone <span className="coming">TBD</span>
           </div>
