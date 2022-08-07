@@ -6,6 +6,7 @@ import Exam3 from "./Exam3/Exam3";
 import Exam4 from "./Exam4/Exam4";
 import Exam5 from "./Exam5/Exam5";
 import Exam7 from "./Exam7/Exam7";
+import Exam8 from "./Exam8/Exam8";
 
 function Quizzes() {
   const [activeTab, setActiveTab] = useState("Epithelial Tissue");
@@ -33,6 +34,9 @@ function Quizzes() {
   const handle7 = () => {
     setActiveTab("Abdomen");
   };
+  const handle8 = () => {
+    setActiveTab("Pelvis");
+  };
 
   const renderCurrentSelection = () => {
     switch (activeTab) {
@@ -50,6 +54,8 @@ function Quizzes() {
         return <h1>Coming Soon</h1>;
       case "Abdomen":
         return <Exam7 />;
+      case "Pelvis":
+        return <Exam8 />;
       default:
         return null;
     }
@@ -107,6 +113,14 @@ function Quizzes() {
             onClick={handle7}
           >
             Abdomen <span className="coming">(15 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Pelvis" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle8}
+          >
+            Pelvis <span className="coming">(10 questions)</span>
           </div>
           <div
             className={
