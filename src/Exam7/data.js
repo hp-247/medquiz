@@ -8,6 +8,8 @@ const data = [
       "Internal hemorrhoids",
     ],
     correctAnswer: "Pain and vomitting after a meal",
+    explanation:
+      "The aneurysm has compressed the third part of the doudenum and possibly the left renal vein, both of which cross the aorta inferior to the origin of the superior mesenteric atery. The patient may exhibit pain and vomiting after a meal and a variocele in the left spermatic cord.",
   },
 
   {
@@ -19,24 +21,24 @@ const data = [
       "Middle rectal vein/inferior rectal vein",
     ],
     correctAnswer: "Left gastric vein/azygos vein",
+    explanation:
+      "Esophageal varices develop as a result of the portacaval anastomosis between the esophageal branches of the left gastric vein and tributaries of the azygos vein.",
   },
   {
     question:
       "A 56-year-old man experiences peristent gastroesophageal reflux. Diagnostic imaging reveals that the patient has a sliding hiatal hernia. What other structure might be compressed by the hernia that courses through the same opening in the diaphragm?",
     incorrectAnswers: ["Phrenic nerve", "Thoracic duct", "Azygos vein"],
     correctAnswer: "Vagal trunks",
+    explanation:
+      "The vagal trunks traverse the esophageal hiatus, the site of a hiatal hernia",
   },
   {
     question:
       "Your patient has carinoma of the pancreas, which compresses structures coursing through it. You might expect the patient to have all of the following except:",
     incorrectAnswers: ["Splenomeagely", "Internal hemorrhoids", "Pancreatitis"],
     correctAnswer: "Caput medusa",
-  },
-  {
-    question:
-      "The large phagocytic, relating to the mononuclear phagocytes system of the liver, called as",
-    incorrectAnswers: ["Paneth cells", "endothelial cells", "ITO cells"],
-    correctAnswer: "Kupffer cells",
+    explanation:
+      "Caput medusa may develop in patients with liver cirrhosis but not in those pancreatic carcinoma.",
   },
   {
     question:
@@ -47,12 +49,16 @@ const data = [
       "Third of the doudenum",
     ],
     correctAnswer: "Greater curvature of the stomach",
+    explanation:
+      "The splenic artery supplies the spleen, greater curvature and fundus of the stomach, and the body and tail of the pancreas.",
   },
   {
     question:
       "A 38-year-old banker with a history of heartburn suddenly experiences excrutiating pain in the epigastric region of the abdomen. Surgery is performed immedately on admission to the emergency room. There is evidece of an ulcer, which has ruptured through the postrior wall of the doudenum. What blood vessel might be subject to erosion?",
     incorrectAnswers: ["Common hepatic", "Left gastric", "Splenic"],
     correctAnswer: "Gastroduodenal",
+    explanation:
+      "The gastrodoudenal artery courses immediately posterior to the posterior part of the doudenum.",
   },
   {
     question:
@@ -63,6 +69,8 @@ const data = [
       "Celiac artery",
     ],
     correctAnswer: "Proper hepatic artery",
+    explanation:
+      "The proper hepatic artery courses in the hepatdoudenal ligament, which is part of the lesser omentum.",
   },
   {
     question:
@@ -73,6 +81,8 @@ const data = [
       "Genitofemoral nerves",
     ],
     correctAnswer: "Lower Thoracic splanchnic nerves",
+    explanation:
+      "The lower thoracic splanchnic nerves carry visceral pain from an inflmaed appendix back into the CNS. Only sympathetic nerves visceral pain.",
   },
   {
     question:
@@ -83,6 +93,8 @@ const data = [
       "Meckel's diverticulum",
     ],
     correctAnswer: "Achalasia of the esophagus",
+    explanation:
+      "Achalasia results from an absence of ganglion cells in the lower part of the esophagus.",
   },
   {
     question:
@@ -93,6 +105,8 @@ const data = [
       "Dorsal root ganglia",
     ],
     correctAnswer: "Terminal ganglia",
+    explanation:
+      "Terminal ganglia are parasympathetic ganglia that develop in the walls of gastroinestinal structures.",
   },
   {
     question:
@@ -104,6 +118,8 @@ const data = [
     ],
     correctAnswer:
       "The hernia is most likely covered by all of the same layers that cover the spermatic cord.",
+    explanation:
+      "The hernia is mostly covered by all the same layers that cover spermatic cord. The other choices are choices are characteristic of a direct inguinal hernia; and one is characteristic of a femoral hernia.",
   },
   {
     question:
@@ -114,26 +130,8 @@ const data = [
       "It has wider teniae coli than the jejunum",
     ],
     correctAnswer: "It has more fat in its mesentery than the jejenum.",
-  },
-  {
-    question:
-      "A 49-year-old man comes to the outpatient clinic because of right upper quadrant pain, nausea, and intermittent vomiting. His temperature is 98.6°F (37°C), pulse is 76 beats/min, respirations are 16 breaths/min, and blood pressure is 125/75 mm Hg. The physical examination shows right upper quadrant tenderness and jaundice. Laboratory tests show elevated bilirubin and alkaline phosphatase, but the leukocyte count is normal. Pancreatic enzyme levels are normal. Transabdominal ultrasound shows a stone blocking and dilating the common bile duct.",
-    incorrectAnswers: [
-      "Administer bile salts",
-      "Prescribe antibiotics",
-      "Schedule a delayed cholecystectomy",
-    ],
-    correctAnswer: "Perform an endoscopic retrograde cholangiopancreatography",
-  },
-  {
-    question:
-      "Over a two-month period, a 50-year-old woman with a history of polycythemia vera develops abdominal pain and gross ascites. Physical examination demonstrates smooth hepatomegaly and mild jaundice. Pressure applied over the liver fails to distend the jugular veins. The abdomen is grossly edematous and the abdominal wall shows a tortuous venous pattern. Edema of the legs is prominent.",
-    incorrectAnswers: [
-      "Hepatic cirrhosis.",
-      "Hepatocellular carcinoma.",
-      "Primary sclerosing cholangitis.",
-    ],
-    correctAnswer: "Budd-Chiari syndrome.",
+    explanation:
+      "The ileum has more fat in its mesentery than the jejunum but has thinner walls and is less vascular.",
   },
 ];
 

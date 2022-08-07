@@ -23,6 +23,7 @@ const reducer = (state, action) => {
         ...state,
         currentAnswer: action.payload,
         correctAnswersCount,
+        explanation: state.questions[state.currentQuestionIndex].explanation,
       };
     }
     case "NEXT_QUESTION": {

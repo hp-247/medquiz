@@ -8,6 +8,8 @@ const data = [
       "In the gluteal region",
     ],
     correctAnswer: "In the anterior abdominal wall",
+    explanation:
+      "Laceration of the penile urethra may result in the extravasation of urine into the superficial perineal pouch and on to the anterior abdominal wall.",
   },
 
   {
@@ -19,6 +21,8 @@ const data = [
       "An inability to empty the rectum",
     ],
     correctAnswer: "Weakness of the voluntary sphincter of the bladder",
+    explanation:
+      "The sphincter urethrae muscle, the only choice innervated by the pudendal, which contracts to maintain urinary continence, will be weakened.",
   },
   {
     question:
@@ -29,6 +33,7 @@ const data = [
       "Above the pelvic diaphragm",
     ],
     correctAnswer: "Urogenetal diaphragm",
+    explanation: "The sphincter urethrae is found in the urogenital diaphragm.",
   },
   {
     question:
@@ -39,6 +44,8 @@ const data = [
       "Sacropinous ligament",
     ],
     correctAnswer: "Pubococcygeus muscle",
+    explanation:
+      "The pelvic diaphragm, in particular the pubococygeus muscle, helps prevent prolapse or herniation or pelvic viscera after delivery.",
   },
   {
     question:
@@ -50,6 +57,8 @@ const data = [
     ],
     correctAnswer:
       "The bladder fills to capacity, but urine dribbles through the uretha continuously because the detrusor fails to contract and empty the bladder.",
+    explanation:
+      "The patient has an atonic bladder, these patients tend to retain a considerable volume of urine with a high infection risk and pass urine only as a result of overflow incontience.",
   },
   {
     question:
@@ -60,6 +69,8 @@ const data = [
       "Absence of peristalsis in the ductus deferens",
     ],
     correctAnswer: "Impotence",
+    explanation:
+      "In surgical procedures involving the prostate, the cavernous nerves may be lesioned. In these patients, impotence, or an inability to obtain an erection, may result.",
   },
   {
     question:
@@ -70,6 +81,8 @@ const data = [
       "Corpus spongiosum",
     ],
     correctAnswer: "Testis",
+    explanation:
+      "The testis is supplied by a testicular artery, which arises from the abdominal aorta proximal to the site of the blockage. All other choices are supplied by branches of the internal iliac artery distal to the blockage.",
   },
   {
     question:
@@ -80,6 +93,8 @@ const data = [
       "Weakness of the hamstring muscles",
     ],
     correctAnswer: "Weakness of the internal urethral sphincter",
+    explanation:
+      "The internal urethral sphincter is innervated by sympathetic axons, which course in lower thoracic and lumbar splanchnic nerves, including L2. All other choices are innervated by spinal cord segments below L2.",
   },
   {
     question:
@@ -90,6 +105,8 @@ const data = [
       "Posterior fornix of the vagina",
     ],
     correctAnswer: "Ampulla of the uterine tube",
+    explanation:
+      "The most common site of an ectopic implantation is in the ampulla of the uterine tube.",
   },
   {
     question:
@@ -100,6 +117,8 @@ const data = [
       "Broad ligament",
     ],
     correctAnswer: "Rectouterine pouch",
+    explanation:
+      "In the upright position, fluid in the peritoneal cavity tends to accumulate in the rectouterine pouch of Douglas.",
   },
 ];
 

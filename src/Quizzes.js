@@ -112,7 +112,7 @@ function Quizzes() {
             }
             onClick={handle7}
           >
-            Abdomen <span className="coming">(15 questions)</span>
+            Abdomen <span className="coming">(12 questions)</span>
           </div>
           <div
             className={

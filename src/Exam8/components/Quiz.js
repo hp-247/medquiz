@@ -40,6 +40,11 @@ const Quiz = () => {
               Next question
             </div>
           )}
+          {quizState.currentAnswer && (
+            <div className="explanation">
+              Explanation: {quizState.explanation}
+            </div>
+          )}
         </div>
       )}
     </div>

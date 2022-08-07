@@ -9,6 +9,7 @@ const initialState = {
   answers: shuffleAnswers(questions[0]),
   showResults: false,
   correctAnswersCount: 0,
+  explanation: "",
 };
 
 const reducer = (state, action) => {
@@ -23,6 +24,7 @@ const reducer = (state, action) => {
         ...state,
         currentAnswer: action.payload,
         correctAnswersCount,
+        explanation: state.questions[state.currentQuestionIndex].explanation,
       };
     }
     case "NEXT_QUESTION": {
