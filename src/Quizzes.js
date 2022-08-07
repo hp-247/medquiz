@@ -5,6 +5,7 @@ import Exam2 from "./Exam2/Exam2";
 import Exam3 from "./Exam3/Exam3";
 import Exam4 from "./Exam4/Exam4";
 import Exam5 from "./Exam5/Exam5";
+import Exam7 from "./Exam7/Exam7";
 
 function Quizzes() {
   const [activeTab, setActiveTab] = useState("Epithelial Tissue");
@@ -21,13 +22,16 @@ function Quizzes() {
     setActiveTab("Nervous Tissue");
   };
   const handle4 = () => {
-    setActiveTab("Abdomen");
+    setActiveTab("Digestive System");
   };
   const handle5 = () => {
     setActiveTab("Muscle Tissue");
   };
   const handle6 = () => {
     setActiveTab("Cartilage & Bone");
+  };
+  const handle7 = () => {
+    setActiveTab("Abdomen");
   };
 
   const renderCurrentSelection = () => {
@@ -38,12 +42,14 @@ function Quizzes() {
         return <Exam2 />;
       case "Nervous Tissue":
         return <Exam3 />;
-      case "Abdomen":
+      case "Digestive System":
         return <Exam4 />;
       case "Muscle Tissue":
         return <h1>Coming Soon</h1>;
       case "Cartilage & Bone":
         return <h1>Coming Soon</h1>;
+      case "Abdomen":
+        return <Exam7 />;
       default:
         return null;
     }
@@ -86,11 +92,21 @@ function Quizzes() {
           </div>
           <div
             className={
-              activeTab === "Abdomen" ? "each_topic active" : "each_topic"
+              activeTab === "Digestive System"
+                ? "each_topic active"
+                : "each_topic"
             }
             onClick={handle4}
           >
-            Abdomen <span className="coming">(90 questions)</span>
+            Digestive System <span className="coming">(47 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Abdomen" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle7}
+          >
+            Abdomen <span className="coming">(12 questions)</span>
           </div>
           <div
             className={
