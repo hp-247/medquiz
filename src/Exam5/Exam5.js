@@ -3,7 +3,7 @@ import { QuizProvider } from "./contexts/quiz";
 
 import React from "react";
 
-function Exam4() {
+function Exam5() {
   return (
     <div>
       <QuizProvider>
@@ -13,4 +13,4 @@ function Exam4() {
   );
 }
 
-export default Exam4;
+export default Exam5;

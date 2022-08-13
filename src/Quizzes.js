@@ -7,9 +7,12 @@ import Exam4 from "./Exam4/Exam4";
 import Exam5 from "./Exam5/Exam5";
 import Exam7 from "./Exam7/Exam7";
 import Exam8 from "./Exam8/Exam8";
+import Exam9 from "./Exam9/Exam9";
+import Exam10 from "./Exam10/Exam10";
+import Exam11 from "./Exam11/Exam11";
 
 function Quizzes() {
-  const [activeTab, setActiveTab] = useState("Epithelial Tissue");
+  const [activeTab, setActiveTab] = useState("Back");
 
   const handle1 = () => {
     setActiveTab("Epithelial Tissue");
@@ -37,6 +40,15 @@ function Quizzes() {
   const handle8 = () => {
     setActiveTab("Pelvis");
   };
+  const handle9 = () => {
+    setActiveTab("Back");
+  };
+  const handle10 = () => {
+    setActiveTab("Upper Limb");
+  };
+  const handle11 = () => {
+    setActiveTab("Lower Limb");
+  };
 
   const renderCurrentSelection = () => {
     switch (activeTab) {
@@ -56,6 +68,12 @@ function Quizzes() {
         return <Exam7 />;
       case "Pelvis":
         return <Exam8 />;
+      case "Back":
+        return <Exam9 />;
+      case "Upper Limb":
+        return <Exam10 />;
+      case "Lower Limb":
+        return <Exam11 />;
       default:
         return null;
     }
@@ -65,7 +83,35 @@ function Quizzes() {
     <div className="quiz">
       <div className="category">
         <div className="title">Topics</div>
+        <h4 className="new_quizzes glow">New Quizzes</h4>
+        <hr />
         <div className="topic">
+          <div
+            className={
+              activeTab === "Back" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle9}
+          >
+            Back <span className="coming">(6 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Upper Limb" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle10}
+          >
+            Upper Limb <span className="coming">(12 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Lower Limb" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle11}
+          >
+            Lower Limb <span className="coming">(5 questions)</span>
+          </div>
+          <h4 className="archived_quizzes">Archived Quizzes</h4>
+          <hr />
           <div
             className={
               activeTab === "Epithelial Tissue"

@@ -30,7 +30,7 @@
 }
 
 .each_topic.active {
-    background-color: teal;
+  background-color: teal;
 }
 
 .quiz__select {
@@ -47,11 +47,11 @@
 }
 
 .quiz {
-    width: 95%;
-    margin: 0 auto;
+  width: 95%;
+  margin: 0 auto;
 }
 
-.quiz__select{
+.quiz__select {
   margin-top: -40px;
 }
 
@@ -95,7 +95,7 @@
   cursor: pointer;
   margin-bottom: 30px;
   display: flex;
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .answers {
@@ -173,7 +173,7 @@
 
 .coming {
   font-size: 10px;
-  color: red
+  color: red;
 }
 
 .each_topic:hover {
@@ -189,4 +189,34 @@
   margin-top: 15px;
   font-size: 18px;
   text-align: left;
+}
+
+.new_quizzes {
+  color: blue;
+  margin-bottom: -5px;
+}
+
+.archived_quizzes {
+  color: blue;
+  margin-bottom: -5px;
+}
+
+.glow {
+  font-size: 16px;
+  color: blue;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 5px #e60073, 0 0 6px #e60073,
+      0 0 7px #e60073, 0 0 8px #e60073, 0 0 11px #e60073;
+  }
+  to {
+    text-shadow: 0 0 3x #fff, 0 0 5px #ff4da6, 0 0 6px #ff4da6, 0 0 7px #ff4da6,
+      0 0 8px #ff4da6, 0 0 9px #ff4da6, 0 0 12px #ff4da6;
+  }
 }
