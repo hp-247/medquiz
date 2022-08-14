@@ -253,11 +253,6 @@
     font-size: 1rem;
   }
 
-  .selection {
-    margin-bottom: 0.2rem;
-    margin-left: -0.5rem;
-  }
-
   .answers {
     display: flex;
     flex-direction: column;
@@ -276,6 +271,7 @@
   .quiz {
     box-sizing: border-box;
     width: 340px;
+    margin-top: 1rem;
   }
 
   .question {
@@ -283,7 +279,7 @@
     width: 363px;
     font-size: 15px;
     margin-left: -1rem;
-    margin-top: -1.5rem;
+    margin-top: -2rem;
     font-family: sans-serif;
   }
 
@@ -335,4 +331,7 @@
     font-family: sans-serif;
   }
 
+  .selection {
+    margin-top: 3.5rem;
+  }
 }
