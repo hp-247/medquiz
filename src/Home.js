@@ -4,7 +4,7 @@ import "./Home.css";
 function Home() {
   return (
     <div>
-      <div className="home">
+      <div className="home no-scroll">
         <div className="home__text">Home Page Coming Soon!</div>
         <ul>
           <li> 📚 Navigate to Quizzes</li>
