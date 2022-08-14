@@ -64,3 +64,23 @@
 .link:hover {
   text-decoration: none;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .header {
+    box-sizing: border-box;
+    width: 390px;
+    height: 60px;
+    border: solid red 1px;
+  }
+  .header__option {
+    display: none;
+  }
+  .header__Notes,
+  .header__flashcards {
+    display: none;
+  }
+  .header__logo {
+    width: 60px;
+    margin-left: 82px;
+  }
+}

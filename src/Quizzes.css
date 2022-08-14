@@ -220,3 +220,8 @@
       0 0 8px #ff4da6, 0 0 9px #ff4da6, 0 0 12px #ff4da6;
   }
 }
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
