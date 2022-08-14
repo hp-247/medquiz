@@ -10,6 +10,7 @@ function Header() {
       document.querySelector(".toggler").checked = false;
     }
   }
+
   return (
     <div>
       <div className="header">
@@ -46,12 +47,11 @@ function Header() {
             </div>
           </Link>
         </div>
-
         <input id="menu-toggle" type="checkbox" />
-        <label class="menu-button-container" for="menu-toggle">
-          <div class="menu-button"></div>
+        <label className="menu-button-container" htmlFor="menu-toggle">
+          <div className="menu-button"></div>
         </label>
-        <ul class="menu burger">
+        <ul className="menu burger">
           <li>
             <Link to="/quizzes" className="burger-link" onClick={hideMenu}>
               Quizzes

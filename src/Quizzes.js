@@ -192,6 +192,25 @@ function Quizzes() {
         <h3>{activeTab} Quiz</h3>
         <div className="quiz__box">{renderCurrentSelection()}</div>
       </div>
+
+      <div className="for-burger">
+        <label htmlFor="quizzes" className="select-label">
+          Choose a Quiz:
+        </label>
+        <select id="quizzes">
+          <option>Back</option>
+          <option>Lower Limb</option>
+          <option>Upper Limb</option>
+          <option>Epithelial Tissue</option>
+          <option>Connective Tissue</option>
+          <option>Nervous Tissue</option>
+          <option>Digestive System</option>
+          <option>Abdomen</option>
+          <option>Pelvis</option>
+          <option>Muscle Tissue</option>
+          <option>Cartilage & Bone</option>
+        </select>
+      </div>
     </div>
   );
 }

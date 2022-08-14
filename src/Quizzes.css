@@ -221,7 +221,29 @@
   }
 }
 
+.for-burger {
+  display: none;
+}
+
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
 
+  .quiz__select, .category {
+    display: none;
+  }
+  .for-burger {
+    height: 2rem;
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+  }
+
+  .select-label {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+  }
+
+  #quizzes {
+    font-size: 1.3rem;
+  }
 }
