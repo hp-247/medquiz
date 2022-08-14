@@ -271,7 +271,7 @@
   .quiz {
     box-sizing: border-box;
     width: 340px;
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
 
   .question {
@@ -329,9 +329,7 @@
 
   .score {
     font-family: sans-serif;
+    margin-top: -3.5rem;
   }
 
-  .selection {
-    margin-top: 3.5rem;
-  }
 }
