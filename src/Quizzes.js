@@ -50,6 +50,11 @@ function Quizzes() {
     setActiveTab("Lower Limb");
   };
 
+  const handleSelect = () => {
+    let selected = document.getElementById("quizzes").value;
+    setActiveTab(selected);
+  };
+
   const renderCurrentSelection = () => {
     switch (activeTab) {
       case "Epithelial Tissue":
@@ -194,22 +199,25 @@ function Quizzes() {
       </div>
 
       <div className="for-burger">
-        <label htmlFor="quizzes" className="select-label">
-          Choose a Quiz:
-        </label>
-        <select id="quizzes">
-          <option>Back</option>
-          <option>Lower Limb</option>
-          <option>Upper Limb</option>
-          <option>Epithelial Tissue</option>
-          <option>Connective Tissue</option>
-          <option>Nervous Tissue</option>
-          <option>Digestive System</option>
-          <option>Abdomen</option>
-          <option>Pelvis</option>
-          <option>Muscle Tissue</option>
-          <option>Cartilage & Bone</option>
-        </select>
+        <div className="selection">
+          <label htmlFor="quizzes" className="select-label">
+            Select a Quiz:
+          </label>
+          <select id="quizzes" onChange={handleSelect}>
+            <option>Back</option>
+            <option>Lower Limb</option>
+            <option>Upper Limb</option>
+            <option>Epithelial Tissue</option>
+            <option>Connective Tissue</option>
+            <option>Nervous Tissue</option>
+            <option>Digestive System</option>
+            <option>Abdomen</option>
+            <option>Pelvis</option>
+            <option>Muscle Tissue</option>
+            <option>Cartilage & Bone</option>
+          </select>
+        </div>
+        {renderCurrentSelection()}
       </div>
     </div>
   );

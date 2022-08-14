@@ -234,16 +234,105 @@
   .for-burger {
     height: 2rem;
     display: flex;
+    flex-direction: column;
     margin: 1rem auto;
     align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 390px;
   }
 
   .select-label {
     margin-right: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: sans-serif;
   }
 
   #quizzes {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
+
+  .selection {
+    margin-bottom: 0.2rem;
+    margin-left: -0.5rem;
+  }
+
+  .answers {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin-bottom: -1.4rem;
+  }
+
+  .answer {
+    box-sizing: border-box;
+    width: 363px;
+    margin-top: -1.5rem;
+    margin-left: -1rem;
+  }
+
+  .quiz {
+    box-sizing: border-box;
+    width: 340px;
+  }
+
+  .question {
+    box-sizing: border-box;
+    width: 363px;
+    font-size: 15px;
+    margin-left: -1rem;
+    margin-top: -1.5rem;
+    font-family: sans-serif;
+  }
+
+  .explanation {
+    box-sizing: border-box;
+    width: 363px;
+    font-size: 13px;
+    margin-left: -1rem;
+    font-family: sans-serif;
+  }
+
+  .next-button {
+    box-sizing: border-box;
+    width: 363px;
+    margin-left: -1rem;
+    font-family: sans-serif;
+  }
+
+  .results {
+    box-sizing: border-box;
+    width: 363px;
+  }
+
+  .congratulations {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 360px;
+    margin-top: 1.5rem;
+    margin-left: -0.8rem;
+  }
+
+  .results-info {
+    font-family: sans-serif;
+  }
+
+  .answer-letter {
+    box-sizing: border-box;
+    width: 3rem;
+    font-size: 2rem;
+  }
+
+  .answer-text {
+    box-sizing: border-box;
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .score {
+    font-family: sans-serif;
+  }
+
 }
