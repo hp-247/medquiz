@@ -3,10 +3,17 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 
 function Header() {
+  function hideMenu() {
+    let menuOpen = document.querySelector(".menu-toggle").checked;
+
+    if ((menuOpen = true)) {
+      document.querySelector(".toggler").checked = false;
+    }
+  }
   return (
     <div>
       <div className="header">
-        <Link to="/home">
+        <Link to="/home" onClick={hideMenu}>
           <img
             className="header__logo"
             src={require("./images/med_logo.png")}
@@ -14,7 +21,7 @@ function Header() {
           />
         </Link>
 
-        <Link to="/home" className="link">
+        <Link to="/home" className="link" onClick={hideMenu}>
           <div className="logo__text">medquiz</div>
         </Link>
         <div className="group">
@@ -39,6 +46,33 @@ function Header() {
             </div>
           </Link>
         </div>
+
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu burger">
+          <li>
+            <Link to="/quizzes" className="burger-link" onClick={hideMenu}>
+              Quizzes
+            </Link>
+          </li>
+          <li>
+            <Link to="/notes" className="burger-link" onClick={hideMenu}>
+              Notes
+            </Link>
+          </li>
+          <li>
+            <Link to="/flashcards" className="burger-link" onClick={hideMenu}>
+              Flashcards
+            </Link>
+          </li>
+          <li>
+            <Link to="/" className="burger-link">
+              Sign Out
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   );

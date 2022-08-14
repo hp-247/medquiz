@@ -1,6 +1,15 @@
-.text {
+.flashcards-text {
   margin-top: 200px;
   display: flex;
   justify-content: center;
   font-size: 60px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .flashcards-text {
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px
+  }
 }

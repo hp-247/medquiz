@@ -4,7 +4,7 @@ import "./Notes.css";
 function Notes() {
   return (
     <div className="notes">
-      <div className="text">Notes Coming Soon!</div>
+      <div className="notes-text">Notes Coming Soon!</div>
     </div>
   );
 }
