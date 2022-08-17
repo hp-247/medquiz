@@ -97,7 +97,7 @@ function Quizzes() {
             }
             onClick={handle9}
           >
-            Back <span className="coming">(19 questions)</span>
+            Back <span className="coming">(129 questions)</span>
           </div>
           <div
             className={

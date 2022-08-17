@@ -10,6 +10,7 @@ const initialState = {
   showResults: false,
   correctAnswersCount: 0,
   explanation: "",
+  image: "",
 };
 
 const reducer = (state, action) => {
@@ -25,6 +26,7 @@ const reducer = (state, action) => {
         currentAnswer: action.payload,
         correctAnswersCount,
         explanation: state.questions[state.currentQuestionIndex].explanation,
+        image: state.questions[state.currentQuestionIndex].image,
       };
     }
     case "NEXT_QUESTION": {
