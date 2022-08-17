@@ -325,7 +325,7 @@
     width: 363px;
     font-size: 15px;
     margin-left: -1rem;
-    margin-top: -2rem;
+    margin-top: -2em;
     font-family: sans-serif;
   }
 
@@ -378,4 +378,32 @@
     margin-top: -3.5rem;
   }
 
+  .thumbnail {
+    margin-left: 36%;
+  }
+
+  .thumbnail>img {
+    margin-top: -3rem;
+    float: left;
+    padding-bottom: 0.5em;
+    margin-left: 35%;
+    padding-left: 2px;
+  }
+
+  .thumbnail:hover span {
+    /*CSS for enlarged image on hover*/
+    visibility: visible;
+    top: 0;
+    left: -7rem;
+    top: 2.5rem;
+    /*position where enlarged image should offset horizontally */
+  }
+  .thumbnail>span {
+    width: 300px;
+    height: 325px;
+  }
+  .thumbnail>span>img {
+    width: 295px;
+    height: 320px;
+  }
 }

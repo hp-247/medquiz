@@ -140,7 +140,7 @@
     box-sizing: border-box;
     width: 390px;
     height: 60px;
-    /* border: solid red 1px; */
+    border: solid red 1px;
   }
   .header__option {
     display: none;
