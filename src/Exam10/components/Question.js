@@ -7,6 +7,28 @@ const Question = () => {
   const currentQuestion = quizState.questions[quizState.currentQuestionIndex];
   return (
     <div>
+      {currentQuestion.image.length !== 0 && (
+        <div>
+          <a className="thumbnail" href="#thumb">
+            <img
+              src={currentQuestion.image}
+              width="100px"
+              height="90px"
+              border="0"
+              alt="back"
+            />
+            <span>
+              <img
+                src={currentQuestion.image}
+                alt="back"
+                width="327"
+                height="369"
+              />
+            </span>
+          </a>
+        </div>
+      )}
+
       <div className="question">{currentQuestion.question}</div>
       <div className="answers">
         {quizState.answers.map((answer, index) => (

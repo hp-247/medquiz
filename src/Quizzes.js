@@ -113,7 +113,7 @@ function Quizzes() {
             }
             onClick={handle11}
           >
-            Lower Limb <span className="coming">(5 questions)</span>
+            Lower Limb <span className="coming">(166 questions)</span>
           </div>
           <h4 className="archived_quizzes">Archived Quizzes</h4>
           <hr />

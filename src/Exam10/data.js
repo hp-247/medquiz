@@ -6,6 +6,7 @@ const data = [
     correctAnswer: "Midshaft of the humerus",
     explanation:
       "The radial nerve is commonly lesioned as a result of a spiral fracture of the midshaft of the humerus.",
+    image: "",
   },
 
   {
@@ -19,6 +20,7 @@ const data = [
     correctAnswer: "Profunda brachial artery",
     explanation:
       "The deep brachial artery courses with the radial nerve around the humerus.",
+    image: "",
   },
   {
     question:
@@ -31,6 +33,7 @@ const data = [
     correctAnswer: "Lower trunk of the brachial plexus",
     explanation:
       "Klumpke's paralysis results from compression of the C8 and T1 ventral rami in the inferior trunk of the plexus at the level of the first rib.",
+    image: "",
   },
   {
     question:
@@ -43,6 +46,7 @@ const data = [
     correctAnswer: "Anterior interosseous branch of the median nerve",
     explanation:
       "A lesion of the anterior interosseous branch of the median nerve would account for the symptoms.",
+    image: "",
   },
   {
     question:
@@ -55,6 +59,7 @@ const data = [
     correctAnswer: "Inability to adduct the thumb",
     explanation:
       "The patient is unable to adduct the thumb because of weakness of the adductor pollicis.",
+    image: "",
   },
   {
     question:
@@ -67,6 +72,7 @@ const data = [
     correctAnswer: "Weakness in supination",
     explanation:
       "Weakness in supination may result from compression of the C5 and C6 fibers in the upper trunk. These fibers innervate the biceps brachii by way of the musculocutaneous nerve.",
+    image: "",
   },
   {
     question:
@@ -79,6 +85,7 @@ const data = [
     correctAnswer: "A hand of benediction",
     explanation:
       'Patients with a lesion of the median nerve in a supracondylar fracture may have a "hand of benediction," in which the index and middle fingers remain extended when the patient attempts to flex those digits while making a fist.',
+    image: "",
   },
   {
     question:
@@ -91,6 +98,7 @@ const data = [
     correctAnswer: "Subscapular artery",
     explanation:
       "Anastomoses develop superior and posterior to the scapula between the thoracodorsal and circumflex scapular branches of the subscapular aterty and the suprascapular, dorsal scapular, and posterior interostal arteries.",
+    image: "",
   },
   {
     question:
@@ -103,6 +111,7 @@ const data = [
     correctAnswer: "Fracture of the medial epicondyle of the humerus",
     explanation:
       "Fracture of the medial epicondyle of the humerus may result in a lesion to the ulnar nerve, causing the symptoms in this patient.",
+    image: "",
   },
   {
     question:
@@ -122,6 +131,7 @@ const data = [
     incorrectAnswers: ["Supraspinatus", "Biceps brachii", "Teres major"],
     correctAnswer: "Deltoid",
     explanation: "The deltoid is innervated by the axillary nerve.",
+    image: "",
   },
   {
     question:
@@ -134,6 +144,7 @@ const data = [
     correctAnswer: "Atrophy of the thenar eminence",
     explanation:
       "The patient has carpel tunnel syndrome. Choices 'Weakness in the ability to extend the thumb' and 'Altered sensation in skin over teh anatomic snuffbox' result from radial nerve lesions. Choice 'Inability to spread and oppose the fingers' results fromm an ulnar nerve lesion. Choice 'Radial deviation of the hand at the wrist during wrist flexion' results from a median nerve lesion at the wrist.",
+    image: "",
   },
 ];
 

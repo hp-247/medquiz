@@ -31,6 +31,7 @@ const Quiz = () => {
             Question {quizState.currentQuestionIndex + 1}/
             {quizState.questions.length}
           </div>
+
           <Question />
           {quizState.currentAnswer && (
             <div
