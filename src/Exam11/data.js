@@ -174,6 +174,7 @@ const data = [
     image: "",
   },
   {
+    id: "7",
     question:
       "After dividing the overlying superficial tissues and gluteal musculature in a 68-year-old female patient, the orthopedic surgeon carefully identified the underlying structures while performing a total hip arthroplasty. The key landmark in the gluteal region, relied upon in surgical explorations of this area, is provided by which of the following structures?",
     incorrectAnswers: [
@@ -187,6 +188,7 @@ const data = [
     image: "",
   },
   {
+    id: "8",
     question:
       "A 16-year-old boy received a superficial cut on the lateral side of his foot while playing football and is admitted to the emergency department where the wound is sutured. Four days later the patient returns to the hospital with high fever and swollen lymph nodes. Which group of nodes will first receive lymph from the infected wound?",
     incorrectAnswers: [
@@ -200,6 +202,7 @@ const data = [
     image: "",
   },
   {
+    id: "9",
     question:
       "A 45-year-old man presents at the local emergency clinic with the complaint of a painful knee and difficulty in walking. A computed tomography (CT) scan examination reveals a very large cyst in the popliteal fossa compressing the tibial nerve. Which movement will most likely be affected?",
     incorrectAnswers: [
@@ -213,6 +216,7 @@ const data = [
     image: "",
   },
   {
+    id: "10",
     question:
       "A 19-year-old football player was hit on the lateral side of his knee just as he put that foot on the ground. Unable to walk without assistance, he is taken to the hospital. An MRI examination reveals a torn medial collateral ligament. Which structure would most likely also be injured due to its attachment to this ligament?",
     incorrectAnswers: [
@@ -226,6 +230,7 @@ const data = [
     image: "",
   },
   {
+    id: "11",
     question:
       "A 49-year-old man underwent a coronary bypass graft procedure using the great saphenous vein. Postoperatively, the patient complains of pain and general lack of normal sensation on the medial surface of the leg and foot on the limb from which the graft was harvested. Which nerve was most likely injured during surgery?",
     incorrectAnswers: [
@@ -239,6 +244,7 @@ const data = [
     image: "",
   },
   {
+    id: "12",
     question:
       "A 22-year-old football player is admitted to the hospital with pain and swelling over the lateral aspect of the ankle. The emergency department doctor diagnoses an inversion sprain. Which ligament was most likely injured?",
     incorrectAnswers: [
@@ -252,6 +258,7 @@ const data = [
     image: "",
   },
   {
+    id: "13",
     question:
       "A 72-year-old woman is admitted to the hospital with a painful right foot. A CT scan examination reveals a thrombotic occlusion of the femoral artery in the proximal part of the adductor canal. Which artery will most likely provide blood supply to the leg through the genicular anastomosis?",
     incorrectAnswers: [
@@ -265,6 +272,7 @@ const data = [
     image: "",
   },
   {
+    id: "14",
     question:
       "A 75-year-old woman is admitted to the hospital after falling in her bathroom. Radiologic examination reveals an extracapsular fracture of the femoral neck. Which artery is most likely at risk for injury?",
     incorrectAnswers: [
@@ -278,6 +286,7 @@ const data = [
     image: "",
   },
   {
+    id: "15",
     question:
       "A 56-year-old man with advanced bladder carcinoma suffers from difficulty while walking. Muscle testing reveals weakened adductors of the right thigh. Which nerve is most likely being compressed by the tumor to result in walking difficulty?",
     incorrectAnswers: ["Femoral", "Common fibular (peroneal)", "Tibial"],
@@ -287,6 +296,7 @@ const data = [
     image: "",
   },
   {
+    id: "16",
     question:
       "Upon removal of a knee-high leg cast, a 15-yearold boy complains of numbness of the dorsum of his right foot and inability to dorsiflex and evert his foot. Which is the most probable site of the nerve compression that resulted in these symptoms?",
     incorrectAnswers: [
@@ -300,6 +310,7 @@ const data = [
     image: "",
   },
   {
+    id: "17",
     question:
       "A 32-year-old patient received a badly placed intramuscular injection to the posterior part of his gluteal region. The needle injured a motor nerve in the area. Later, he had great difficulty rising to a standing position from a seated position. Which muscle was most likely affected by the injury?",
     incorrectAnswers: ["Gluteus minimus", "Hamstrings", "Iliopsoas"],
@@ -309,15 +320,17 @@ const data = [
     image: "",
   },
   {
+    id: "18",
     question:
       "During the preparation of an evening meal a female medical student dropped a sharp, slender kitchen knife. The blade pierced the first web space of her foot, resulting in numbness along adjacent sides of the first and second toes. Which nerve was most likely injured?",
-    incorrectAnswers: ["Saphenous", "Deep fibular (peroneal)", "Sural"],
+    incorrectAnswers: ["Saphenous", "Superficial fibular (peroneal)", "Sural"],
     correctAnswer: "Deep fibular (peroneal)",
     explanation:
       "The medial branch of the deep fibular (peroneal) nerve accompanies the dorsalis pedis artery and innervates the skin between the contiguous sides of the first and second toes. The saphenous nerve is responsible for cutaneous innervation of the anteromedial aspect of the leg and foot. The superficial fibular (peroneal) nerve innervates most of the dorsum of the foot, with the exception of the area where sensation was lost (medial branch of deep fibular nerve). The common fibular (peroneal) nerve gives off a cutaneous branch, the sural nerve, which innervates the lateral aspect of the leg and lateral side of the foot.",
     image: "",
   },
   {
+    id: "19",
     question:
       "Following an injury suffered in a soccer match, a 32-year-old woman is examined in a seated position in the orthopedic clinic. Holding the right tibia with both hands, the clinician can press the tibia backward under the distal part of her femur. The left tibia cannot be displaced in this way. Which structure was most likely damaged in the right knee?",
     incorrectAnswers: [
@@ -331,6 +344,7 @@ const data = [
     image: "",
   },
   {
+    id: "20",
     question:
       "A 22-year-old woman is admitted to the emergency department after another vehicle collided with the passenger side of the convertible in which she was riding. Radiologic examination reveals an avulsion fracture of the greater trochanter. Which of the following muscles would continue to function normally if such an injury was incurred?",
     incorrectAnswers: ["Piriformis", "Obturator internus", "Gluteus medius"],
@@ -340,6 +354,7 @@ const data = [
     image: "",
   },
   {
+    id: "21",
     question:
       "The news reported that the 58-year-old ambassador received a slashing wound to the medial thigh and died from exsanguination in less than 2 minutes. What was the most likely nature of his injury?",
     incorrectAnswers: [
@@ -354,6 +369,7 @@ const data = [
     image: "",
   },
   {
+    id: "22",
     question:
       "A 72-year-old woman suffered a hip dislocation when she fell down the steps to her garage. Which of the following is most significant in resisting hyperextension of the hip joint?",
     incorrectAnswers: [
@@ -367,6 +383,7 @@ const data = [
     image: "",
   },
   {
+    id: "23",
     question:
       "A 75-year-old man is transported to the emergency department with severe pain of his right hip and thigh. A radiologic examination reveals avascular necrosis of the femoral head (Fig. 5-2). Which of the following conditions most likely occurred to produce avascular necrosis in this patient?",
     incorrectAnswers: [
@@ -380,6 +397,7 @@ const data = [
     image: "lower-limb2.png",
   },
   {
+    id: "24",
     question:
       "A 58-year-old male farmer was accidentally struck with a scythe (a long, curved cutting blade) by another worker while they were cutting wheat. He was admitted to the county hospital with severe bleeding. During physical examination the doctor noted that the patient had a foot drop; sensation was present over the dorsum of the foot and the skin of the posterior calf. Which of the following nerves was injured?",
     incorrectAnswers: [
@@ -393,6 +411,7 @@ const data = [
     image: "",
   },
   {
+    id: "25",
     question:
       "A 45-year-old man is admitted to the emergency department after experiencing a sharp pain while lifting a box of books. He told the physician that he “felt the pain in my backside, the back of my thigh, my leg, and the side of my foot.” During physical examination it is observed that his Achilles tendon jerk is weakened on the affected side. Which is the most likely cause of injury?",
     incorrectAnswers: [
@@ -406,11 +425,12 @@ const data = [
     image: "",
   },
   {
+    id: "26",
     question:
       "A 55-year-old woman is admitted to the emergency department after an automobile crash. Physical examination reveals that the patient’s foot is everted and she cannot invert it. A weakness in dorsiflexion and inversion of the foot is noted. Her ipsilateral patellar reflex is reduced in quality, although the Achilles tendon reflex is brisk. Knee extension is almost normal, as are all hip movements and knee flexion. Sensation is greatly reduced on the medial side of the leg. Which of the following nerves is most likely injured?",
     incorrectAnswers: [
       "Femoral nerve",
-      "L4 spinal nerve",
+      "L4 and L5 spinal nerves",
       "Common fibular (peroneal) nerve",
     ],
     correctAnswer: "L4 spinal nerve",
@@ -419,6 +439,7 @@ const data = [
     image: "",
   },
   {
+    id: "27",
     question:
       "A 46-year-old woman stepped on a broken wine bottle on the sidewalk and the sharp glass entered the posterior part of her foot. The patient was admitted to the hospital, and a physical examination concluded that her lateral plantar nerve had been transected (cut through). Which of the following conditions will most likely be confirmed by further physical examination?",
     incorrectAnswers: [
@@ -432,6 +453,7 @@ const data = [
     image: "",
   },
   {
+    id: "28",
     question:
       "A 22-year-old male martial arts competitor was examined by the clinician because of pain and serious disability suffered from a kick to the side of his knee. Physical examination revealed a dark bruise just distal to the head of the fibula. Which of the following muscles will most likely be paralyzed?",
     incorrectAnswers: [
@@ -445,6 +467,7 @@ const data = [
     image: "",
   },
   {
+    id: "29",
     question:
       "A 61-year-old female immigrant had been diagnosed with spinal tuberculosis. The woman had developed a fluctuant, red, tender bulge on one flank, with a similar bulge in the groin on the same side. This presentation is likely due to spread of disease process within the fascia of a muscle with which of the following actions at the hip?",
     incorrectAnswers: ["Abduction", "Adduction", "Extension"],
@@ -476,6 +499,7 @@ const data = [
     image: "",
   },
   {
+    id: "30",
     question:
       "A 41-year-old man is admitted to the emergency department with a swollen and painful foot. Radiologic examination reveals that the head of the talus has become displaced inferiorly, thereby causing the medial longitudinal arch of the foot to fall. What would be the most likely cause in this case?",
     incorrectAnswers: [
@@ -493,7 +517,7 @@ const data = [
       "During a football game a 21-year-old wide receiver was illegally blocked by a linebacker, who threw himself against the posterolateral aspect of the runner’s left knee. As he lay on the ground, the wide receiver grasped his knee in obvious pain. Which of the following structures is frequently subject to injury from this type of force against the knee?",
     incorrectAnswers: [
       "Fibular collateral ligament",
-      "Anterior cruciate ligament",
+      "All the ligaments of the knee will be affected",
       "Fibular collateral and posterior cruciate ligament",
     ],
     correctAnswer: "Anterior cruciate ligament",
@@ -1809,7 +1833,7 @@ const data = [
     incorrectAnswers: [
       "Tender vertical group of superficial inguinal lymph nodes",
       "Enlarged horizontal group of superficial inguinal lymph nodes",
-      "Enlarged group of deep inguinal lymph nodes",
+      "Enlarged iliac nodes",
     ],
     correctAnswer: "Enlarged group of deep inguinal lymph nodes",
     explanation:

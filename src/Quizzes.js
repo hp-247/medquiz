@@ -105,7 +105,7 @@ function Quizzes() {
             }
             onClick={handle10}
           >
-            Upper Limb <span className="coming">(12 questions)</span>
+            Upper Limb <span className="coming">(186 questions)</span>
           </div>
           <div
             className={
