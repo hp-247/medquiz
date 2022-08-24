@@ -10,9 +10,10 @@ import Exam8 from "./Exam8/Exam8";
 import Exam9 from "./Exam9/Exam9";
 import Exam10 from "./Exam10/Exam10";
 import Exam11 from "./Exam11/Exam11";
+import Exam12 from "./Exam12/Exam12";
 
 function Quizzes() {
-  const [activeTab, setActiveTab] = useState("Back");
+  const [activeTab, setActiveTab] = useState("Head and Neck");
 
   const handle1 = () => {
     setActiveTab("Epithelial Tissue");
@@ -49,6 +50,9 @@ function Quizzes() {
   const handle11 = () => {
     setActiveTab("Lower Limb");
   };
+  const handle12 = () => {
+    setActiveTab("Head and Neck");
+  };
 
   const handleSelect = () => {
     let selected = document.getElementById("quizzes").value;
@@ -79,6 +83,8 @@ function Quizzes() {
         return <Exam10 />;
       case "Lower Limb":
         return <Exam11 />;
+      case "Head and Neck":
+        return <Exam12 />;
       default:
         return null;
     }
@@ -91,6 +97,14 @@ function Quizzes() {
         <h4 className="new_quizzes glow">New Quizzes</h4>
         <hr />
         <div className="topic">
+          <div
+            className={
+              activeTab === "Head and Neck" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle12}
+          >
+            Head and Neck <span className="coming">(308 questions)</span>
+          </div>
           <div
             className={
               activeTab === "Back" ? "each_topic active" : "each_topic"
