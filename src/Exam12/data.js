@@ -2924,6 +2924,1582 @@ const data = [
       "The great auricular nerve is derived from the ventral rami of the second and third cervical nerves and supplies the skin over the angle of the mandible up to the level of the TMJ",
     image: "",
   },
+  {
+    id: "201",
+    question:
+      "A 72-year-old man with enlarged cervical lymph nodes has a malignant tumor of the cecum in the right lower quadrant of his abdomen. Which of the following lymph nodes of the neck is most frequently associated with malignant tumors of the gastrointestinal tract?",
+    incorrectAnswers: [
+      "Left inferior deep cervical",
+      "Right inferior deep cervical",
+      "Right supraclavicular",
+      "Jugulodigastric",
+    ],
+    correctAnswer: "Left supraclavicular",
+    explanation:
+      "The supraclavicular lymph node on the left side is associated with the thoracic duct. The thoracic duct receives lymph from below the diaphragm, including the gastrointestinal tract. Malignant cells that travel up the thoracic duct are known to involve the left supraclavicular lymph node. Historically this is called Virchow’s node or Troissier’s sign when enlargement is found on palpation (GAS Fig. 8-192).",
+    image: "",
+  },
+  {
+    id: "202",
+    question:
+      "A 60-year-old man presents with swelling in his neck. A biopsy shows a benign tumor in the piriform recess of his larynx. The mucosa of the piriform recess must be anesthetized during removal of the tumor. Which nerve supplies general sensation to the mucous membrane of the laryngeal vestibule and piriform recesses?",
+    incorrectAnswers: [
+      "External laryngeal",
+      "Hypoglossal",
+      "Inferior laryngeal",
+      "Glossopharyngeal",
+    ],
+    correctAnswer: "Internal laryngeal",
+    explanation:
+      "The internal branch of the superior laryngeal nerve, often called the internal laryngeal nerve, supplies the mucosa of the larynx above the vocal folds (which includes the vestibule of the larynx) and the piriform recess. The external branch of the superior laryngeal nerve (external laryngeal nerve) is motor to the cricothyroid muscle. The inferior laryngeal nerve supplies the mucosa of the larynx below the vocal folds. The glossopharyngeal nerve (CN IX) supplies sensation to the posterior third of the tongue and to the pharynx. The hypoglossal nerve (CN XII) is motor (GAS Fig. 8-169).",
+    image: "",
+  },
+  {
+    id: "203",
+    question:
+      "A young man and woman are hiking in a wilderness area and discover the body of a man apparently in his 20s. He appears to have been dead for a few days, but animal predation was minimal. A postmortem examination was performed by the county medical examiner, and no evidence of penetrating wounds (bullet, lacerations, etc.) was found. A plain radiograph showed a fractured hyoid bone, but the calvaria and other bones appeared to be intact. Which of the following is the most likely cause of death?",
+    incorrectAnswers: [
+      "Myocardial infarction (heart attack)",
+      "A fall from a height that resulted in fatal internal bleeding",
+      "Subdural hematoma",
+      "Ingestion of a poisonous substance",
+    ],
+    correctAnswer: "Strangulation",
+    explanation:
+      "A fractured hyoid bone is evidence of strangulation. A fall from a height and subdural hematoma would likely be accompanied by fractured bones. Whereas myocardial infarction or poison remain possibilities, the medical examiner would have a high index of suspicion for strangulation because of the fractured hyoid bone.",
+    image: "",
+  },
+  {
+    id: "204",
+    question:
+      "A 40-year-old woman presents with severe headaches and dizziness. An MRI reveals a brain tumor, and a biopsy confirms it as an advanced melanoma. She dies 2 months later. Pigmented lesions are not seen on her skin or scalp at the time of diagnosis or during postmortem examination. Which of the following is the most likely source of the malignant melanoma cells?",
+    incorrectAnswers: [
+      "Superior sagittal sinus",
+      "Sphenoidal sinus",
+      "Pituitary gland",
+      "Thymus",
+    ],
+    correctAnswer: "Retina of the eye",
+    explanation:
+      "Melanocytes in the pigmented layer of the retina are a potential source of malignant melanoma cells. The tumor spreads hematogenously directly to the brain and has a very poor prognosis. None of the other listed structures contains melanocytes.",
+    image: "",
+  },
+  {
+    id: "205",
+    question:
+      "A 3-month-old girl was admitted to the pediatric clinic after her parents noticed a small pit on the anterior border of sternocleidomastoid with mucus dripping intermittently from its opening. Which embryologic structure is involved in this anomaly?",
+    incorrectAnswers: [
+      "Persistence of the second pharyngeal arch",
+      "Persistence of the third pharyngeal pouch",
+      "Thyroglossal duct",
+      "Persistence of the third pharyngeal groove and cervical sinus",
+    ],
+    correctAnswer:
+      "Persistence of the proximal part of the second pharyngeal groove",
+    explanation:
+      "Branchial sinus results from the failure of the second pharyngeal groove and the cervical sinus to obliterate. It typically opens anywhere along the inferior third of the anterior border of sternocleidomastoid. Thyroglossal duct cysts or sinuses are usually found in the median plane of the neck and found just below the hyoid or open anterior to the laryngeal cartilages",
+    image: "",
+  },
+  {
+    id: "206",
+    question:
+      "A neonate was noted to have low-set ears and an abnormal face, including a small mandible. He also had minor cardiac anomalies and a cleft palate, which necessitated assistance with feeding. Now 3 years old, he has had several episodes of otitis media and a recent seizure related to hypocalcemia. Chromosome analysis reveals a deletion in the long arm of chromosome 22. Failure of neural crest cells to migrate normally into which area(s) best explains the recurrent infections and hypocalcemia?",
+    incorrectAnswers: [
+      "First pharyngeal arch",
+      "The developing heart",
+      "Second pharyngeal pouch",
+      "First, second, and third pharyngeal arches",
+    ],
+    correctAnswer: "Third and fourth pharyngeal pouches",
+    explanation:
+      "DiGeorge syndrome occurs due to failure of differentiation of the third and fourth pouches into thymus and parathyroid glands as a result of failure of neural crest migration into the third and fourth pouches. Absence of normal T-cell development leads to poor immunity and hypocalcemia from lack of parathyroid hormone. However, the facial dimorphism is due to lack of neural crest cell involvement in first pharyngeal arch development",
+    image: "",
+  },
+  {
+    id: "207",
+    question:
+      "A 2-month-old girl is scheduled for reconstruction of a unilateral upper cleft lip. Failure of fusion of which structures is the most likely cause of this congenital defect?",
+    incorrectAnswers: [
+      "Lateral nasal and maxillary prominences/ processes",
+      "Right and left medial nasal prominences/ processes",
+      "Lateral nasal and medial nasal prominences/ processes",
+      "Lateral nasal prominences/processes",
+    ],
+    correctAnswer:
+      "Maxillary prominence/process and the intermaxillary segment",
+    explanation:
+      "Cleft lip is a result of failure of the mesenchyme in the medial nasal and maxillary prominences to fuse. Unilateral cleft occurs if the maxillary prominence on the affected side fails to fuse with the intermaxillary segment, whereas bilateral cleft occurs if there is failure of fusion on both sides. Median cleft occurs from failure of formation of the intermaxillary segment from the medial nasal processes.",
+    image: "",
+  },
+  {
+    id: "208",
+    question:
+      "A 6-month pregnant woman visits her obstetrician for a routine prenatal checkup. Ultrasound examination reveals polyhydramnios and spina bifida. Which of the following conditions may also be expected to be found during the ultrasound examination of the fetus?",
+    incorrectAnswers: [
+      "Bilateral renal agenesis",
+      "Agenesis of the vagina",
+      "Hydrocephalus",
+      "Omphalocele",
+    ],
+    correctAnswer: "Anencephaly",
+    explanation:
+      "A. Severe cases of spina bifida are often associated with anencephaly due to the fact that they all occur from different types of nonfusion defects in the neural tube. Anencephaly is usually seen in conjunction with polyhydramnios due to lack of neurologic control to initiate and complete swallowing of amniotic fluid for absorption in the gastrointestinal tract. These conditions lead to high alpha-fetoprotein levels in the amniotic fluid.",
+    image: "",
+  },
+  {
+    id: "209",
+    question:
+      "A 4-month-old girl has a small area of the right iris missing. An ophthalmologist recognizes a defect in the inferior sector of the iris and the pupillary margin, which gives the pupil a keyhole appearance. Examination reveals that the defect also involves the ciliary body and retina. What is the embryologic cause of this condition?",
+    incorrectAnswers: [
+      "Abnormal neural crest formation",
+      "Abnormal interactions between the optic vesicle and ectoderm",
+      "Posterior chamber cavitation",
+      "Weak adhesion between the inner and outer layers of the optic cup",
+    ],
+    correctAnswer: "Failure of the retinal/optic fissure to close",
+    explanation:
+      "A. Coloboma of the iris and retina is due to defective closure of the retinal fissure during the sixth week of life and may involve the ciliary body. Neural crest cells in the eye form the choroid, sclera, and corneal endothelium. Weak adhesion between the layers of the optic cup leads to congenital retinal detachment.",
+    image: "",
+  },
+  {
+    id: "210",
+    question:
+      "A 26-year-old male boxer is brought to the emergency department after being knocked out by his rival. CT examination reveals severe trauma to the articular disc and fracture of the neck of the mandible. This could result in injury to a muscle that developed from which of the following embryonic structures?",
+    incorrectAnswers: [
+      "First pharyngeal pouch",
+      "Second pharyngeal pouch",
+      "First pharyngeal cleft",
+      "Second pharyngeal arch",
+    ],
+    correctAnswer: "First pharyngeal arch",
+    explanation:
+      "C. The lateral pterygoid muscle attaches to the articular disc and capsule of the temporomandibular joint and as such any damage here will injure the muscle. The muscles of mastication including the lateral pterygoid muscle are derived from the first pharyngeal arch mesenchyme. The second arch forms the muscles of facial expression. The first pouch gives rise to the tubotympanic recess and the second pouch forms the tonsillar sinus. The first cleft gives rise to the external acoustic meatus.",
+    image: "",
+  },
+  {
+    id: "211",
+    question:
+      "A 2-day-old infant boy is admitted to the pediatric surgery department for correction of a large defect in the occipital bone (cranium bifidum). Imaging reveals that the defect contains meninges and part of the brain, including the ventricular system, protruding through it. What is the most likely diagnosis?",
+    incorrectAnswers: [
+      "Cranial meningocele",
+      "Encephalocele",
+      "Meroencephaly",
+      "Microcephaly",
+    ],
+    correctAnswer: "Meningohydroencephalocele",
+    explanation:
+      "In cranium bifidum, if the protruding brain contains part of the ventricular system the condition is known as meningohydroencephalocele. It is a cranial meningocele if only meninges herniate; it is a meningoencephalocele if it also contains brain matter. Meroencephaly is the neural tube defect in which only a rudimentary brain or minor functioning neural tissue is present instead of a whole brain. Microcephaly is an abnormally small head, which is a result of an abnormally small brain.",
+    image: "",
+  },
+  {
+    id: "212",
+    question:
+      "A 30-year-old man has had a mass in his neck for several years and became worried when his sister was diagnosed with lymphoma. Examination of his neck reveals a soft, midline mass about 2 cm in diameter. CT reveals a well-defined fluid-filled mass (Fig. 7-15). Persistence of which embryologic structure most likely accounts for this mass?",
+    incorrectAnswers: [
+      "Second pharyngeal cleft",
+      "Foramen cecum",
+      "Third pharyngeal pouch",
+      "Cervical sinus",
+    ],
+    correctAnswer: "Thyroglossal duct",
+    explanation:
+      "Thyroglossal duct cysts are due to the failure of obliteration of the thyroglossal duct. The thyroglossal duct is formed as the thyroid primordium descends from the posterior aspect of the tongue to its usual location. The thyroglossal duct may persist and form cysts, which are usually found in the median plane of the neck and just below the hyoid bone. The only other midline structure is the foramen cecum, which is a persistence of the proximal part of the thyroglossal duct and is above the hyoid bone.",
+    image: "head-neck15.png",
+  },
+  {
+    id: "213",
+    question:
+      "A newborn boy is diagnosed with Treacher Collins syndrome (mandibulofacial dysostosis). Physical examination reveals down-slanting palpebral fissures, defects of the lower eyelids, and deformed external ears. Abnormal development of which pharyngeal arch will most likely produce such symptoms?",
+    incorrectAnswers: ["Second", "Third", "Fourth", "Sixth"],
+    correctAnswer: "First",
+    explanation:
+      "The first pharyngeal arch gives rise to the maxillary and mandibular prominences. Failure or insufficient migration of neural crest cells here leads to mandibulofacial dysostosis (Treacher Collins syndrome) in which there is malar hypoplasia, downslanting palpebral fissures, defects of the lower eyelids, and external ear deformities.",
+    image: "",
+  },
+  {
+    id: "214",
+    question:
+      "A neonate is observed by the pediatric team to have bilateral swelling on both sides of the head (Fig.7-16). On physical examination the swellings do not cross the suture lines and transillumination of the skull appears to be normal. Neurologic examination is normal. Which of the following is?",
+    incorrectAnswers: [
+      "Intracranial bleeding",
+      "Blockage of the interventricular foramen",
+      "Failure of cleavage of the prosencephalon",
+      "Collection of edema fluid above the periosteum of the bone",
+    ],
+    correctAnswer: "Collection of blood beneath the periosteum of the bone",
+    explanation:
+      "Cephalohematoma is hemorrhage between the cranium and the periosteum of the cranial bones by rupture of vessels crossing the periosteum. In contrast, subgaleal (subaponeurotic) hemorrhage is hemorrhage between the periosteum and the aponeurotic layer and more extensive with more complications. The swelling does not cross suture lines in cephalhematoma but does in subgaleal hemorrhage. Caputsuccedaneum is collection of edema fluid above the periosteum of the cranial bones.",
+    image: "head-neck16.png",
+  },
+  {
+    id: "215",
+    question:
+      "A 2-month-old female infant is admitted to the hospital with convulsions. A CT scan shows hydrocephalus and several areas of intracranial calcifications. Physical examination shows severe chorioretinitis. What is the most likely cause of these symptoms?",
+    incorrectAnswers: [
+      "The mother was treated with tetracyclines during pregnancy",
+      "The mother was infected with rubella during the first trimester of pregnancy",
+      "The mother was infected with CMV during the first trimester of pregnancy",
+      "The mother was infected with Treponema pallidum during pregnancy exhibiting congenital syphilis",
+    ],
+    correctAnswer:
+      "The mother was infected with Toxoplasma gondii during the first trimester of pregnancy",
+    explanation:
+      "The T. gondii organism crosses the placental membrane and infects the fetus, causing destructive changes in the brain (intracranial calcifications) and eyes (chorioretinitis) that result in mental deficiency, microcephaly, microphthalmia, and hydrocephaly. Fetal death may follow infection, especially during the early stages of pregnancy. Administration of tetracycline to a pregnant woman is associated with stained teeth and hypoplasia of enamel in her baby. Rubella virus is associated with various anomalies such as intrauterine growth restriction (IUGR), postnatal growth retardation, cardiac and great vessel abnormalities, microcephaly, sensorineural deafness, cataract, microphthalmos, glaucoma, pigmented retinopathy, mental deficiency, neonatal bleeding, hepatosplenomegaly, osteopathy, and tooth defects. Infection with cytomegalovirus (CMV) is the most common viral infection of the fetus, occurring in approximately 1% of neonates. Most pregnancies end in spontaneous abortion (miscarriage) when the infection occurs during the first trimester. CMV infection later in pregnancy may result in severe birth defects, including IUGR, microphthalmia, chorioretinitis, blindness, microcephaly, cerebral calcification, mental deficiency, deafness, cerebral palsy, and hepatosplenomegaly. Primary maternal infections (acquired during pregnancy) nearly always cause serious fetal infection and birth defects. Early fetal manifestations of untreated maternal syphilis are congenital deafness, abnormal teeth and bones, hydrocephalus, and mental deficiency.",
+    image: "",
+  },
+  {
+    id: "216",
+    question:
+      "A 3-month-old boy is admitted to the hospital with a lump in his neck. A CT scan reveals a soft mass of tissue and a biopsy reveals ectopic thymus tissue. Which other developmentally related structure could also have an ectopic location?",
+    incorrectAnswers: [
+      "Jugulodigastric lymph node",
+      "Lingual tonsil",
+      "Submandibular gland",
+      "Thyroid gland",
+    ],
+    correctAnswer: "Inferior parathyroid gland",
+    explanation:
+      "In the fifth week, epithelium of the dorsal region of the third pouch differentiates into the inferior parathyroid gland while the ventral region forms the thymus. The palatine tonsil is derived from the second pharyngeal pouch. The submandibular glands appear late in the sixth week. They develop from endodermal buds in the floor of the stomodeum. The lingual tonsil develops from an aggregation of lymph nodules in the root of the tongue. Lymph nodules also develop in the mucosa of the respiratory and alimentary systems. The lymph nodes are derived from mesenchymal cells.",
+    image: "",
+  },
+  {
+    id: "217",
+    question:
+      "A 1-year-old girl was brought to the family practitioner by her mother who was concerned about the yellowish brown discoloration of the child’s deciduous teeth. What is the most likely cause of the discoloration?A 1-year-old girl was brought to the family practitioner by her mother who was concerned about the yellowish brown discoloration of the child’s deciduous teeth. What is the most likely cause of the discoloration?",
+    incorrectAnswers: [
+      "The mother continued to smoke during the pregnancy",
+      "Poor calcification of dentin due to calcium deficiency during the pregnancy",
+      "The mother was infected with rubella during the pregnancy",
+      "The mother continued to use alcohol during the pregnancy",
+    ],
+    correctAnswer:
+      "The mother was treated with tetracycline during the pregnancy",
+    explanation:
+      "Tetracycline crosses the placental membrane and is deposited in the embryo’s bones and teeth at sites of active calcification. Tetracycline therapy during the fourth to ninth months of pregnancy may also cause tooth defects (e.g., enamel hypoplasia), yellow to brown discoloration of the teeth, and diminished growth of long bones. Calcification of the permanent teeth begins at birth and, except for the third molars, is complete by 7 to 8 years of age; hence, long-term tetracycline therapy during childhood can affect the permanent teeth. Rubella virus is associated with various anomalies such as intrauterine growth restriction (IGUR), postnatal growth retardation, cardiac and great vessel abnormalities, microcephaly, sensorineural deafness, cataract, microphthalmos, glaucoma, pigmented retinopathy, mental deficiency, neonate bleeding, hepatosplenomegaly, osteopathy, and tooth defects.",
+    image: "",
+  },
+  {
+    id: "218",
+    question:
+      "A low birthweight neonatal girl is admitted to the intensive care unit with patent ductus arteriosus. During physical examination it is noted that the baby has bilateral cataracts. Which of the following will be the most likely cause?",
+    incorrectAnswers: [
+      "The mother was taking thalidomide during pregnancy",
+      "The mother was infected with cytomegalovirus during the first trimester of pregnancy",
+      "The mother used cocaine during pregnancy",
+      "The mother was infected with Toxoplasma gondii during the first trimester of pregnancy",
+    ],
+    correctAnswer:
+      "The mother was infected with rubella during the first trimester of pregnancy",
+    explanation:
+      "Rubella virus (German measles) is associated with various anomalies such as intrauterine growth restriction (IUGR), postnatal growth retardation, cardiac and great vessel abnormalities, microcephaly, sensorineural deafness, cataract, microphthalmos, glaucoma, pigmented retinopathy, mental deficiency, neonatal bleeding, hepatosplenomegaly, osteopathy, and tooth defects. The T. gondii organism crosses the placental membrane and infects the fetus causing destructive changes in the brain (intracranial calcifications) and eyes (chorioretinitis) that result in mental deficiency, microcephaly, microphthalmia, and hydrocephaly. CMV infection later in pregnancy may result in severe birth defects such as IUGR, microphthalmia, chorioretinitis, blindness, microcephaly, cerebral calcification, mental deficiency, deafness, cerebral palsy, and hepatosplenomegaly. The effects of cocaine include spontaneous abortion, prematurity, IUGR, microcephaly, cerebral infarction, urogenital anomalies, neurobehavioral disturbances, and neurologic abnormalities. Thalidomide is a potent teratogen. The characteristic presenting feature is meromelia, but the defects range from amelia (absence of limbs) through intermediate stages of development (rudimentary limbs) to micromelia (abnormally small and/or short limbs).",
+    image: "",
+  },
+  {
+    id: "219",
+    question:
+      "At birth, a neonatal boy was noted to have multiple craniofacial abnormalities and a cleft palate. CT studies (including the 3D reconstruction shown in Fig. 7-17) are obtained when the infant is 1 year old for surgery planning. What other abnormality would most likely be found with appropriate investigations?",
+    incorrectAnswers: [
+      "Hyperthyroidism",
+      "Hypoplasia of the hyoid bone",
+      "Malformation of laryngeal cartilages",
+      "Hypoplasia of the thymus gland",
+    ],
+    correctAnswer: "Hearing loss",
+    explanation:
+      "E. In Treacher Collins syndrome (mandibulofacial dysostosis), which is caused by an autosomal dominant gene, there is malar hypoplasia (underdevelopment of the zygomatic bones of the face) with down-slanting palpebral fissures, defects of the lower eyelids, deformed external ears, and sometimes abnormalities of the middle and internal ears. From the CT it is clear that there is no external acoustic meatus.",
+    image: "head-neck17.png",
+  },
+  {
+    id: "220",
+    question:
+      "A 14-year-old boy is brought to the family medicine clinic because of an enlarged mass on the left side of his neck. He had an upper respiratory infection 3 weeks ago that resolved uneventfully. Examination reveals a soft fluid-filled mass on the left side of the neck at the level of the laryngeal prominence. Axial CT with contrast shows a well-defined, 4-cm diameter, fluid-filled mass with a thin rim (Fig. 7-18). A diagnosis of a branchial cyst is made. Which embryologic structure is most likely contributing to this mass?",
+    incorrectAnswers: [
+      "First pharyngeal pouch",
+      "Second pharyngeal arch",
+      "Third pharyngeal pouch",
+      "Thyroglossal duct",
+    ],
+    correctAnswer: "Cervical sinus",
+    explanation:
+      "Cervical cysts, sinuses, and fistulas may develop from parts of the second pharyngeal groove, the cervical sinus, or the second pharyngeal pouch that fail to obliterate. An ectopic thyroid gland results when the thyroid gland fails to descend completely from its site of origin in the tongue. The first pharyngeal pouch gives rise to the tympanic cavity, mastoid antrum, and pharyngotympanic tube. The second pharyngeal pouch is associated with the development of the palatine tonsil. The thymus is derived from the third pair of pharyngeal pouches, and the parathyroid glands are formed from the third and fourth pairs of pharyngeal pouches.",
+    image: "",
+  },
+  {
+    id: "221",
+    question:
+      "A neonatal boy has hypoplasia of the mandible and zygomatic bones, slanted palpebral fissures, and malformed external ears. What is the name of his condition?",
+    incorrectAnswers: [
+      "Pierre Robin syndrome",
+      "DiGeorge syndrome",
+      "Fetal alcohol syndrome (FAS)",
+      "Chiari I malformation",
+    ],
+    correctAnswer: "Treacher Collins syndrome",
+    explanation:
+      "In Treacher Collins syndrome (mandibulofacial dysostosis), which is caused by an autosomal dominant gene, there is malar hypoplasia (underdevelopment of the zygomatic bones of the face) with down-slanting palpebral fissures, defects of the lower eyelids, deformed external ears, and sometimes abnormalities of the middle and internal ears. Pierre Robin sequence, an autosomal recessive disorder, is associated with hypoplasia of the mandible, cleft palate, and defects of the eye and ear. Chiari I malformation is inferior displacement of the cerebellar tonsils more than 5 mm through the foramen magnum into the cervical canal. Symptoms of fetal alcohol syndrome (FAS) are intrauterine growth restriction (IUGR), mental deficiency, microcephaly, ocular anomalies, joint abnormalities, and short palpebral fissures. Patients with DiGeorge syndrome are born without a thymus and parathyroid glands and have defects in cardiac outflow tracts. In some cases, ectopic glandular tissue has been found.",
+    image: "",
+  },
+  {
+    id: "222",
+    question:
+      "A severe mandibular fracture in a 22-year-old woman requires surgical reconstruction. Postoperatively, she complains of numbness of the lower lip and chin. Which nerve was most likely injured?",
+    incorrectAnswers: [
+      "Auriculotemporal",
+      "Buccal",
+      "Lesser petrosal",
+      "Infraorbital",
+    ],
+    correctAnswer: "Mental",
+    explanation:
+      "The mental nerve and vessels pass through the mental foramen in the mandible. The mental nerve supplies the skin and mucous membrane of the lower lip from the mental foramen to the midline, including the skin of the chin. It is a branch of the inferior alveolar nerve, which comes off the posterior division of the mandibular division of the trigeminal nerve. The buccal nerve is a branch of the anterior division of the mandibular nerve, which supplies the skin over the buccal membrane. The auriculotemporal nerve and the great auricular nerve, a branch of the cervical plexus composed of fibers from C2 and C3 spinal nerves, innervates the parotid sheath as well as the overlying skin. The lesser petrosal nerve is the visceral motor component of the glossopharyngeal nerve (CN IX), carrying parasympathetic fibers from the tympanic plexus to the parotid gland. The infraorbital nerve innervates (sensory) the lower eyelid, upper lip, and part of the nasal vestibule and exits the infraorbital foramen of the maxilla.",
+    image: "",
+  },
+  {
+    id: "223",
+    question:
+      "A 22-year-old man presents with severe facial trauma after a car crash. A CT scan of the head reveals multiple fractures of the facial bones. Following surgery to correct his facial fractures, he asserts that he cannot taste anything on the tip of his tongue. Which ganglion contains the neuron cell bodies of taste fibers from this part of the tongue?",
+    incorrectAnswers: [
+      "Trigeminal",
+      "Inferior glossopharyngeal",
+      "Submandibular ganglion",
+      "Pterygopalatine",
+    ],
+    correctAnswer: "Geniculate",
+    explanation:
+      "The sensory supply of the mucous membrane of the oral part (anterior two thirds), but not the region of the vallate papillae, is by the lingual nerve. General sensation is via the mandibular division of the trigeminal nerve (with cell bodies in the trigeminal ganglion) and taste via chorda tympani, from the facial nerve, which have their cell bodies in the geniculate ganglion. The submandibular and pterygopalatine ganglia contain parasympathetic fibers from chorda tympani and greater petrosal nerves, respectively.",
+    image: "",
+  },
+  {
+    id: "224",
+    question:
+      "A 21-year-old man has suspected intracranial inflammation from an infection. A CT scan showed an abscess compressing the ophthalmic branch of the trigeminal nerve. Which of the following would be a plausible complaint of this individual?",
+    incorrectAnswers: [
+      "Pain in the hard palate",
+      "Anesthesia of the upper lip",
+      "Pain over the lower eyelid",
+      "Tingling sensation over the buccal region of the face",
+    ],
+    correctAnswer: "Painful eyeball",
+    explanation:
+      "Ophthalmic nerve (ophthalmic division of the trigeminal nerve, CN V1) carries sensory branches from the eye, conjunctiva, and orbital contents, including the lacrimal gland. It also receives sensory branch from the nasal cavity, frontal sinus, ethmoidal cells, falx cerebri, dura in the anterior cranial fossa and superior part of the tentorium cerebelli, upper lid, dorsum of the nose, and anterior part of the scalp. Branches of ophthalmic nerve are lacrimal, supraorbital, supratrochlear, infratrochlear, and external nasal nerves. Maxillary nerve (CN V2) and mandibular nerve (CN V3) carry sensory information from other regions of the face.",
+    image: "",
+  },
+  {
+    id: "225",
+    question:
+      "A 72-year-old man presents at the clinic with difficulty when eating. An MRI showed a tumor of the brainstem affecting the contents of the hypoglossal canal. Which of the following muscles would be affected by such a tumor?",
+    incorrectAnswers: [
+      "Geniohyoid",
+      "Mylohyoid",
+      "Palatoglossus",
+      "Stylohyoid",
+    ],
+    correctAnswer: "Genioglossus",
+    explanation:
+      "The hypoglossal nerve (CN XII) passes through hypoglossal canal. All the muscles of the tongue, intrinsic and extrinsic, are supplied by the hypoglossal nerve (except palatoglossus). Extrinsic muscle supplies the genioglossus, hyoglossus, and styloglossus. Thus compression of the nerve will affect intrinsic and extrinsic muscles of the tongue.",
+    image: "",
+  },
+  {
+    id: "226",
+    question:
+      "An MRI performed on a 71-year-old man who presents at the clinic confirms the presence of a brain tumor. Additionally, he complains that the right side of his nasal cavity is dry and irritated, and he frequently uses drops in his right eye, as it is always dry. The tumor probably involves which cranial nerve nucleus?",
+    incorrectAnswers: [
+      "Inferior salivatory nucleus",
+      "Dorsal vagal nucleus",
+      "Edinger-Westphal nucleus",
+      "Nucleus ambiguus",
+    ],
+    correctAnswer: "Superior salivatory nucleus",
+    explanation:
+      "Superior salivatory nucleus (or superior salivary nucleus) of the facial nerve is a visceromotor cranial nerve nucleus located in the pontine tegmentum. Preganglionic parasympathetic fibers arise from the nucleus and pass laterally to exit the pons with motor VII axons. Then some of the preganglionic fibers pass to the pterygopalatine ganglion via the greater petrosal (via the pterygoid canal, also known as the Vidian canal) and synapse in the pterygopalatine ganglion. Postganglionic efferent fibers travel to innervate the lacrimal gland and the mucosal glands of the nose, palate, and pharynx, whereas the other",
+    image: "",
+  },
+  {
+    id: "227",
+    question:
+      "A 23-year-old right-handed pitcher for a Major League Baseball team presents to the clinic for evaluation concerning a constellation of symptoms. A CT scan demonstrates hypertrophied scalene muscles on the right side. The diagnosis is thoracic outlet syndrome. Which symptom is consistent with this diagnosis?",
+    incorrectAnswers: [
+      "Problems with respiration because of pressure on the phrenic nerve",
+      "Reduced blood flow to the thoracic wall",
+      "Reduced venous return from the head and neck",
+      "Distension of the internal jugular vein",
+    ],
+    correctAnswer: "Numbness in the upper extremity",
+    explanation:
+      "The superior thoracic aperture is also referred to as the thoracic inlet because noncirculating substances (air and food) may only enter the thorax and not exit. Obstruction actually occurs outside the aperture in the root of the neck, and the manifestations of the syndromes involve the upper limb through this aperture. A supernumerary (extra cervical) rib or a fibrous connection extending from its tip to the first thoracic rib may elevate and place pressure on structures that emerge from the superior thoracic aperture, notably the subclavian artery or inferior trunk of the brachial plexus, and may cause symptoms. Other etiologies could include an elongated transverse process of the C7 vertebra and muscular abnormalities (e.g., in the scalenus anterior muscle, a sickle-shaped scalenus medius). Most common symptoms include discoloration of the hands, one hand colder than the other hand, weakness of the hand and arm muscles, and tingling.",
+    image: "",
+  },
+  {
+    id: "228",
+    question:
+      "After undergoing a thyroidectomy for a cancerous nodule, a 29-year-old woman develops a postoperative hematoma in her neck. Physical examination reveals partial ptosis of her eyelid and pupillary constriction on the side of the hematoma. The hematoma is most likely compressing which ganglion to result in the symptoms?",
+    incorrectAnswers: ["Submandibular", "Trigeminal", "Geniculate", "Ciliary"],
+    correctAnswer: "Superior cervical",
+    explanation:
+      "The superior paravertebral ganglion (the superior cervical ganglion of each sympathetic trunk) lies at the base of the cranium. It lies deep to the sheath of the internal carotid artery and internal jugular vein (carotid sheath), and anterior to the longus capitis muscle. It contains neurons that supply sympathetic innervation to a number of target organs within the head and also contributes to the cervical plexus. The postsynaptic sympathetic fibers stimulate contraction of the blood vessels (vasomotor) and erector muscles associated with hairs (pilomotor), and cause sweating (sudomotion). Postsynaptic sympathetic fibers in the cranium also innervate dilator muscle of the iris (dilator pupillae); therefore compression causes complete pupillary constriction. It also innervates the muscle that maintains elevation of the upper lid (holding the eye open); therefore compression causes partial ptosis (drooping of the upper lid). Paralysis of the CN III causes complete ptosis. (GAS Fig. 8-190).",
+    image: "",
+  },
+  {
+    id: "229",
+    question:
+      "A 26-year-old man suffers a traumatic injury to the midface region. Physical examination reveals intact taste and salivation but no general sensation from his anterior tongue. Which nerve was probably injured?",
+    incorrectAnswers: [
+      "Chorda tympani",
+      "Inferior alveolar",
+      "Lingual distal to its junction with the chorda tympani",
+      "Glossopharyngeal",
+    ],
+    correctAnswer: "Lingual proximal to its junction with the chorda tympani",
+    explanation:
+      "The lingual nerve is joined by the chorda tympani about 2 cm below the base of the skull, deep to the lower border of the lateral pterygoid muscle. It supplies the anterior two thirds of the tongue with common sensation and taste, the latter mediated by fibers in the chorda tympani. The secretomotor fibers of the chorda tympani are given off to the submandibular ganglion, which is suspended from the lingual nerve. They relay in the ganglion for the submandibular gland, and some postganglionic fibers rejoin the lingual nerve for transport to the salivary glands in the floor of the mouth. The lingual nerve also supplies all the mucous membrane of the floor of the mouth and the lingual gingiva (gums).",
+    image: "",
+  },
+  {
+    id: "230",
+    question:
+      "An 82-year-old man is being evaluated preoperatively for a tumor in the posterior cranial fossa. MRI demonstrated perineural spread of the tumor along nervous tissue at the jugular foramen. Which deficit would you expect?",
+    incorrectAnswers: [
+      "Loss of tongue movements",
+      "Loss of facial expression",
+      "Loss of sensation from the face and the scalp",
+      "Loss of hearing",
+    ],
+    correctAnswer: "Loss of gag reflex",
+    explanation:
+      "Perineural spread of a tumor (or spread of tumor along a nerve) is one of the more insidious forms of tumor metastasis. This form of spread is more commonly found in malignant rather than benign lesions. In this case tumor spreads along tissue at the jugular foramen, thus involving nerves glossopharyngeal (CN IX), vagus (CN X), and spinal accessory nerves (CN XI). Therefore in case of the pharyngeal reflex (gag reflex), sensory limb is mediated predominantly by CN IX (glossopharyngeal nerve) and motor limb by CN X (vagus nerve). Tongue, facial expression and sensation and hearing are mediated by cranial nerves XII, VII, V, and VIII respectively.",
+    image: "",
+  },
+  {
+    id: "231",
+    question:
+      "The goalkeeper of a soccer team accidentally hit his head against the goal post while trying to reach for the ball. He was confused for several minutes and later resumed playing. Four hours later, he was found unconscious and was immediately rushed to the emergency department. A CT scan of his head shows a hemorrhage (Fig. 7-19, arrows). The vessel that was ruptured to produce this hemorrhage enters the skull through which of the following openings?",
+    incorrectAnswers: [
+      "Foramen ovale",
+      "Jugular foramen",
+      "Hypoglossal canal",
+      "Foramen lacerum",
+    ],
+    correctAnswer: "Foramen spinosum",
+    explanation:
+      "Extradural (epidural) hemorrhage is arterial in origin. Blood from torn branches of a middle meningeal artery (which passes through foramen spinosum) collects between the external periosteal layer of the dura and the calvaria. The extravasated blood strips the dura from the cranium. Usually this follows a hard blow to the head; an extradural (epidural) hematoma then forms. Typically, a brief concussion (loss of consciousness) occurs, followed by a lucid interval of some hours. Later, drowsiness and coma (profound unconsciousness) occur, and if the pressure is not relieved the patient will die (GAS Fig. 8-46).",
+    image: "head-neck19.png",
+  },
+  {
+    id: "232",
+    question:
+      "Found unconscious by her husband, a 55-year-old woman is brought to the hospital with a constellation of symptoms that suggests a ruptured aneurysm. Physical examination of the right eye reveals ptosis, dilated pupil, and the eye deviated inferolaterally. Angiography most likely reveals a hematoma compressing which structure?",
+    incorrectAnswers: [
+      "Optic nerve",
+      "Facial nerve",
+      "Ciliary ganglion",
+      "Superior cervical ganglion",
+    ],
+    correctAnswer: "Oculomotor nerve",
+    explanation:
+      "The oculomotor nerve (CN III) supplies the majority of the muscles controlling eye movements. Thus, damage to this nerve results in displaced outward and downward eye as a result of unopposed lateral rectus (innervated by the abducens nerve, CN VI) and superior oblique (innervated by the trochlear nerve, CN IV). The ciliary muscle within the ciliary body changes the shape of the lens. In the absence of nerve stimulation, the diameter of the relaxed muscular ring is larger, making the lens flatter for far vision. Parasympathetic stimulation via the oculomotor nerve (CN III) causes sphincter-like contraction of the ciliary muscle and the lens get thicker for near vision. These fibers also innervate the sphincter pupillae. Thus interruption of these fibers causes dilation of the pupil because of the unopposed action of the sympathetically innervated dilator pupillae muscle. Because the oculomotor nerve supplies the levator palpebrae superioris, a lesion there causes paralysis of the muscle; the patient cannot raise the superior eyelid (cannot open the eye). Ptosis is related more to paralysis of the superior tarsal muscle.",
+    image: "",
+  },
+  {
+    id: "233",
+    question:
+      "A 20-year-old construction worker presented to the emergency department with an occipital scalp laceration. The wound was closed. Three days later he presents at the clinic with a tender erythematous infected wound that has spread anteriorly on the scalp. Between which layers of the scalp has the infection spread?",
+    incorrectAnswers: [
+      "The periosteum and bone",
+      "The dense connective tissue and the aponeurosis",
+      "The dense connective tissue and the skin",
+      "The dermis and the epidermis",
+    ],
+    correctAnswer: "The aponeurosis and the periosteum",
+    explanation:
+      "Scalp lacerations are the most common type of head injury requiring surgical care. These wounds bleed profusely because the arteries entering the periphery of the scalp bleed from both ends owing to abundant anastomoses. The arteries do not retract when lacerated because they are held open by the dense connective tissue in the second layer two of the scalp. The scalp is composed of five layers, the first three of which are connected intimately and move as a unit. Each letter in the word SCALP serves as a mnemonic for one of its five layers, skin, connective tissue, aponeurosis, loose areolar tissue, and pericranium. The loose connective tissue layer (fourth layer) of the scalp is the danger area of the scalp because pus or blood spreads easily in it. Infection in this layer can also pass into the cranial cavity through small emissary veins, which pass through parietal foramina in the calvaria and reach intracranial structures such as the meninges.",
+    image: "",
+  },
+  {
+    id: "234",
+    question:
+      "A 73-year-old patient presents at the clinic with neck pain, hoarseness, and weight loss of 6 months duration. During laryngoscopy a large tumor is identified on one of the true vocal folds. The ENT specialist is unable to pass the scope through the opening between the folds. What is the name of this opening?",
+    incorrectAnswers: [
+      "Piriform recess",
+      "Ventricle",
+      "Vallecula",
+      "Vestibule",
+    ],
+    correctAnswer: "Rima glottidis",
+    explanation:
+      "The rima glottidis is the opening between the true vocal cords. The diameter of this opening is regulated by the laryngeal muscles to modulate pitch of sound. The piriform fossa is a shallow space found on the lateral side of the laryngeal orifice bounded laterally by the thyroid cartilage and medially by the aryepiglottic fold. While “vestibule” can mean any opening, in the head and neck it strictly is used to mean the anterior-most portion of the oral cavity, making B an incorrect option. In the head and neck region of the human body, the ventricles are cavities above the midbrain where the CSF is produced. The vallecula is a depression behind the root of the tongue that serves to hold saliva for lubrication and prevention of premature initiation of deglutition reflex.",
+    image: "",
+  },
+  {
+    id: "235",
+    question:
+      "An 82-year-old man presents to the ENT clinic for evaluation of a neck mass. Visual examination with a flexible laryngoscope reveals a tumor in the piriform recess. In taking a biopsy, the physician must be careful not to injure which nerve?",
+    incorrectAnswers: [
+      "Mandibular",
+      "Maxillary",
+      "Glossopharyngeal",
+      "Hypoglossal",
+    ],
+    correctAnswer: "Internal laryngeal",
+    explanation:
+      "The mucosa of the piriform fossa receives sensory innervation from the internal laryngeal nerve. This nerve also supplies somatic sensory fibers to the larynx above the vocal cords, epiglottis, and valleculae. Owing to its superficial location in the mucosa of the piriform fossa, it could be damaged during procedures involving the piriform fossa with loss of sensation in the areas it innervates and loss of protective reflex of the larynx. The mandibular division of the trigeminal nerve (CN V3) supplies somatic sensation the lower face and motor innervation to muscles of mastication. It also sends sensory fibers to the meninges including the external acoustic meatus. The maxillary division of the trigeminal nerve (CN V2), although a sensory component of the trigeminal, does not innervate the piriform fossa. The glossopharyngeal nerve (CN IX) supplies special visceral efferent to the stylopharyngeus muscle, parasympathetic to the parotid gland, general visceral afferent to the carotid sinus and body, special sensory to the posterior one third of the tongue, and general somatic efferent to the external ear, internal part of the tympanic membrane, posterior tongue, and upper pharynx.",
+    image: "",
+  },
+  {
+    id: "236",
+    question:
+      "A pediatrician is consulted to evaluate a 3-yearold girl who was admitted for a severe throat infection. Examination reveals a bulging and red tympanic membrane. What is the embryologic origin of the structure that allowed the infection to spread from the pharynx to the middle ear cavity?",
+    incorrectAnswers: [
+      "Second pouch",
+      "First groove",
+      "Second groove",
+      "Third pouch",
+    ],
+    correctAnswer: "First pouch",
+    explanation:
+      "The first pharyngeal pouch gives rise to the tympanic recess, with its membrane giving rise to the tympanic membrane. The tympanic recess itself gives rise to the tympanic cavity and the mastoid antrum. The pharyngotympanic tube (eustachian), a part of the tympanic cavity, connects the tympanic cavity to the pharynx. Infections of the pharynx (pharyngitis) can spread from the pharynx to the middle ear through the pharyngotympanic tube. The second pharyngeal pouch usually obliterates with its tiny remains forming the tonsillar sinus with the remaining mesenchyme forming the lymphoid nodules of the palatine tonsil.",
+    image: "",
+  },
+  {
+    id: "237",
+    question:
+      "Upon neurologic evaluation of a comatose head trauma patient, the physician performs an examination to evaluate the cranial nerves. A light is directed into the right eye and the pupil constricts. This confirms which two nerves are intact?",
+    incorrectAnswers: [
+      "Optic and facial",
+      "Maxillary and facial",
+      "Ophthalmic and oculomotor",
+      "Ophthalmic and facial",
+    ],
+    correctAnswer: "Optic and oculomotor",
+    explanation:
+      "The papillary light reflex is mediated by an afferent limb carried by the optic nerve (CN II) and the efferent limb carried by the oculomotor nerve (CN III). The pupil constricts when the light is shone because the optic nerve was able to pick up the light sensation while the oculomotor nerve mediates the contraction of the sphincter pupillae muscle of the iris that results in pupillary constriction. This muscle is specifically innervated by the parasympathetic component of the oculomotor nerve, which has its preganglionic cell bodies at the Edinger-Westphal nucleus and postganglionic fibers at the ciliary ganglion. The pupillary light reflex is not mediated by the combination of the other nerves.",
+    image: "",
+  },
+  {
+    id: "238",
+    question:
+      "A 27-year-old unconscious woman is admitted to the emergency department. Examination reveals the right pupil is dilated and unresponsive to light. A CT scan reveals a large aneurysm of the superior cerebellar artery just after it branches off from the basilar, compressing the nerve responsible for the symptoms. Which nerve is being compressed?",
+    incorrectAnswers: ["Trigeminal", "Facial", "Vagus", "Abducens"],
+    correctAnswer: "Oculomotor",
+    explanation:
+      "The oculomotor nerve (CN III) is the efferent limb of the pupillary reflex. It carries the parasympathetic nerve with preganglionic cell bodies in the Edinger-Westphal nucleus and postganglionic cell bodies in the ciliary ganglion and supplies the sphincter pupillae of the iris. The oculomotor nerve is found between the superior cerebellar artery and the posterior cerebral artery. Aneurysm of the superior cerebellar artery can therefore compress on the oculomotor nerve resulting in pupillary dilatation (due to unopposed sympathetic innervation of the dilator pupillae) and unresponsiveness of the affected eye. The trigeminal, facial, vagus, and abducens nerves do not participate in the pupillary light reflex.",
+    image: "",
+  },
+  {
+    id: "239",
+    question:
+      "Physical examination of an 88-year-old man reveals inability to abduct his right eye and an absent corneal reflex on the same side. These symptoms might indicate a growth in which part of the skull?",
+    incorrectAnswers: [
+      "Inferior orbital fissure",
+      "Superior orbital fissure",
+      "Foramen rotundum",
+      "Foramen ovale",
+    ],
+    correctAnswer: "Superior orbital fissure",
+    explanation:
+      "The superior orbital fissure is an opening in the skull found between the lesser and greater wings of the sphenoid bone and communicates with the orbit and maxillary sinus. Among other structures, it transmits the oculomotor nerve (CN III), branches of the ophthalmic division of trigeminal nerve (CN V1), abducens nerve (CN VI), and ophthalmic vein. Tumors around the superior orbital fissure can compress these structures. Abduction of the eye is done by the oculomotor nerve, and the ophthalmic nerve supplies sensation to the cornea and serves as the afferent limb of the corneal reflex. These functions were lost because of compression of these nerves. The optic canal is found in the anterior cranial fossa and transmits the optic nerve and ophthalmic artery. Similarly, the inferior orbital fissure is located inside of the orbit, transmitting the zygomatic branch of the maxillary nerve and branches of the pterygopalatine ganglion. The foramen rotundum and ovale are located in the middle cranial fossa.",
+    image: "",
+  },
+  {
+    id: "240",
+    question:
+      "A 72-year-old woman presents at the clinic with a herpes zoster oticus. Upon questioning, she complains that she must hold the phone away from her ear because it sounds too loud. Which cranial nerve is affected by this infection to result in the hyperacusis?",
+    incorrectAnswers: [
+      "Hypoglossal",
+      "Spinal accessory",
+      "Vagus",
+      "Glossopharyngeal",
+    ],
+    correctAnswer: "Facial",
+    explanation:
+      "Herpes zoster can affect spinal and cranial nerves. It usually follows reactivation of a dormant varicella infection, which resides in a sensory ganglion. Illness, stress or immunosuppression can reactivate the dormant virus, which may result in both motor and sensory dysfunction. In this case a dominant herpes infection in the geniculate ganglion of the facial nerve has been reactivated, resulting in dysfunction of the facial nerve branch that supplies the stapedius muscle (nerve to the stapedius). The stapedius muscle inserts in the neck of the stapes bone in the middle ear and functions to dampen the vibrations of the stapes by way of putting tension on the neck of the stapes. This results in loudness of sound in the ear (hyperacusis) (GAS Fig. 8-120).",
+    image: "",
+  },
+  {
+    id: "241",
+    question:
+      "A 70-year-old man presents to his otologist for evaluation of sudden hearing loss. Upon examination the physician visualizes a large amount of cerumen (earwax) in the external auditory meatus and removes it to fully evaluate the tympanic membrane. During this process the patient begins to cough. The cough results from stimulation of an area of the meatus that is innervated by which nerve?",
+    incorrectAnswers: [
+      "Vestibulocochlear",
+      "Trigeminal",
+      "Facial",
+      "Accessory",
+    ],
+    correctAnswer: "Vagus",
+    explanation:
+      "The vagus nerve (CN X) is one of the major sensory nerves to the external auditory meatus and is the afferent limb of the cough reflex. The vestibulocochlear nerves mediates hearing and balance. Although the auriculotemporal branch of the trigeminal contributes in the innervations of the external acoustic meatus, it does not participate in the cough reflex. The facial nerve, which also contributes in the innervations of the external acoustic meatus, has no role in the cough reflex. The accessory nerve is motor to the sternocleidomastoid and trapezius nerves.",
+    image: "",
+  },
+  {
+    id: "242",
+    question:
+      "A 30-year-old woman underwent a total thyroidectomy for a cancerous thyroid nodule. Three weeks after the procedure she complains of unresolved hoarseness. Which nerve was most likely traumatized during the operation?",
+    incorrectAnswers: [
+      "Internal laryngeal",
+      "External laryngeal",
+      "Superior laryngeal",
+      "Glossopharyngeal",
+    ],
+    correctAnswer: "Recurrent laryngeal",
+    explanation:
+      "The recurrent laryngeal nerve, a branch of the vagus nerve (CN X), supplies motor innervation to all the intrinsic muscles of the larynx excluding the cricothyroid muscle and also supplies sensory fibers to the larynx below the vocal cord. Being two in number (right and left), the left recurrent laryngeal nerve upon emerging from the vagus nerve in the neck hooks (recurs) under the ligamentum arteriosum at the arch of aorta and then travels through the tracheoesophageal groove to the larynx. The right nerve hooks under the right subclavian artery. In the course of their recurrent path into the neck, these nerves are posterior to the middle part of the thyroid gland. Therefore, the recurrent laryngeal nerve may be inadvertently damaged during thyroidectomy. The internal laryngeal nerve, a branch of the superior laryngeal nerve, supplies sensory fibers to the laryngeal mucosa above the vocal cord. Injury to this nerve causes anesthesia in the larynx above the vocal cord. The external laryngeal nerve, also a branch of the superior laryngeal nerve, supplies the cricothyroid muscle. This muscle serves to tense the vocal cord. Paralysis of the external laryngeal nerve results in a monotonous voice because of inability to tense the vocal cord. Paralysis of the superior laryngeal nerve will also result in anesthesia above the vocal cord and loss of the protective reflex of the larynx (GAS Fig. 8-176).",
+    image: "",
+  },
+  {
+    id: "243",
+    question:
+      "An 82-year-old man receives a home visit from his family practitioner, who notices that the man’s pupils are unequally dilated. Which test would the physician use to determine which eye had the problem and whether it was a sympathetic or oculomotor nerve lesion?",
+    incorrectAnswers: [
+      "Startle reflex",
+      "Blink reflex",
+      "H-test",
+      "Vision test (reading chart)",
+    ],
+    correctAnswer: "Pupillary light reflex",
+    explanation:
+      "The pupillary light reflex is used to test the ability of the eyes to perceive light sensation. The afferent limb of this reflex arc is the optic nerve while the oculomotor is the efferent limb. By shining light into the eye from a penlight, each eye is tested individually for a direct constriction of the pupil on the ipsilateral side and then for a consensual reflex on the contralateral side. The startle reflex is a kind of acoustic reflex that occurs in reaction to sudden auditory stimulation. The blink or corneal reflex is a reflex that is produced in reaction to stimulation of the cornea of the eye. This reflex is mediated by the ophthalmic branch of the trigeminal (afferent limb) and the facial nerve (efferent limb). The H-test is a maneuver used to test the extraocular muscles, which are innervated by the oculomotor, trochlear, and abducens nerves. The vision test, also known as visual acuity test, is used to assess the ability of the eye to read or identify letters from different distances.",
+    image: "",
+  },
+  {
+    id: "244",
+    question:
+      "A 22-year-old baseball player is hit in the eye by a baseball. On examination he was able to move his eye normally and see distant objects but was unable to focus on close objects. Injury to which of the following nerve structures would most likely be the cause of his condition?",
+    incorrectAnswers: [
+      "Trochlear nerve and abducens nerve",
+      "Oculomotor nerve and abducens nerve",
+      "Superior cervical ganglion and long ciliary nerves",
+      "Infratrochlear nerve and ciliary ganglion",
+    ],
+    correctAnswer: "Short ciliary nerves and ciliary ganglion",
+    explanation:
+      "The short ciliary nerves and ciliary ganglion is the correct answer option. It is clear from the vignette that the problem lies with accommodation, which involves pupil accommodation, lens accommodation, and convergence. Eye movements were not compromised and as such parasympathetic deficit is the likely cause of his condition. Preganglionic axons from the Edinger-Westphal nucleus are carried by the oculomotor nerve, which synapse at the ciliary ganglion. These parasympathetics then travel through the ciliary ganglion located in the posterior orbit and from here postganglionic axons, carried by the short ciliary nerves, go on to innervate the sphincter pupillae muscle, which constricts the pupil and the ciliary muscle. Contraction of the ciliary muscle relieves tension on the zonular fibers, allowing the lens to be more convex. Absence of action of the ciliary muscles and sphincter pupillae results in loss of the ability to focus on near objects. The trochlear nerve and abducens nerve is an incorrect option. These nerves innervate the superior oblique and lateral rectus muscles, respectively. Since eye movements were unaffected, this combination can be eliminated as an answer option immediately.",
+    image: "",
+  },
+  {
+    id: "245",
+    question:
+      "Herpetic lesions of the forehead require expeditious treatment because the infection can spread to the cavernous sinus, leading to intracranial complications. Which venous structure is the most likely route of transmission of this infectious process to the cavernous sinus?",
+    incorrectAnswers: [
+      "Pterygoid venous plexus",
+      "Superior petrosal sinus",
+      "Basilar venous plexus",
+      "Parietal emissary vein",
+    ],
+    correctAnswer: "Ophthalmic vein",
+    explanation:
+      "The herpetic infection of the forehead likely spread to supratrochlear veins, which join to form a single trunk that runs down near the middle line of the forehead parallel with the vein of the opposite side. The two veins are joined, at the root of the nose, by a transverse branch, called the nasal arch. At the medial angle of the orbit, it joins the supraorbital vein to form the angular vein and drains into the superior ophthalmic vein, which communicates with the cavernous sinus. The infection can also make its way to the inferior ophthalmic vein via facial and deep facial veins to GAS Fig. 8-176 spread to the cavernous sinus. The pterygoid venous plexus has communication with the anterior facial vein and communicates with the cavernous sinus but is not the danger area of the face since it does not drain directly into the pterygoid plexus. The superior petrosal sinus is located in the superior petrosal sulcus of the petrous part of the temporal bone. It drains the cavernous sinus and travels posterolaterally to drain into the transverse sinus. The basilar plexus is made up of multiple venous channels between the layers of the dura mater above the clivus, where it interconnects the two inferior petrosal sinuses. The parietal emissary vein connect the superior sagittal sinus with tributaries of the superficial temporal vein.",
+    image: "",
+  },
+  {
+    id: "246",
+    question:
+      "An 87-year-old woman underwent surgery to remove a vestibular schwannoma (tumor at the internal acoustic meatus). Resection was successful but resulted in the following findings postoperatively: drooping of the right corner of the mouth, inability to close the right eye, and food collection in the right oral vestibule. Which cranial nerve was injured during the surgery?",
+    incorrectAnswers: ["IX", "X", "V2", "V3"],
+    correctAnswer: "VII",
+    explanation:
+      "The facial nerve is a mixed cranial nerve, which carries both motor and (special) sensory fibers. The motor component of the facial nerve arises from the facial nerve nucleus and forms the facial nerve proper, while the sensory and parasympathetic parts of the facial nerve emerge from the brain as nervus intermedius. The motor and sensory parts of the facial nerve enter the petrous part of the temporal bone via the internal auditory meatus, which is very close to the inner ear; it then courses through the facial canal, after which it emerges from the stylomastoid foramen and passes through the parotid gland, where it divides into five major branches. The facial nerve provides special sensory to the anterior one third of the tongue, motor to the muscles of facial expression and posterior belly of the digastric.",
+    image: "",
+  },
+  {
+    id: "247",
+    question:
+      "A 51-year-old man complains of hearing loss in his left ear, poor balance, a loss of taste, and drooling from the left side of his mouth. A CT scan shows a tumor on the left side of the posterior cranial fossa. Where would the tumor be located to result in the symptoms?",
+    incorrectAnswers: [
+      "Foramen ovale",
+      "Foramen rotundum",
+      "Jugular foramen",
+      "Superior orbital fissure",
+    ],
+    correctAnswer: "Internal acoustic meatus",
+    explanation:
+      "The internal acoustic meatus is a canal in the petrous part of the temporal bone. The facial nerve (CN VII) and VIII course through this canal. The vestibulocochlear nerve (CN VIII) consists of the cochlear nerve, carrying special sensory hearing, and the vestibular nerve, carrying signals for balance and equilibrium. The facial nerve (CN VII) carries special sensory taste to the anterior one third of the tongue and motor fibers that control the muscles of facial expression.",
+    image: "",
+  },
+  {
+    id: "248",
+    question:
+      "A 50-year-old woman with a history of cigarette smoking and alcohol abuse presents to the clinic with a lower lip lesion. Biopsy of her lower lip reveals a squamous cell carcinoma. Which lymph nodes will most likely be first affected by the spread of the tumor cells?",
+    incorrectAnswers: [
+      "Occipital",
+      "Parotid",
+      "Retropharyngeal",
+      "Jugulodigastric",
+    ],
+    correctAnswer: "Submental",
+    explanation:
+      "The submental nodes are located between the anterior bellies of the digastric muscles. The central portions of the lower lip and floor of the mouth and the apex of the tongue drain into these nodes. Efferent lymphatic from these nodes go to the submandibular lymph nodes and partly to a gland of the deep cervical group of nodes. The occipital nodes drain the occipital region of the scalp. The parotid nodes drain the root of the nose, the eyelids, the frontotemporal region, and the external acoustic meatus, and a deep group drains the nasal part of the pharynx and the posterior parts of the nasal cavities. The retropharyngeal nodes are found in the buccopharyngeal fascia and drain the nasal cavities, the nasal part of the pharynx, and the auditory tubes. The jugulodigastric nodes drain primarily the tonsils (GAS Fig. 8-193).",
+    image: "",
+  },
+  {
+    id: "249",
+    question:
+      "An 84-year-old man presents to the emergency department complaining of double vision. Physical examination reveals inability to abduct his right eye. In which of the locations indicated in the arteriogram (Fig. 7-20) will an aneurysm most likely be located to cause the nerve compression resulting in these symptoms/ signs?",
+    incorrectAnswers: ["A", "B", "C", "E"],
+    correctAnswer: "D",
+    explanation:
+      "Aneurysms of AICA cause direct impingement on the abducens nerve as it emerges from the brainstem at the pontomedullary junction between the labyrinthine artery above and the AICA below. Impingement of this nerve leads to loss of function to the lateral rectus muscle ipsilaterally, resulting in the inability to abduct the eye. The anterior communicating artery does not relate to the abducens nerve. Aneurysm of the posterior cerebral artery will likely affect the oculomotor nerve. Aneurysm of the superior cerebellar artery will also likely affect the oculomotor nerve. Vertebral artery aneurysm will likely affect the hypoglossal nerve.",
+    image: "head-neck20.png",
+  },
+  {
+    id: "250",
+    question:
+      "A 3-year-old boy is being evaluated for painful swelling on the right side of his face. Imaging (Fig. 7-21) reveals an obstructed and enlarged structure (arrows) and inflammation of the associated salivary gland. Which of the following nerves is most likely responsible for the pain?",
+    incorrectAnswers: ["Facial", "Lingual", "Vagus", "Chorda tympani"],
+    correctAnswer: "Auriculotemporal",
+    explanation:
+      "B. The parotid gland receives visceromotor postganglionic parasympathetics and somatosensory (to the parotid capsule) from the auriculotemporal nerve. As the nerve passes between the neck of the mandible and the sphenomandibular ligament, it gives off parotid branches and then turns superiorly, posterior to its head and moving anteriorly, gives off anterior branches to the skin around the auricle.",
+    image: "head-neck21.png",
+  },
+  {
+    id: "251",
+    question:
+      "Following thyroidectomy, a 44-year-old female soprano has persistent problems with phonation. Fiberoptic laryngoscopy reveals that the vocal folds look normal and meet in the midline. A diagnosis of surgical injury of the left superior laryngeal nerve is established. Which of the following additional abnormal findings would be expected in this nerve injury?",
+    incorrectAnswers: [
+      "Decreased/absent sensation below the vocal folds",
+      "Poorly coordinated swallowing reflex",
+      "Bilateral weakness/paralysis of the posterior cricoarytenoid muscles",
+      "Weakness/paralysis of the left posterior cricoarytenoid muscle",
+    ],
+    correctAnswer: "Decreased/absent sensation above the vocal folds",
+    explanation:
+      "Sensory innervation to the area of the larynx superior to the vocal folds is supplied by the superior laryngeal nerve. The recurrent laryngeal nerve supplies sensation to the area inferior to the vocal cords. The vagus (CN X) and glossopharyngeal (CN IX) nerves bring about the swallowing reflex. Weakness to the posterior cricoarytenoid muscles would be due to recurrent laryngeal nerve damage.",
+    image: "",
+  },
+  {
+    id: "252",
+    question:
+      "A 59-year-old man is recovering after resection of a brainstem tumor. Postoperative imaging reveals a nonobstructive (communicating) hydrocephalus. Between which structures is malabsorption most likely to occur?",
+    incorrectAnswers: [
+      "Choroid plexus and subdural space",
+      "Subdural space and cavernous sinus",
+      "Superior sagittal sinus and jugular vein",
+      "Epidural and subdural space",
+    ],
+    correctAnswer: "Subarachnoid space and superior sagittal sinus",
+    explanation:
+      "A nonobstructive hydrocephalus occurs as a result of decreased reabsorption of cerebrospinal fluid (CSF) via the arachnoid villi. The subdural and epidural spaces are potential spaces, and these do not contain CSF. The choroid plexus produces the CSF, which flows into the subarachnoid space and is reabsorbed into the superior sagittal sinus via the arachnoid villi.",
+    image: "",
+  },
+  {
+    id: "253",
+    question:
+      "A 52-year-old man with a growing lump on the side of his face and neck for the past several months visits his doctor because of the recent development of pain along with other new neurologic symptoms. Based on the mass in the CT image (Fig. 7-22), which of the following neurologic abnormalities will most likely be present on examination as a direct result of the growing mass?",
+    incorrectAnswers: [
+      "Contralateral deviation of the uvula during elevation of the soft palate",
+      "Ipsilateral deviation on protraction of the tongue",
+      "Ipsilateral pupillary constriction and partial ptosis",
+      "Ipsilateral weakness in elevation of the mandible",
+    ],
+    correctAnswer: "Ipsilateral weakness in tight closure of the eyelids",
+    explanation:
+      "The location of the growing lump is close to the external acoustic meatus and is likely compressing on the facial nerve as it exits the stylomastoid foramen. The facial nerve is responsible for tight closure of the eyelids. Protraction of the tongue is due to innervation of the hypoglossal nerve and elevation of the mandible by the mandibular nerve. Pupillary constriction and partial ptosis result from damage to the oculomotor nerve.",
+    image: "",
+  },
+  {
+    id: "254",
+    question:
+      "A 55-year-old man with a history of cocaine abuse is brought to the emergency department because of severe uncontrolled epistaxis. Flexible nasal endoscopy reveals the source of bleeding to be in Kiesselbach’s area. Anastomotic connections between which arteries are involved in this condition?",
+    incorrectAnswers: [
+      "Descending palatine and ascending pharyngeal",
+      "Posterior superior alveolar and accessory meningeal",
+      "Lateral branches of posterior ethmoidal and middle meningeal",
+      "Descending palatine and tonsillar branches of the ascending pharyngeal",
+    ],
+    correctAnswer:
+      "Branches of sphenopalatine, superior labial, and anterior ethmoidal",
+    explanation:
+      "Branches of the sphenopalatine, superior labial, and anterior ethmoidal anastomose anteriorly on the nasal septum are prone to bleeding. The descending palatine and ascending pharyngeal arteries are located posteriorly in the pharynx. The posterior superior alveolar artery travels within the maxilla and the accessory meningeal artery is found within the cranial cavity.",
+    image: "",
+  },
+  {
+    id: "255",
+    question:
+      "A 49-year-old woman is admitted to the ENT department. Physical examination reveals swollen palatine tonsils and a tonsillectomy is performed. Which nerve coursing along the tonsillar bed needs to be spared during the surgery?",
+    incorrectAnswers: [
+      "Vagus",
+      "Hypoglossal",
+      "Internal laryngeal",
+      "External laryngeal",
+    ],
+    correctAnswer: "Glossopharyngeal",
+    explanation:
+      "The glossopharyngeal nerve is located in the tonsillar bed as it runs with the stylopharyngeus muscle, which it innervates. The vagus nerve forms part of the pharyngeal plexus for supply of the pharynx and continues in the carotid sheath. The hypoglossal nerve is found inferior to the tongue. The external and internal laryngeal nerves are found in the neck.",
+    image: "",
+  },
+  {
+    id: "256",
+    question:
+      "A 39-year-old man presents to an ENT specialist with hoarseness. Laryngoscopy shows nodules on the vocal cords with normal movement. Which muscle functions to open the rima glottidis?",
+    incorrectAnswers: [
+      "Lateral cricoarytenoids",
+      "Thyroarytenoids",
+      "Transverse arytenoids",
+      "Cricothyroids",
+    ],
+    correctAnswer: "Posterior cricoarytenoids",
+    explanation:
+      "The function of the cricoarytenoid muscle is to abduct the vocal cords. A transverse arytenoid and lateral cricoarytenoid muscle adducts the vocal cords. Cricothyroid and thyroarytenoid muscles lengthen the vocal cords and narrow the laryngeal cavity, respectively.",
+    image: "",
+  },
+  {
+    id: "257",
+    question:
+      "A 61-year-old man was admitted to the hospital after being found unconscious by his daughter. Shortly afterwards, he regained consciousness and physical examination showed that he was unable to shrug his shoulder on the right side and turn his head to the left. A CT scan demonstrated a large aneurysm of an artery compressing the nerve responsible for his symptoms. In which artery is the aneurysm?",
+    incorrectAnswers: [
+      "Superior cerebellar",
+      "Posterior cerebral",
+      "Anterior inferior cerebellar",
+      "Basilar",
+    ],
+    correctAnswer: "Posterior inferior cerebellar",
+    explanation:
+      "Sternocleidomastoid and trapezius muscles are supplied by the spinal accessory nerve, which enters the skull via the foramen magnum. The posterior inferior cerebellar artery is the artery nearest the accessory nerve.",
+    image: "",
+  },
+  {
+    id: "258",
+    question:
+      "Following a small brainstem stroke of limited size, a 64-year-old diabetic woman has uncoordinated swallowing and difficulty with phonation. The cranial nerve responsible for the dysfunction will most likely also produce which of the following symptoms?",
+    incorrectAnswers: [
+      "Weakness/paralysis of muscles of mastication on one side",
+      "Weakness/paralysis of muscles of facial expression on one side",
+      "Hearing loss and balance problems",
+      "Decreased/absent sensation in the oropharynx",
+    ],
+    correctAnswer: "Decreased/absent cough reflex",
+    explanation:
+      "The nerve responsible for innervating the muscles of the larynx and pharynx is the vagus nerve, which also initiates the cough reflex. The muscles of mastication and facial expression are supplied by trigeminal and facial nerves, respectively. The vestibulocochlear nerve mediates hearing and balance. The oropharyngeal mucosa is supplied by the glossopharyngeal nerve.",
+    image: "",
+  },
+  {
+    id: "259",
+    question:
+      "Following thyroidectomy for multiple benign thyroid nodules in a 44-year-old woman, a diagnosis of surgical injury to the left external laryngeal nerve is established. This may result in which of the following symptoms and signs?",
+    incorrectAnswers: [
+      "Inability to abduct the vocal fold",
+      "Decreased/absent sensation above the vocal folds",
+      "Decreased/absent sensation below the vocal folds",
+      "Decreased/absent cough reflex",
+    ],
+    correctAnswer: "Monotone, easily fatigued voice with poor pitch control",
+    explanation:
+      "The external laryngeal nerve supplies the cricothyroid muscle responsible for tensing the vocal cords. Loss of sensation would not result from injury to a motor nerve. Inability to abduct the vocal folds would result from damage to the recurrent laryngeal nerve.",
+    image: "",
+  },
+  {
+    id: "260",
+    question:
+      "A physician is performing a cranial nerve examination on a 49-year-old patient. Oral examination revealed that the patient’s uvula is deviated to the right. When the left side of the pharyngeal mucosa is touched, the gag reflex is weaker than when the mucosa on the right side is touched. Which nerve is most likely injured to cause these symptoms?",
+    incorrectAnswers: [
+      "Left glossopharyngeal",
+      "Right vagus",
+      "Left V3",
+      "Right glossopharyngeal",
+    ],
+    correctAnswer: "Left vagus",
+    explanation:
+      "The vagus nerve is responsible for innervation to the soft palate; if damaged, the uvula would deviate from the side of the lesion. Glossopharyngeal nerve damage could reduce the gag reflex because it is the afferent limb but would not produce the other symptoms. Damage to the trigeminal nerve would not produce any of these symptoms.",
+    image: "",
+  },
+  {
+    id: "261",
+    question:
+      "A 40-year-old woman comes to the physician because of pain in the region of her left jaw, left-sided earache, and headache for 3 days. The patient has not had any trauma to her face or jaw but says she often grinds her teeth. She is concerned because she is a singer, and it is painful when she opens her mouth wide to sing. There is also a clicking sound when she opens her mouth. Physical examination shows the left side of the jaw deviating slightly to the left on elevation. The area around the left mandibular condyle is painful on palpation. Mandibular depression is difficult to perform because of pain. This movement also elicits an audible clicking sound. There is tightness indicative of a muscle spasm along the left mandibular ramus. Palpation shows no other area of tightness. Spasms of which of the following muscle are most likely associated with this condition?",
+    incorrectAnswers: [
+      "Buccinator",
+      "Mylohyoid",
+      "Posterior belly of the digastric",
+      "Lateral pterygoid",
+    ],
+    correctAnswer: "Masseter",
+    explanation:
+      "The masseter muscle originates on the zygomatic bone and inserts on the lateral surface of the ramus of the mandible. It is a powerful elevator of the mandible. Grinding of the teeth can lead to hypertrophy of the muscles of mastication, especially the masseter. Patients will have difficulty in depressing the mandible due to spasms of this enlarged muscle.",
+    image: "",
+  },
+  {
+    id: "262",
+    question:
+      "During a test of the cough reflex a 62-year-old woman inhales air containing different amounts of particles that will adhere to mucus primarily in the trachea. Blockade of afferent neurons in which cranial nerve will most likely suppress this woman’s cough reflex?",
+    incorrectAnswers: [
+      "Glossopharyngeal",
+      "Hypoglossal",
+      "External laryngeal",
+      "Trigeminal",
+    ],
+    correctAnswer: "Vagus",
+    explanation:
+      "The vagus nerve mediates both the afferent and efferent limbs of the cough reflex: afferent to the mucus membranes and efferent to the muscles of the larynx. The glossopharyngeal nerve is involved in the gag reflex as the afferent limb. The hypoglossal nerve innervates most of the tongue. The external laryngeal nerve is a branch of the vagus nerve that provides only motor innervation to the cricothyroid and cricopharyngeus muscles. The trigeminal nerve does provide sensory innervation to the face.",
+    image: "",
+  },
+  {
+    id: "263",
+    question:
+      "A neurologist strokes a wisp of cotton across a patient’s left cornea without a response. The neurologist then strokes the cotton across the patient’s right cornea and both eyes blink. The most likely explanation of these findings is damage to which of the following cranial nerve on the left?",
+    incorrectAnswers: ["Optic", "Oculomotor", "Abducens", "Facial"],
+    correctAnswer: "Trigeminal",
+    explanation:
+      "C. The trigeminal nerve is the major sensory nerve of the face. It has three branches: ophthalmic, maxillary, and mandibular. The neurologist was trying to elicit the corneal reflex where the afferent limb (sensation on the eyeball) is via the trigeminal nerve and the efferent limb is the facial nerve (closing the eye). The optic nerve is responsible for vision, and the oculomotor and abducens nerves innervate extraocular muscles.",
+    image: "",
+  },
+  {
+    id: "264",
+    question:
+      "A 12-year-old girl is brought to the physician by her parents because of a sore neck for 4 days. Her temperature is 37.7° C (99.9° F). Physical examination shows a tender swelling anterior to, and just above, the thyroid notch of the neck. The physician explains that there is a cyst in the tract along which the thyroid gland descended. All of the tract tissue must be removed between which of the following two structures to treat this patient’s condition?",
+    incorrectAnswers: [
+      "Left lobe of thyroid gland and tonsillar fossa",
+      "Right lobe of thyroid gland and epiglottis",
+      "Right lobe of thyroid gland and hyoid bone",
+      "Thyroid isthmus and piriform recess",
+    ],
+    correctAnswer: "Thyroid isthmus and foramen cecum",
+    explanation:
+      "The thyroid gland develops as an outpouching from the floor of the primitive pharynx. It is temporarily connected to the tongue at the foramen cecum by the thyroglossal duct, which then degenerates. It descends in the neck passing anterior to the hyoid bone. Incomplete degeneration of the thyroglossal duct can lead to a cystic mass in the path of the descent of the thyroid gland.",
+    image: "",
+  },
+  {
+    id: "265",
+    question:
+      "A 34-year-old man complains of diplopia that becomes worse when reading a newspaper or walking down the stairs. Physical examination in the neurosurgery outpatient clinic reveals weakness of downward movement of the left eye. A CT scan reveals a large aneurysm in one of the arteries of the posterior cerebral circulation compressing the nerve resulting in the symptoms. In which artery in the diagram (Fig. 7-23) is the aneurysm?",
+    incorrectAnswers: ["A", "C", "D", "E"],
+    correctAnswer: "B",
+    explanation:
+      "The superior cerebellar artery is the penultimate branch of the basilar artery. It originates from the basilar artery and runs laterally to supply the superior and medial parts of the cerebellum. In its course, it travels very close to the trochlear nerve. This nerve innervates the superior oblique muscle, which is responsible for depression of the eyeball when it is in the adducted state. This allows for proper vision when reading a newspaper or walking down stairs.",
+    image: "head-neck23.png",
+  },
+  {
+    id: "266",
+    question:
+      "A 63-year-old woman presents with ptosis of the left eye. On examination the left eye is abducted and depressed and the light reflex is absent. Angiography reveals an aneurysm (arrow, Fig. 7-24) of an artery compressing the nerve responsible for the symptoms. Which of the following describes the location of the aneurysm?",
+    incorrectAnswers: [
+      "ICA in the cavernous sinus",
+      "Division of the ICA into middle and anterior cerebral arteries",
+      "Left vertebral artery at the junction with the basilar artery",
+      "Union of left and right vertebral arteries forming basilar artery",
+    ],
+    correctAnswer:
+      "Basilar artery between the left superior cerebellar and posterior cerebral arteries",
+    explanation:
+      "The aneurysm is located near the basilar artery between the left superior cerebellar and posterior cerebral arteries. This location is the origin of the oculomotor nerve, which innervates the extraocular eye muscles with the exception of the lateral rectus (innervated by the abducens nerve) and the superior oblique (done by the trochlear nerve). Compression of this nerve by an aneurysm will result in the eye being abducted (lateral rectus) and depressed (superior oblique).",
+    image: "head-neck23.png",
+  },
+  {
+    id: "267",
+    question:
+      "A 75-year-old woman presents to the emergency department complaining of double vision. Physical examination reveals inability to abduct her right eye. In which of the locations indicated in the arteriogram (Fig. 7-25) would an aneurysm most likely be located to cause the nerve compression resulting in these symptoms/signs?",
+    incorrectAnswers: [
+      "PCA",
+      "External carotid artery",
+      "Anterior cerebral artery",
+      "Posterior communicating artery",
+    ],
+    correctAnswer: "ICA",
+    explanation:
+      "The internal carotid is the artery that supplies the majority of the blood supply to the brain. It has several parts including the cervical, petrous, lacerum, cavernous, clinoid, ophthalmic, and communicating segments. The cavernous sinuses are paired dural sinuses that are located on the lateral wall of the sphenoid bone on either side of the sella turcica. The internal carotid artery and the abducens nerve run through it. Damage to this part of the internal carotid would affect the abducens nerve and the patient’s ability to abduct the eye.",
+    image: "head-neck25.png",
+  },
+  {
+    id: "268",
+    question:
+      "A 49-year-old man is seen in the emergency department because of headaches and dizziness for the past couple of months. Imaging studies reveal a saccular (berry) aneurysm (Fig. 7-26, arrow). An aneurysm at this location would most likely cause nerve compression resulting in which of the following additional findings on neurologic examination?",
+    incorrectAnswers: [
+      "Inability to abduct the eye",
+      "Inability to depress the adducted eye",
+      "Loss of corneal sensation",
+      "Ptosis",
+    ],
+    correctAnswer: "Visual field deficits",
+    explanation:
+      "The patient is suffering from an aneurysm of the anterior communicating artery. This artery connects the two anterior cerebral arteries across the beginning of the longitudinal fissure superior to the optic chiasm. An aneurysm in this area compresses the optic chiasm, resulting in blindness in the outer half of both right and left visual fields (bitemporal hemianopsia). An aneurysm of the anterior inferior cerebellar artery compresses the abducens nerve, which results in an inability to abduct the eye. Ptosis is as a result of compression to the oculomotor nerve, which can be compressed by an aneurysm in the superior cerebellar or the posterior cerebral arteries. An aneurysm of the superior cerebellar artery can also cause compression of the trochlear nerve and an inability to depress the adducted eye. Loss of corneal sensation is due to damage to the trigeminal nerve.",
+    image: "head-neck26.png",
+  },
+  {
+    id: "269",
+    question:
+      "A 16-year-old boy presents to the emergency department with pain and blurred vision following a blow to his left eye with a baseball bat. On examination, when asked to gaze upwards his eyes move as seen in the photograph (Fig. 7-27B). Imaging studies reveal a fracture, as indicated by the arrow in the image (Fig. 7-27A). Which of the following muscles is most likely affected?",
+    incorrectAnswers: [
+      "Levator palpebrae superioris",
+      "Inferior oblique",
+      "Medial rectus",
+      "Superior rectus",
+    ],
+    correctAnswer: "Inferior rectus",
+    explanation:
+      "The CT scan shows an orbital (blow-out) fracture. The inferior rectus muscle originates from the inferior part of the common tendinous ring and inserts on the inferior anterior part of the eyeball. With an orbital fracture, an injury to the floor of the orbit results in entrapment of the inferior rectus muscle by a fragment of bone. This tethers the inferior rectus muscle to bone resulting in loss of function of the muscle. Patients experience diplopia when attempting upward gaze.",
+    image: "head-neck27.png",
+  },
+  {
+    id: "270",
+    question:
+      "A 10-year-old child appearing acutely ill is seen in the emergency department because of severe ear pain, headache, and fever for the past five days. Physical examination reveals a red and bulging tympanic membrane with a purulent effusion, and tenderness over the area indicated by the arrow in the coronal CT (Fig. 7-28). Assuming that this area is now infected, which of the following venous channels is most at risk for thrombosis as a direct result of proximity to the infected/inflamed bone?",
+    incorrectAnswers: [
+      "Cavernous sinus",
+      "Pterygoid venous plexus",
+      "Straight sinus",
+      "Superior petrosal sinus",
+    ],
+    correctAnswer: "Sigmoid sinus",
+    explanation:
+      "The area indicated by the arrow is the mastoid air cells of the mastoid process. The infection likely spread via mastoid emissary veins, which passed through the mastoid foramen of the temporal bone to the sigmoid sinus. The sigmoid sinus begins beneath the temporal bone and travels to the jugular foramen, at which point it joins the inferior petrosal sinus to form the jugular vein. The cavernous sinus does not have any direct relations to the mastoid process or mastoid air cells. The pterygoid venous plexus is located in the infratemporal fossa and communicates with the anterior facial vein and the cavernous sinus, by branches through the sphenoidal emissary foramen (of Vesalius), foramen ovale, and foramen lacerum. It has no relation to the mastoid process or mastoid emissary veins. The straight sinus is located within the dura mater, where the falx cerebri meets the midline of tentorium cerebelli. The superior petrosal sinus is located in the petrosal sulcus on the petrous part of the temporal bone. It receives blood from the cavernous sinus and passes backward and laterally to drain into the transverse sinus.",
+    image: "head-neck28.png",
+  },
+  {
+    id: "271",
+    question:
+      "A 12-year-old boy complains of symptoms suggestive of sinusitis. During the physical examination the physician taps the area slightly superior to the midportion of the patient’s eyebrows and this maneuver elicits pain. Which anatomic area is the physician most likely examining?",
+    incorrectAnswers: [
+      "Maxillary sinus",
+      "Temporal bone",
+      "Sphenoid sinus",
+      "Ethmoid sinus",
+    ],
+    correctAnswer: "Frontal sinus",
+    explanation:
+      "The frontal sinuses are located in the frontal bone above the orbital margin. The maxillary sinus in the cheek region is within the maxillary bone. The ethmoid sinus is located between the nose and the eye. The sphenoidal sinus is within the sphenoid bone and cannot be palpated externally.",
+    image: "",
+  },
+  {
+    id: "272",
+    question:
+      "A physician palpates the mastoid process of an adolescent complaining of pain behind the ear. Which bone is the physician palpating?",
+    incorrectAnswers: ["Occipital", "Zygomatic", "Parietal", "Sphenoid"],
+    correctAnswer: "Temporal",
+    explanation:
+      "The temporal bone parts include mastoid, petrous, squamous, and tympanic portions. The mastoid process is part of the mastoid portion of the temporal bone.",
+    image: "",
+  },
+  {
+    id: "273",
+    question:
+      "A physician performs an ophthalmoscopic examination on a 45-year-old man and can clearly observe the macula lutea and optic disc. He also sees several branching arteries emanating from the optic disc. These arteries are most likely derived from which of the following?",
+    incorrectAnswers: [
+      "Long posterior ciliary artery",
+      "Short posterior ciliary artery",
+      "Ophthalmic artery",
+      "Anterior ciliary artery",
+    ],
+    correctAnswer: "Central retinal artery",
+    explanation:
+      "The central retinal artery is the major blood supply to the intima of the eye. It is a branch of the ophthalmic artery and travels with the optic nerve close to the eyeball to get to the intima or retina of the eye. The ciliary arteries arise from the ophthalmic artery and supply the sclera, choroid, conjunctiva, ciliary processes, and rectus muscles. The central retinal artery only rarely arises from the posterior ciliary arteries.",
+    image: "",
+  },
+  {
+    id: "274",
+    question:
+      "While at a party, an intoxicated teenage girl asks her friend to pierce the tragus of her left ear. While attempting to pass a needle through the tragus, the friend slips and the needle deeply punctures the skin directly anterior to the tragus. The next morning the teenager awakens to find that she has no feeling on the left temporal side of her scalp up to the vertex of her head. Which of the following nerves is most likely damaged?",
+    incorrectAnswers: [
+      "Lesser occipital",
+      "Greater occipital",
+      "Zygomaticotemporal",
+      "Great auricular",
+    ],
+    correctAnswer: "Auriculotemporal",
+    explanation:
+      "The auriculotemporal nerve, a branch of the mandibular division of the trigeminal nerve, passes posteriorly, deep to the ramus of the mandible and superior to the deep part of the parotid gland, emerging posterior to the temporomandibular joint to supply the skin anterior to the auricle and posterior two thirds of the temporal region. The nerve distributes to the skin of the tragus and adjacent helix of the auricle and therefore of the external acoustic meatus and skin of the superior tympanic membrane. The lesser occipital nerve, a branch of the cervical plexus, supplies the skin posterior to the auricle. The great auricular nerve, also a cervical plexus branch, supplies the skin overlying the mandible and the capsule of the parotid gland. The zygomaticotemporal nerve supplies the hairless patch of skin over the anterior part of the temporal fossa. The greater occipital nerve supplies the occipital part of the scalp.",
+    image: "",
+  },
+  {
+    id: "275",
+    question:
+      "A 27-year-old woman is found to have unilateral facial paralysis. An MRI of her head reveals a small tumor located at the internal acoustic meatus. Which of the following cranial nerves is most likely being compressed by the tumor?",
+    incorrectAnswers: ["V", "VI", "IX", "X"],
+    correctAnswer: "VII",
+    explanation:
+      "The two nerves found in the internal acoustic meatus are the facial nerve and vestibulocochlear nerve. Of the two, the facial nerve supplies facial muscles and can cause unilateral facial paralysis.",
+    image: "",
+  },
+  {
+    id: "276",
+    question:
+      "A patient with a brain tumor near the crista galli and cribriform plate of the ethmoid bone most likely experiences which of the following symptoms?",
+    incorrectAnswers: [
+      "Paralysis of facial muscles",
+      "Loss of vision",
+      "Difficulty swallowing",
+      "Loss of hearing",
+    ],
+    correctAnswer: "Loss of smell",
+    explanation:
+      "The olfactory nerves arise from cells in the superior part of the lateral and septal walls of the nasal cavity. The processes of these cells (forming the olfactory nerve) pass through the cribriform plate and end in the olfactory bulbs, which lie on either side of the crista galli. Therefore a tumor here compresses the nerves, and the sense of smell will be affected. The optic tract and chiasm are not likely to be affected. Similarly, the vagus, vestibulocochlear, and facial nerves are not in close proximity.",
+    image: "",
+  },
+  {
+    id: "277",
+    question:
+      "A 20-year-old man fell off a motorcycle and sustained a head injury. A CT scan of his head revealed a fracture of the sella turcica. Which of the following bones was most likely damaged in this patient?",
+    incorrectAnswers: ["Temporal", "Occipital", "Ethmoid", "Frontal"],
+    correctAnswer: "Sphenoid",
+    explanation:
+      "The butterfly-shaped middle cranial fossa has a central part composed of the sella turcica on the body of the sphenoid and large, depressed lateral parts on each side. The temporal bones are situated at the sides and base of the skull and consist of the squama temporalis, mastoid portion, petrous portion, tympanic part, zygomatic process, and styloid process. The occipital bone is situated at the back and lower part of the skull and is pierced by a large oval opening, the foramen magnum. The ethmoid and frontal bones are found in the anterior cranial fossa.",
+    image: "",
+  },
+  {
+    id: "278",
+    question:
+      "A 21-year-old man shaved his head with a razor blade and sustained a deep cut to the scalp. An infection occurred at the site of the cut. The man did not seek medical attention and the infection eventually subsided. Three weeks later he woke up with a severe headache and nausea. He was brought to the emergency department and found to have an infection of the superior sagittal sinus. Which of the following veins was most likely responsible for this patient’s current infection?",
+    incorrectAnswers: [
+      "Intercavernous",
+      "Inferior sagittal",
+      "Diploic",
+      "Basilar",
+    ],
+    correctAnswer: "Emissary",
+    explanation:
+      "The loose connective tissue layer (layer four) of the scalp is the danger area of the scalp because purulence or blood spreads easily in it. Infection in this layer can also pass into the cranial cavity through small emissary veins, which pass through foramina in the calvaria, and reach intracranial structures such as the meninges. The diploic veins are found in the skull and drain the diploic space. This is found in the bones of the vault of the skull and is the marrow-containing area of cancellous bone between the inner and outer layers of compact bone.",
+    image: "",
+  },
+  {
+    id: "279",
+    question:
+      "A 20-year-old man was in a bar fight and sustained a deep laceration to his face after being slashed with a broken glass bottle. Physical examination revealed a deep, 10-cm laceration running obliquely across his right cheek. He is now unable to close his right eye and cannot smile on the right side. Which additional structure was most likely damaged in this patient?",
+    incorrectAnswers: [
+      "Vertebral artery",
+      "Common carotid artery",
+      "Lateral pterygoid muscle",
+      "Temporalis muscle",
+    ],
+    correctAnswer: "Parotid gland",
+    explanation:
+      "The muscles of facial expression are supplied by the facial nerve, which emerges from the stylomastoid foramen and passes through the parotid gland. The nerve gives off five major branches within the parotid gland from superior to inferior: temporal, zygomatic, buccal, marginal mandibular, and cervical. A fun mnemonic for these five branches is To Zanzibar By Motor Car. (This not only rhymes, but it’s a geographical joke. You can’t get to Zanzibar by motor car!). The lateral pterygoid and temporalis muscles are muscles of mastication and are supplied by the mandibular division of the trigeminal nerve (CN V3). The common carotid artery provides branches to supply the neck and the face while the vertebral artery supplies the spinal cord and the posterior part of the brain.",
+    image: "",
+  },
+  {
+    id: "280",
+    question:
+      "A 25-year-old man sustains a blow to the back of the head during a fight and is brought to the emergency department unconscious. A CT scan of the head reveals a fracture in the occipital bone extending superiorly from the foramen magnum. Which of the following is transmitted through the foramen magnum?",
+    incorrectAnswers: [
+      "Cranial nerve I",
+      "Cranial nerve IX",
+      "Cranial nerve X",
+      "Cranial nerve XII",
+    ],
+    correctAnswer: "Cranial nerve XI",
+    explanation:
+      "The area behind the foramen magnum consists of the squamous part of the occipital bone. The foramen magnum is in the basilar part of the occipital bone (basiocciput). The dura mater is attached to the margins of the foramen as it sweeps down from the posterior cranial fossa. Within the tube of dura mater, the lower medulla with the vertebral and spinal arteries and the spinal roots of the accessory nerves traverse the foramen in the subarachnoid space. CN 1 passes through the cribriform plate of the ethmoid bone. The glossopharyngeal, vagus, and accessory nerves arise from the side of the medulla oblongata. The three nerves run laterally across the occipital bone and pass through the jugular foramen.",
+    image: "",
+  },
+  {
+    id: "281",
+    question:
+      "An otherwise healthy 11-year-old girl with recurrent upper respiratory tract infections undergoes bilateral tonsillectomy. While performing the procedure, the surgeon accidentally damages the nerve that lies in the tonsillar fossa, deep to the palatine tonsil. Which of the following is most likely to result from this injury?",
+    incorrectAnswers: [
+      "Loss of taste on the anterior two thirds of the tongue",
+      "Paralysis of the constrictor muscles of the pharynx",
+      "Paralysis of the muscles of the soft palate",
+      "Paralysis of the muscles of the tongue",
+    ],
+    correctAnswer: "Loss of sensation on the posterior one third of the tongue",
+    explanation:
+      "The glossopharyngeal nerve emerges from the surface of the medulla and travels laterally in the pontine cistern to enter the anterior compartment of the jugular foramen. It gives off the tympanic nerve, which supplies the middle ear, a carotid branch to innervate the carotid body, the nerve to the stylopharyngeus, pharyngeal branches, a lingual branch and a tonsillar branch. The tonsillar branch provides afferent fibers for the tonsillar mucosa and the lingual branch conveys common sensation and taste from the posterior part of the tongue, as well as secretomotor fibers for lingual glands. Taste of the anterior two thirds of the tongue is innervated by the chorda tympani nerve and a branch of the facial nerve (CN VII). The vagus nerve (CN X) innervates the soft palate and the constrictor muscles of the pharynx.",
+    image: "",
+  },
+  {
+    id: "282",
+    question:
+      "A 70-year-old patient with sudden-onset hoarseness is found to have a small carcinoma of the mucosa overlying the right vocalis muscle. Which of the following is most likely located immediately lateral to this muscle?",
+    incorrectAnswers: [
+      "Lateral cricoarytenoid muscle",
+      "Aryepiglottic muscle",
+      "Posterior cricoarytenoid muscle",
+      "Oblique arytenoids muscle",
+    ],
+    correctAnswer: "Thyroarytenoid muscle",
+    explanation:
+      "The vocalis muscles lie medial to the thyroarytenoid muscles and lateral to the vocal ligaments within the vocal folds. The vocalis muscles produce minute adjustments of the vocal ligaments, selectively tensing and relaxing the anterior and posterior parts, respectively, of the vocal folds during animated speech and singing.",
+    image: "",
+  },
+  {
+    id: "283",
+    question:
+      "A 34-year-old woman bursts through the doors of the emergency department. She is straining to take a breath but can only mouth, “I can’t breathe” before collapsing. She is placed on a stretcher. Her tongue is swollen and protruding from her mouth. The patient has only minimal air movement with bag-mask ventilation. Oxygen saturation is approximately 80%. Attempts at oral intubation are unsuccessful due to massive soft tissue edema of her pharynx. A decision is made to perform a cricothyrotomy. After palpation of the neck to identify the appropriate landmarks, an incision should most likely be made at which of the following locations?",
+    incorrectAnswers: [
+      "The cricothyroid membrane, which is located at the junction of the clavicle and the sternum",
+      "The thyrohyoid membrane, which is located between the thyroid cartilage (Adam’s apple) and the hyoid bone above",
+      "The sternal notch, which is located at the junction of the clavicle and the sternum",
+      "The trachea, which is located below the cricoid cartilage",
+    ],
+    correctAnswer:
+      "The cricothyroid membrane, which is located between the thyroid cartilage and the cricoid cartilage below",
+    explanation:
+      "B. Cricothyrotomy is an emergency airway procedure performed to ensure immediate airway ventilation in cases of laryngeal obstruction. It is performed by making an incision at the cricothyroid membrane, which is located between the thyroid cartilage and the cricoid cartilage. All the other options are incorrect because the cricothyroid membrane is located between the thyroid cartilage and the cricoid cartilage and this is where the incision is made.",
+    image: "",
+  },
+  {
+    id: "284",
+    question:
+      "A patient is rushed to the emergency department and requires insertion of an endotracheal tube. Because the physician needs to insert the tube immediately, the patient is not given anesthesia. As the physician inserts the tube, he strikes the epiglottis, which causes the patient to grimace. Which of the following cranial nerves most likely allows the patient to sense pain from the larynx?",
+    incorrectAnswers: [
+      "Glossopharyngeal",
+      "Vestibulocochlear",
+      "Hypoglossal",
+      "Facial",
+    ],
+    correctAnswer: "Vagus",
+    explanation:
+      "The larynx receives sensory innervation from the vagus nerve via the internal laryngeal nerve. The glossopharyngeal nerve does not innervate the epiglottis. The vestibulocochlear nerve mediates hearing and balance. The hypoglossal nerve supplies motor fibers to the tongue muscles. The facial nerve, while performing many functions including motor supply to muscles of facial expression and taste in the anterior two thirds of the tongue, does not supply sensory nerves to the epiglottis.",
+    image: "",
+  },
+  {
+    id: "285",
+    question:
+      "A 55-year-old man complains of progressive hearing loss and a continuous strange noise in his right ear that he noticed several months ago. On physical examination he has right-sided hearing loss, asymmetric smile, and decreased corneal reflex in his right eye. A CT scan reveals a large intracranial tumor. Which of the following will most likely be the location of the tumor?",
+    incorrectAnswers: [
+      "Between the medulla and the cerebellar hemisphere",
+      "Above the diaphragma sellae",
+      "Between the cerebellum and the lateral pons",
+      "Between the cerebellar peduncles",
+    ],
+    correctAnswer: "Between the cerebellum and the lateral pons",
+    explanation:
+      "An acoustic neuroma is an intracranial tumor that arises from the Schwann cell sheath investing the vestibulocochlear nerve. As this tumor grows, it eventually occupies a large portion of the cerebellopontine angle. Since cranial nerves VII and V are in close proximity to this location, these nerves are also usually affected, with subsequent manifestation of symptoms of impaired hearing, vertigo, loss of balance and nystagmus, paralysis of muscles of facial expression, hyperacusis, loss of taste sensation on the anterior two thirds of the tongue, loss of corneal reflex and sensation around the mouth and nose, and paralysis of muscles of mastication.",
+    image: "",
+  },
+  {
+    id: "286",
+    question:
+      "A 28-year-old woman visits the ENT physician because of a painful infection of her outer ear. During physical examination the ENT physician inserts a speculum into the external auditory meatus in close contact with its posterior wall. The patient starts coughing and complains of feeling dizzy. Irritation of which of the following nerves was most likely stimulated by the speculum?",
+    incorrectAnswers: [
+      "Vestibulocochlear",
+      "Trigeminal",
+      "Facial",
+      "Accessory",
+    ],
+    correctAnswer: "Vagus",
+    explanation:
+      "The patient described in the question has experienced vasovagal syncope after stimulation of his posterior external auditory canal by an otoscope speculum. In this form of syncope, parasympathetic outflow via the vagus nerve (CN X) leads to decreased heart rate and blood pressure. The posterior part of the external auditory canal is innervated by the small auricular branch of the vagus nerve. Most of the remainder of the external auditory canal, including the external portion of the tympanic membrane, is innervated by the mandibular division of the trigeminal nerve via its auriculotemporal branch. The inner surface of the tympanic membrane is innervated by the glossopharyngeal nerve (CN IX) via its tympanic branch.",
+    image: "",
+  },
+  {
+    id: "287",
+    question:
+      "A 60-year-old man is undergoing a thyroidectomy procedure. The superior thyroid artery is ligated and special attention needs to be paid to the adjacent nerve. Which of the following muscles is innervated by this nerve?",
+    incorrectAnswers: [
+      "Thyroarytenoid",
+      "Lateral cricoarytenoid",
+      "Posterior cricoarytenoid",
+      "Aryepiglotticus",
+    ],
+    correctAnswer: "Cricothyroid",
+    explanation:
+      "The superior thyroid artery, a branch of the external carotid artery, and the inferior thyroid artery, a branch of the thyrocervical trunk, provide the blood supply to the thyroid and parathyroid glands. The superior thyroid artery, superior thyroid vein, and external branch of the superior laryngeal nerve course together in a neurovascular triad that originates superior to the thyroid gland and lateral to the thyroid cartilage. Because the external branch of the superior laryngeal nerve courses close to the superior thyroid artery, it is at risk of injury during thyroidectomy.",
+    image: "",
+  },
+  {
+    id: "288",
+    question:
+      "A 55-year-old woman presented to the emergency department with complaints of severe headaches for 2 weeks. There was no history of fever, neck stiffness, or photophobia. On examination, she was in pain and distress. Vital signs revealed blood pressure (BP) 160/89 mm Hg, pulse 110 bpm, respiration rate 16/ min, temperature 36° C. Range of movement of the neck was normal, and funduscopy showed no abnormalities on the retina. A CT scan of the brain with contrast was performed and revealed a dilated branch of the basilar artery at the junction of the pons and medulla on the right side. She was referred to the neurosurgeon for assessment and further management. Which of the following statements describes clinical features with which this patient might present?",
+    incorrectAnswers: [
+      "Weak abduction and depression of the right eye",
+      "Weak adduction of the left eye",
+      "Weak adduction and elevation of the right eye",
+      "Weak abduction of the left eye",
+    ],
+    correctAnswer: "Weak abduction of the right eye",
+    explanation:
+      "The basilar artery is formed by the two vertebral arteries at the inferior part of the brainstem. At the medullopontine junction, the basilar artery gives two branches: the anterior inferior cerebellar artery first and then the labyrinthine artery. The abducens nerve (cranial nerve VI) emerges at the medullopontine junction and is usually found between the anterior inferior cerebellar and the labyrinthine arteries. The abducens nerve supplies the lateral rectus muscle, which abducts the eyes. This function of the nerve can be impaired if the nerve is compressed by a nearby aneurysm. If this condition occurs on the right side, it can result in weak abduction of the right eye.",
+    image: "",
+  },
+  {
+    id: "289",
+    question:
+      "A 65-year-old woman presented to the emergency department with complaints of severe headaches for 2 weeks. There was no history of fever, neck stiffness, or photophobia. On examination, she was in painful distress. Vital signs revealed BP 160/89 mm Hg, pulse 110 bpm, respiration rate 16/min, temperature 36° C. Range of movement of the neck was normal and funduscopy showed no abnormalities of the retina. A CT scan of the brain with contrast revealed a dilated branch of the basilar artery at the junction of the pons and midbrain on the right side. She was referred to the neurosurgeon for assessment and further management. Which of the following statements describes clinical features with which this patient might present?",
+    incorrectAnswers: [
+      "Weak abduction of the right eye",
+      "Loss of vision from lateral fields right eye and medial fields of left eye",
+      "Inability to detect odors through the right nostril",
+      "Loss of sensation of the skin over the right forehead, cheek, and mandible",
+    ],
+    correctAnswer:
+      "Blurred vision from the right eye and full ptosis of the right upper eyelid",
+    explanation:
+      "The cranial nerve emerging anterolaterally at the junction of the pons and midbrain is the oculomotor (CN III). It passes between the superior cerebellar and posterior cerebral arteries (above). Both arteries are branches of the basilar artery. An aneurysm of the PCA could result in compression of the nerve and lead to oculomotor nerve palsy. This will result in the individual being unable to move the eye normally. The affected eye will be in a down and out position. The outward location of the eye is due to the lateral rectus (innervated by the sixth cranial nerve), which maintains muscle tone in comparison to the paralyzed medial rectus. The downward location is because the superior oblique muscle (innervated by the fourth cranial or trochlear nerve) is not antagonized by the paralyzed superior rectus, inferior rectus, and inferior oblique muscles.",
+    image: "",
+  },
+  {
+    id: "290",
+    question:
+      "A 60-year-old man presented to his family practitioner with complaints of numbness to the right side of the lower jaw and the inside of the cheek. Examination revealed loss of sensation over the scalp in the posterior temporal region and skin over the anterior auricle. There was weak lateral deviation of the mandible to the right. He was referred for a CT scan of the brain, which showed a mass in the medial temporal fossa. What other functions are most likely affected in this patient?",
+    incorrectAnswers: [
+      "Weak elevation of the corner of the right side of the mouth",
+      "Loss of sensation over the upper lip and to the upper teeth",
+      "Inability to sense a foreign body in the right eye",
+      "Inability to abduct the right eye",
+    ],
+    correctAnswer: "Decreased secretion from the parotid gland",
+    explanation:
+      "The infratemporal fossa is a wedge-shaped region. It is positioned inferior to the temporal fossa and between the ramus of the mandibular laterally and the wall of the pharynx medially. The contents of the fossa include the temporalis, masseter, and lateral and medial pterygoid muscles. The pterygoid venous plexus and branches of the maxillary artery are also found in this fossa. Nerves passing through the fossa include the mandibular, inferior alveolar, lingual, buccal, and chorda tympani nerves. Tumors involving the infratemporal fossa present with a variety of symptoms depending on the structures involved.",
+    image: "",
+  },
+  {
+    id: "291",
+    question:
+      "A 40-year-old woman presented to the emergency department with complaints of swelling and pain over the left side of her face. On examination, there was tender, warm swelling over the left mandible anterior to the ear. Ultrasound revealed a hyperechoic mass within the lumen of the parotid duct, which was distended proximally. What other clinical features are most likely present in this patient?",
+    incorrectAnswers: [
+      "Weak deviation of the mandible to the right",
+      "Complete ptosis of the left eyelid",
+      "Numbness of the skin over the left lower mandible",
+      "Excessive tearing",
+    ],
+    correctAnswer: "Pain over the anterior auricle, tragus, and anterior helix",
+    explanation:
+      "Due to the mass in the lumen of the parotid duct and distended parotid gland, nerves passing through the gland can be affected. The trunk of the facial nerve divides into temporofacial and cervicofacial divisions, which then further divide into temporal (supplies temple, forehead, and supraorbital muscles), zygomatic (infraorbital, lateral nasal, and upper lip muscles), buccal (upper lip and muscles at the corner of mouth), marginal mandibular (lower lip and chin muscles), and cervical branches (platysma muscle). Compression of any or all of the branches affects corresponding muscles and their functions. Pain sensation over the anterior auricle, tragus, and anterior helix is due to compression of the auriculotemporal nerve, which passes through the parotid gland and ascends just anterior to the ear, supplying the external acoustic meatus, surface of the tympanic membrane, and large area of the temple.",
+    image: "",
+  },
+  {
+    id: "292",
+    question:
+      "A 40-year-old man was brought to the emergency department after falling through a glass window to the ground 5 feet below. He complained of pain from multiple lacerations across his body, particularly from a laceration to the left cheek. On examination, he was comfortable with stable vital signs. There were multiple superficial lacerations on his upper and lower limbs but no deformities of bones or joints were evident. There was a 5-cm longitudinal laceration over the left jaw. Gentle exploration of the wound revealed that it was deep and a foreign body was present. A CT scan of the head confirmed that a 3 × 2 cm foreign body, possibly glass, was lodged between the two heads of the lateral pterygoid muscle. Which of the following clinical findings are most likely to be found in this patient?",
+    incorrectAnswers: [
+      "Weak elevation of the jaw",
+      "Weak deviation of the jaw to the right side",
+      "Numbness over the skin of the tragus and helix of the left ear",
+      "Decreased volume of saliva",
+    ],
+    correctAnswer: "Numbness over the skin and mucosa of the anterior cheek",
+    explanation:
+      "D. The nerves involved are the lingual and buccal nerves, which are branches of the mandibular branch of the trigeminal nerve. These branches provide sensation to mucosa of the anterior two thirds of the tongue (general sensation), adjacent gums, cheek mucosa, and overlying skin.",
+    image: "",
+  },
+  {
+    id: "293",
+    question:
+      "A 30-year-old man was brought to the emergency department after being involved in a head-on collision with another car. He did not wear a seat belt and was found unconscious in the driver’s seat, from which he had to be extricated. Examination revealed that he was poorly responsive with a low blood pressure, tachycardia, and several lacerations about his face and body. There was an obvious deformity of the face but “stepoff” defects were palpated over the root of the nose and the glabella. There was also clear fluid draining from the nasal cavity. Once the patient was stabilized, a CT of the skull was performed and revealed a fracture in the middle region of the anterior cranial fossa. Which of the following complaints will the patient most likely complain of once he regains consciousness?",
+    incorrectAnswers: [
+      "Blurred vision",
+      "Diplopia",
+      "Blindness",
+      "Dry left eye",
+    ],
+    correctAnswer: "Anosmia",
+    explanation:
+      "If the orbital rim is involved in the fracture, the patient may demonstrate a palpable bony “stepoff” and complain of pain with palpation of the rim. Presentations of anterior cranial fossa fractures often include CSF rhinorrhea and bruising around the eyes.",
+    image: "",
+  },
+  {
+    id: "294",
+    question:
+      "A 30-year-old man was brought to the emergency department after being involved in a head-on collision with another car. He did not wear a seat belt and was found unconscious in the driver’s seat, from which he had to be extricated. Examination revealed a poorly responsive patient with low BP, tachycardia, and several lacerations about his face and body. Once the patient was stabilized, a CT of the skull was done, revealing a fracture near the apex of the orbit with narrowing of the opening to the orbit in the area. Which of the following functions will most likely be maintained or spared in this patient?",
+    incorrectAnswers: [
+      "Ability to detect a foreign body on the cornea",
+      "Sensation over the anterior scalp",
+      "Sensation to the upper eyelid",
+      "Ability to abduct the eye",
+    ],
+    correctAnswer: "Secretions from the right lacrimal gland",
+    explanation:
+      "The nerves that control lacrimal secretion pass through the superior orbital fissure, which is found in the orbit between the lesser and greater wings of the sphenoid. The superior orbital fissure is divided into three parts that are oriented from lateral to medial. The lateral part transmits the lacrimal nerve, which is well away from the fracture site at the apex of the orbit. Fracture at the base of the orbit will more than likely affect structures in the medial and middle parts of the fissure. Through the medial part courses sympathetics from the internal carotid plexus and the superior ophthalmic vein. The abducens nerve, the nasociliary nerve, and divisions of the oculomotor nerve all pass through the middle part of the fissure, which results in options B, C, D, and E being likely consequences of the injury as they are closer to the apex of the orbit.",
+    image: "",
+  },
+  {
+    id: "295",
+    question:
+      "A 30-year-old man was brought to the emergency department after being involved in a head-on collision with another car. He did not wear a seat belt and was found unconscious in the driver’s seat, from which he had to be extricated. Examination revealed a poorly responsive patient with a low BP, tachycardia, and several lacerations about his face and body. Examination revealed a bony deformity of the right mandible where abnormal mobility of the bone was palpated approximately along the ramus. Once the patient was stabilized, a CT of the skull was performed, revealing a displaced, transverse fracture of the ramus, just proximal to the angle of the mandible. Which of the following will most likely be affected?",
+    incorrectAnswers: [
+      "Elevation of the jaw",
+      "Lateral deviation of the jaw to the left side",
+      "Sensation from skin over anterior cheek and tongue",
+      "Salivation; sensation from posterior temporal skin and tragus of the ear",
+    ],
+    correctAnswer: "Salivation; sensation and taste from the anterior tongue",
+    explanation:
+      "The signals that regulate these functions are carried by the chordae tympani nerve, which then joins the lingual nerve. As the lingual nerve makes its way to the tongue it passes between the medial pterygoid muscle and the ramus of the mandible, where it was likely affected by the fracture. The elevation of the jaw or mandible is a function performed by the masseter, temporalis, and medial pterygoid muscles. The lateral deviation is performed by the medial and lateral pterygoid muscles.",
+    image: "",
+  },
+  {
+    id: "296",
+    question:
+      "A 20-year-old man was brought to the emergency department after the motorcycle he was driving was struck by a car. He was unable to recall all events of the incident and complained of pain to right side of the head and face, lower back, right elbow, and right knee. On examination, he was alert and oriented. There were multiple abrasions to his upper and lower limbs but no neurologic deficits were evident. There was a tender 6 × 6 cm swelling over the right temporal bone and a laceration to the superior aspect of the helix of the right ear. A CT scan of the head and brain was done, revealing a minimally displaced fracture of the floor of the middle cranial fossa involving the pterygoid canal. Which of the following describes all fiber types that are most likely affected in this injury?",
+    incorrectAnswers: [
+      "Presynaptic parasympathetic",
+      "Postsynaptic sympathetic; postsynaptic parasympathetic",
+      "Special sensory; postsynaptic parasympathetic",
+      "General sensory; postsynaptic parasympathetic",
+    ],
+    correctAnswer: "Postsynaptic sympathetic; presynaptic parasympathetic",
+    explanation:
+      "Coursing through the pterygoid canal are the artery, vein, and nerve of the pterygoid canal (Vidian canal). The Vidian nerve (nerve of the pterygoid canal) contains presynaptic parasympathetic fibers from the facial nerve via the greater petrosal nerve, which eventually go on to synapse in the pterygopalatine ganglion and postsynaptic sympathetic fibers from the deep petrosal nerve, which do not synapse in pterygopalatine ganglion (GAS Fig. 8-153B).",
+    image: "",
+  },
+  {
+    id: "297",
+    question:
+      "A 20-year-old man presented to the emergency department with complaints of fever, swelling over the right side of the temple of his head, and headache for 5 days. He had a history of trauma 1 week before presentation, when he was struck from his motorcycle by a car and suffered a minimally displaced open fracture of right temporal bone. The wound was irrigated and debrided and after 24 hours of neurologic observation in hospital, he was discharged. On examination, he was in painful distress. There was a tender swelling over the right temporal bone where sutured skin appeared flushed (erythematous). Neurologic examination produced findings consistent with neuritis (irritation) of the nerve passing through the distal part of the facial canal. Which of the following functions is likely to be spared by this lesion?",
+    incorrectAnswers: [
+      "Taste from the anterior two thirds of the tongue",
+      "Movements of the right side of the face",
+      "Secretions from the submandibular gland",
+      "Secretions from the sublingual gland",
+    ],
+    correctAnswer: "Secretions from the lacrimal gland",
+    explanation:
+      "The nerves that control lacrimal secretion pass through the superior orbital fissure, which is found in the orbit between the lesser and greater wings of the sphenoid bone. Taste from the anterior two thirds of the tongue and secretions from the submandibular and sublingual glands were likely affected because their nerve signals are carried by the chorda tympani nerve, which joins the facial nerve in the facial canal located in the petrous part of the temporal bone. Movements of the right side of the face are also likely compromised or deficient because these muscles are innervated by branches of the facial nerve, which was likely impinged in the facial canal as a result of the fracture to the temporal bone.",
+    image: "",
+  },
+  {
+    id: "298",
+    question:
+      "A 20-year-old woman presented to the emergency department after being thrown from her horse during an equestrian competition. She denied loss of consciousness but complained of pain on the left side of her face, hand, and elbow, as well as double vision. On examination, there was a tender swelling over the superolateral aspect of the left eye, and a defect in the bone was palpable. There was significant periorbital edema and bruising of the inferior skin of the eye. Pupillary light reflexes were normal, and funduscopy showed no abnormalities of the retina. A CT scan of the head and face revealed a comminuted, depressed fracture of the frontal process of the left zygomatic bone involving the orbit. Which of the following describes the most likely consequence of her injury?",
+    incorrectAnswers: [
+      "Weak abduction of the eye",
+      "Diplopia",
+      "Blurred vision",
+      "Partial ptosis",
+    ],
+    correctAnswer: "Decreased secretions from the left lacrimal gland",
+    explanation:
+      "The fracture to the zygomatic bone, due to proximity, likely distorted the orbit resulting in damage to the structures running within the superior orbital fissure, where the nerves that transmit sensations from the lacrimal gland pass. It is divided into three parts, arranged from lateral to medial: the lateral part transmits the lacrimal frontal and trochlear nerves and the meningeal branch of the lacrimal artery. The lacrimal nerve, being the structure closest to the fracture, will likely be the first to be injured.",
+    image: "",
+  },
+  {
+    id: "299",
+    question:
+      "A 30-year-old man was brought to the emergency department with complaints of severe pain to the right eye and double vision. While playing a game of cricket, he was struck in the face just below the eye. On examination, there was periorbital edema and bruising of the skin around the eye and tenderness over the inferior orbital margin. A defect of the bone along this margin was palpated. A CT scan of the brain and face revealed a displaced fracture of the inferior margin and floor of the orbit along the suture line between the zygomatic and maxillary bones. Which of the following best explains this patient’s symptoms?",
+    incorrectAnswers: [
+      "Partial ptosis of the upper eyelid",
+      "Complete ptosis of the upper eyelid",
+      "Inability to depress the abducted eyeball",
+      "Inability to produce tears",
+    ],
+    correctAnswer: "Inability to elevate the abducted eyeball",
+    explanation:
+      "The patient suffers from either a damaged nerve or a trapped muscle; the inferior oblique muscle is defective. Complete or partial ptosis results from an inability to lift the upper eyelid and will not result from damage to the lower orbit. Inability to depress the abducted eyeball will result from damage to the superior oblique muscle. The nerve to the superior oblique and the muscle itself run superomedially and will therefore not be damaged in this patient. An inability to produce tears will result from parasympathetic damage and will only result from damage to the lacrimal nerve or the fibers traveling from the pterygopalatine ganglion (GAS Fig. 8-153A).",
+    image: "",
+  },
+  {
+    id: "300",
+    question:
+      "A 40-year-old woman presented to her family practitioner with complaints of vertigo and nausea and reduced hearing through her left ear for 3 months. She also complained of a dry mouth and dryness of the left eye. CT scan of the head showed thickening of the bones of the skull. Which of the following areas was most likely affected to produce this patient’s symptoms?",
+    incorrectAnswers: [
+      "Infratemporal fossa",
+      "Facial canal",
+      "Middle ear",
+      "Inner ear",
+    ],
+    correctAnswer: "Petrous temporal bone",
+    explanation:
+      "The petrous part of the temporal bone houses the middle and inner ear and has the facial canal with the facial nerve passing through it. Damage to the infratemporal fossa will not cause hearing loss or vertigo but will produce additional symptoms. The middle ear could account for the hearing loss, and the inner ear for hearing loss and vertigo, but not the facial palsy or lack of lacrimation.",
+    image: "",
+  },
+  {
+    id: "301",
+    question:
+      "A 15-year-old boy was brought to the emergency department with complaints of right ear pain. While attempting to clean his itchy ear with a swab, his little brother bumped into his elbow, causing the stick to penetrate deeply into the ear. On examination with the otoscope, the tympanic membrane was pearly white and there was no cone of light visible. There was clotted blood in the external auditory meatus. Rinne’s test was positive (bone conduction was better than air conduction). Which of the following best describes the nerves responsible for the perception of pain from the injured area?",
+    incorrectAnswers: [
+      "Auriculotemporal and great auricular nerves",
+      "Lesser occipital and great auricular nerve",
+      "Chorda tympani and glossopharyngeal nerve",
+      "Tympanic plexus and lesser petrosal nerve",
+    ],
+    correctAnswer: "Facial, glossopharyngeal, and vagus nerves",
+    explanation:
+      "The area of damage is in the external acoustic meatus, which is supplied by the facial, glossopharyngeal, and vagus nerves. The auriculotemporal and great auricular nerves supply the TMJ and external ear, respectively. The lesser occipital nerves supply the skin on the posterior aspect of the skull. The chorda tympani is responsible for taste to the anterior two thirds of the tongue and sensation to the middle ear. The lesser petrosal nerve and tympanic plexus carry autonomic innervation to and through the middle ear and are not associated with the external ear canal.",
+    image: "",
+  },
+  {
+    id: "302",
+    question:
+      "A 20-year-old woman delivered an infant girl at term after an uneventful pregnancy. Upon examination of the infant, the intern noticed that the iris of the left eye had a defect inferolaterally, so the pupil appeared to have an extended opening. The mother of the infant was reassured that this would not likely cause any significant visual impairment, as the defect was very small. Which of the following explains the defect noticed in the infant’s eye?",
+    incorrectAnswers: [
+      "Failed induction of surface ectoderm by the neuroectoderm",
+      "Failed obliteration of the intraretinal space",
+      "Optic cup does not overlap the developing lens",
+      "Lens vesicle remains connected to surface ectoderm",
+    ],
+    correctAnswer: "Failed closure of the choroid fissure",
+    explanation:
+      "The infant’s condition is known as coloboma and results from failure of the choroid fissure to fuse. Failure of the neuroectoderm to induce the surface ectoderm to differentiate results in failure of the eye to form. Failed obliteration of the intraretinal space results in retinal separation between the pigmented and neural layers. If the optic cup does not overlap the developing lens, the iris will fail to form entirely. If the lens vesicle does not separate from the surface ectoderm, the eye cavities will not form.",
+    image: "",
+  },
+  {
+    id: "303",
+    question:
+      "A 30-year-old woman presented to her physician with complaints of nasal congestion and headache for 2 days. Her symptoms were associated with clear fluid from her nostrils (rhinorrhea). Examination revealed that she was febrile (38° C) and the nasal mucosa was erythematous with swelling of the conchae. There was tenderness over the forehead above the root of the nose and the areas on either side of the glabella. She was diagnosed with an upper respiratory tract infection. Which of the following structures is the most likely passage for the spread of infection in this patient?",
+    incorrectAnswers: [
+      "Pharyngotympanic tube",
+      "Nasolacrimal duct",
+      "Spheno-ethmoidal recess",
+      "Superior nasal meatus",
+    ],
+    correctAnswer: "Ethmoidal infundibulum",
+    explanation:
+      "The ethmoid sinuses are groups of air cells located in the ethmoid bone. There are three groups of air cells: posterior (drain into the superior meatus), middle (drain into the middle meatus at the ethmoid bullae), and anterior (drain into the middle meatus by way of the ethmoid infundibulum at the semilunar hiatus). This can spread infections from the paranasal sinuses into the nasal cavity, leading to upper respiratory tract infections. The pharyngotympanic tube runs from the middle ear to the nasal cavity. The nasolacrimal duct indirectly drains the lacrimal gland, which is located on the lateral side of the orbit. The sphenoid sinus drains into the sphenoethmoidal recess.",
+    image: "",
+  },
+  {
+    id: "304",
+    question:
+      "A 20-year-old woman delivered an infant girl at term after an uneventful pregnancy. She admitted to the use of alcohol and tobacco throughout the pregnancy. Upon examination of the infant, the intern discovered that there was a deformity of the face in which a groove connected the medial canthus of the right eye to the right corner of the upper lip. There was a clear, watery discharge from the groove. A defect in which of the following developmental processes most likely resulted in the deformity seen in this infant?",
+    incorrectAnswers: [
+      "Fusion of maxillary processes to each other",
+      "Fusion of medial nasal prominences to each other",
+      "Migration of ectoderm between maxillary and lateral nasal prominences",
+      "Fusion of the intermaxillary segment with the maxillary processes",
+    ],
+    correctAnswer: "Fusion of the maxillary and lateral nasal processes",
+    explanation:
+      "Oblique facial clefts are rare and often bilateral facial anomalies that extend from the upper lip to the medial margin of the orbit. In this condition, the nasolacrimal ducts are open grooves draining the tears from the lacrimal gland that lubricate the conjunctiva. This results from failure of the fusion of the mesenchyme of the maxillary process with the lateral nasal process. Failure of fusion of the medial nasal prominences results in a median cleft lip and palate, while failure of fusion of the intermaxillary segment with the maxillary processes results in a unilateral cleft lip.",
+    image: "",
+  },
+  {
+    id: "305",
+    question:
+      "A 20-year-old woman delivered an infant boy at term after an uneventful pregnancy. On examination of the infant, the intern noted that the corners of the eyes were downward slanting and the pinnae and the mandible were underdeveloped. The mother of the infant stated that he had difficulty with breastfeeding and feeding by bottle because he was unable to create the suction needed to feed, and the milk often refluxed through his nose. She also stated that the father of the child had similar facial abnormalities. Which of the following is the most likely cause of the deformities seen in this infant?",
+    incorrectAnswers: [
+      "Failed fusion of lateral nasal prominences and maxillary processes",
+      "Lack of fusion of medial nasal prominences",
+      "Failed migration of neural crest cells to the first pharyngeal arch",
+      "Failed migration of neural crest cells to the third and fourth pharyngeal pouches",
+    ],
+    correctAnswer:
+      "Failed migration of ectoderm between maxillary and lateral nasal prominences",
+    explanation:
+      "Treacher Collins syndrome (craniofacial dyostosis) is an autosomal disorder characterized by malar hypoplasia, underdeveloped mandible, downward slanting palpebral fissures, defects of the lower eyelids and external ears, and abnormalities of the middle and internal ears. This is a first arch syndrome due to failure of neural crest cells to migrate into the first arch during the fourth week of development.",
+    image: "",
+  },
+  {
+    id: "306",
+    question:
+      "A 40-year-old woman presented to the neighborhood clinic with complaints of a constant, worsening headache for 4 months that was unresponsive to pain medication. The pain was worse on the right side. She denied having fever, neck stiffness, or aversion to light. On examination, there was no motor weakness of the upper or lower limbs. A CT scan of the brain with contrast revealed a berry aneurysm of the right superior cerebellar artery. Which of the following will most likely be identified during physical examination of this patient?",
+    incorrectAnswers: [
+      "Lack of accommodation, adduction of the right eye",
+      "Partial ptosis, adduction and downward rotation of the right eye",
+      "Complete ptosis, abduction and upward rotation of the right eye",
+      "Complete ptosis, abduction and downward rotation of the right eye",
+    ],
+    correctAnswer:
+      "Blurred vision, complete ptosis, abduction of the right eye",
+    explanation:
+      "The superior cerebellar artery originates immediately before the termination of the basilar artery. It passes lateral below the oculomotor nerve to give blood supply to the anterior and medial parts of the cerebellum. An aneurysm of the superior cerebellar artery would result in oculomotor nerve palsy. This will affect the parasympathetics to the ciliary body and pupillary constrictor resulting in blurry vision, the levator palpebrae superioris resulting in ptosis, and the extrinsic muscles of the eye with the exception of the lateral rectus and superior oblique, resulting in lateral deviation (abduction) of the eye.",
+    image: "",
+  },
+  {
+    id: "307",
+    question:
+      "A 20-year-old woman delivered an infant boy at term by cesarean section (C-section). During the third trimester an abdominal ultrasound revealed enlarged ventricles of the fetal brain. On examination, the circumference of the infant’s head was 40 cm (normal range, 34 to 36 cm). He showed decreased movement of the limbs and seemed drowsy. A CT scan of the brain with contrast medium showed dilatation of all the ventricles. Which of the following is likely to be the cause of the infant’s condition?",
+    incorrectAnswers: [
+      "Narrowing of the median aperture",
+      "Narrowing of the lateral aperture",
+      "Lack of choroid plexus in the lateral ventricles",
+      "Increased blood flow in the cerebral arteries",
+    ],
+    correctAnswer: "Abnormality of arachnoid granulations",
+    explanation:
+      "Hydrocephalus is an abnormal accumulation of cerebrospinal fluid in the ventricles of the brain. This can be due to abnormal flow (often blockage in the cerebral aqueduct of Sylvius), impaired reabsorption, or rarely, excessive production of CSF. Communicating hydrocephalus is caused by impaired reabsorption of CSF due to abnormal functioning of the arachnoid granulations, which are responsible for drainage of the CSF into the venous system. In this condition, all the ventricles of the brain become dilated. Incidentally, although the fact that this baby was delivered by cesarean section is in no way responsible for the hydrocephalus, the term “cesarean section” is interesting. Some people think the term is applied because Julius Caesar was delivered through an incision after his mother died during labor. However, that story is probably apocryphal. A more likely explanation is that when Julius Caesar was emperor of the Roman Empire he issued a series of rules called the Cesarean codes. One of these rules required somebody attending to a woman in labor (probably equivalent to a midwife) to attempt delivery of a viable infant immediately if the mother died during childbirth.",
+    image: "",
+  },
+  {
+    id: "308",
+    question:
+      "A 64-year-old man has a parotidectomy because of a malignant tumor in his parotid gland. About a year after the surgery he notices that when he sees appetizing food he sweats on the side of his face where the tumor was removed. Where are the nerve cell bodies for the nerve fibers that are now innervating his sweat glands?",
+    incorrectAnswers: [
+      "Ciliary ganglion",
+      "Pterygopalatine ganglion",
+      "Submandibular ganglion",
+      "Superior salivatory nucleus",
+    ],
+    correctAnswer: "Otic ganglion",
+    explanation:
+      "This patient has gustatory sweating, also called Frey’s syndrome. When his parotid gland was removed the postganglionic nerves that innervated the glandular epithelium of his parotid gland were cut, but the nerve cell bodies of those nerves, which are located in the otic ganglion, were undamaged and able to regenerate fibers. These fibers travel with the auriculotemporal nerve, and they “sought out” glandular epithelium. The closest glands are sweat glands in the skin of the face. Under circumstances that normally induce salivation (seeing appetizing food in this case), sweating occurs instead.",
+    image: "",
+  },
 ];
 
 export default data;
