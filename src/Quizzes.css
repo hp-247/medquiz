@@ -1,13 +1,12 @@
 .quiz {
   display: flex;
-  height: 100vh;
 }
 
 .category {
   width: 25%;
   padding-left: 30px;
   padding-top: 30px;
-  border-right-style: solid;
+  border-right: solid 2px blue;
 }
 
 .quiz__select {
