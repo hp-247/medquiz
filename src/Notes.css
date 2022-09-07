@@ -1,6 +1,6 @@
 .notes {
   display: flex;
-  height: 100vh;
+  
 }
 
 .left {
@@ -16,19 +16,12 @@
 
 
 .diagram-img {
-  width: 55%;
-  height: 65%;
+  width: 100%;
   display: flex;
   position: relative;
-  padding-left: 25%;
+  object-fit: contain;
 }
 
-.diagram-img-face {
-  width: 50%;
-  display: flex;
-  position: relative;
-  padding-left: 25%;
-}
 
 #one {
   position: absolute;
@@ -89,7 +82,7 @@
   text-align: center;
 }
 
-#head-img {
+.head-img {
   width: 100%;
 }
 
@@ -370,11 +363,32 @@
   text-align: center;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .notes-text {
-    margin-top: 50%;
-    display: flex;
-    justify-content: center;
-    font-size: 30px
-  }
+.diagram-img-stern {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 250px;
+}
+
+.stern-img {
+  display: flex;
+  justify-content: center;
+}
+
+.stern-img img {
+  max-width: 90%;
+  display: flex;
+  position: relative;
+}
+
+.container-scroll {
+  box-sizing: border-box;
+  width: 90%;
+  height: 450px;
+  border: 1px solid darkblue;
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: scroll;
 }
