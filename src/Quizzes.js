@@ -4,16 +4,20 @@ import Exam1 from "./Exam1/Exam1";
 import Exam2 from "./Exam2/Exam2";
 import Exam3 from "./Exam3/Exam3";
 import Exam4 from "./Exam4/Exam4";
-import Exam5 from "./Exam5/Exam5";
+
 import Exam7 from "./Exam7/Exam7";
 import Exam8 from "./Exam8/Exam8";
 import Exam9 from "./Exam9/Exam9";
 import Exam10 from "./Exam10/Exam10";
 import Exam11 from "./Exam11/Exam11";
 import Exam12 from "./Exam12/Exam12";
+import Exam13 from "./Exam13/Exam13";
+import Exam14 from "./Exam14/Exam14";
+import Exam15 from "./Exam15/Exam15";
+import Exam16 from "./Exam16/Exam16";
 
 function Quizzes() {
-  const [activeTab, setActiveTab] = useState("Head and Neck");
+  const [activeTab, setActiveTab] = useState("Protein Synthesis");
 
   const handle1 = () => {
     setActiveTab("Epithelial Tissue");
@@ -53,6 +57,18 @@ function Quizzes() {
   const handle12 = () => {
     setActiveTab("Head and Neck");
   };
+  const handle13 = () => {
+    setActiveTab("Pretest: Biochemistry & Genetics");
+  };
+  const handle14 = () => {
+    setActiveTab("Lippincott: DNA Structure, Replication, and Repair");
+  };
+  const handle15 = () => {
+    setActiveTab("RNA Synthesis");
+  };
+  const handle16 = () => {
+    setActiveTab("Protein Synthesis");
+  };
 
   const handleSelect = () => {
     let selected = document.getElementById("quizzes").value;
@@ -85,6 +101,14 @@ function Quizzes() {
         return <Exam11 />;
       case "Head and Neck":
         return <Exam12 />;
+      case "Pretest: Biochemistry & Genetics":
+        return <Exam13 />;
+      case "Lippincott: DNA Structure, Replication, and Repair":
+        return <Exam14 />;
+      case "RNA Synthesis":
+        return <Exam15 />;
+      case "Protein Synthesis":
+        return <Exam16 />;
       default:
         return null;
     }
@@ -94,9 +118,54 @@ function Quizzes() {
     <div className="quiz">
       <div className="category">
         <div className="title">Topics</div>
-        <h4 className="new_quizzes glow">New Quizzes</h4>
-        <hr />
+
         <div className="topic">
+          <h4 className="new_quizzes glow">New Quizzes</h4>
+          <hr />
+          <div
+            className={
+              activeTab === "Protein Synthesis"
+                ? "each_topic active"
+                : "each_topic"
+            }
+            onClick={handle15}
+          >
+            Lippincott: Protein Synthesis
+            <span className="coming">(20 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "RNA Synthesis" ? "each_topic active" : "each_topic"
+            }
+            onClick={handle16}
+          >
+            Lippincott: RNA Synthesis
+            <span className="coming">(20 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Lippincott: DNA Structure, Replication, and Repair"
+                ? "each_topic active"
+                : "each_topic"
+            }
+            onClick={handle14}
+          >
+            Lippincott: DNA Structure, Replication, and Repair
+            <span className="coming">(20 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Pretest: Biochemistry & Genetics"
+                ? "each_topic active"
+                : "each_topic"
+            }
+            onClick={handle13}
+          >
+            Pretest: Biochemistry & Genetics
+            <span className="coming">(32 questions)</span>
+          </div>
+          <h4 className="archived_quizzes">Archived Quizzes</h4>
+          <hr />
           <div
             className={
               activeTab === "Head and Neck" ? "each_topic active" : "each_topic"
@@ -129,8 +198,6 @@ function Quizzes() {
           >
             Lower Limb <span className="coming">(166 questions)</span>
           </div>
-          <h4 className="archived_quizzes">Archived Quizzes</h4>
-          <hr />
           <div
             className={
               activeTab === "Epithelial Tissue"
