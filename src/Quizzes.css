@@ -263,7 +263,17 @@
   /*position where enlarged image should offset horizontally */
 }
 
-
+.container_scroll {
+  box-sizing: border-box;
+  width: 92%;
+  height: 150px;
+  border: 1px solid darkblue;
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: scroll;
+}
 
 /*
 */
@@ -275,20 +285,20 @@
   margin-bottom: -1.4rem;
 }
 
-  .answer {
-    box-sizing: border-box;
-    width: 100%;
-    margin-top: -0.8rem;
-    margin-left: 0rem;
-  }
+.answer {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: -0.8rem;
+  margin-left: 0rem;
+}
 
-  .next-button {
-    margin-top: 1rem;
-  }
+.next-button {
+  margin-top: 1rem;
+}
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-
-  .quiz__select, .category {
+  .quiz__select,
+  .category {
     display: none;
   }
   .for-burger {
@@ -396,7 +406,7 @@
     margin-left: 36%;
   }
 
-  .thumbnail>img {
+  .thumbnail > img {
     margin-top: -3rem;
     float: left;
     padding-bottom: 0.5em;
@@ -412,11 +422,11 @@
     top: 2.5rem;
     /*position where enlarged image should offset horizontally */
   }
-  .thumbnail>span {
+  .thumbnail > span {
     width: 300px;
     height: 325px;
   }
-  .thumbnail>span>img {
+  .thumbnail > span > img {
     width: 295px;
     height: 320px;
   }

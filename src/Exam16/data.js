@@ -2,16 +2,16 @@ const data = [
   {
     id: "1",
     question:
-      "A researcher has discovered a temperature-sensitive cell line that displays an overall reduction in protein synthesis. Analysis of the mRNA produced at the non- permissive temperature indicated that a key structural feature, normally present on mRNA, was missing. Such a structure is most likely which one of the fol- lowing?",
+      "A researcher has discovered a temperature-sensitive cell line that displays an overall reduction in protein synthesis. Analysis of the mRNA produced at the non- permissive temperature indicated that a key structural feature, normally present on mRNA, was missing. Such a structure is most likely which one of the following?",
     incorrectAnswers: [
-      "Lack of error checking in DNA polymerase",
-      "Lack of DNA repair enzyme systems in HIV-infected cells",
-      "Incorporation of uracil in the RNA genome of HIV",
-      "Incorporation of thymine in the RNA genome of HIV",
+      "Intron–exon secondary structure",
+      "Pseudouridine",
+      "Thymine",
+      "The poly-A tail",
     ],
-    correctAnswer: "Lack of error checking in RNA polymerase",
+    correctAnswer: "The 5′ cap",
     explanation:
-      "Lack of error checking in RNA poly- merase. As part of the life cycle of the virus (see the figure below), the RNA genome of the virus is con- verted to DNA, which integrates randomly into the host chromosome. Host cell RNA polymerase II then transcribes the viral DNA, producing viral RNA, which is translated to produce viral proteins, and which is also utilized as the genome for new viral particles. RNA polymerase does not contain 3′–5′ exonuclease activ- ity (which DNA polymerase does), so RNA polymerase cannot check its work and cannot fix errors when a mismatch is made. The accumulated effect of these errors increases the mutation rate of the virus much more than organisms containing DNA genomes. Since the enzyme that creates the viral DNA is reverse tran- scriptase, which also has no error-checking capability, the risk for mutations is greatly enhanced. DNA poly- merase does check its work but is not used in the viral life cycle. The DNA repair enzymes are not altered by HIV infection. Uracil is a normal component of the viral RNA genome, whereas thymine is not, but neither of these facts results in an increase in mutation rate.",
+      "The 5' cap of mRNA is recognized by initiation factors (specifically eIF4E) to allow ribosome assembly on the mRNA. The absence of a cap would not allow a translation initiation complex to form.",
     image: "",
   },
   {
@@ -19,14 +19,14 @@ const data = [
     question:
       "Under conditions of active exercise, protein synthesis is reduced in the muscle. Under these conditions, which aspect of translation is inhibited?",
     incorrectAnswers: [
-      "Separate by size on agarose gel electrophoresis",
-      "Run the RNA through an oligo-dA affinity column",
-      "Separate by size on polyacrylamide gel electrophoresis",
-      "Perform a phenol extraction of the total RNA",
+      "Inability to elongate during translation",
+      "Inability to synthesize mRNA",
+      "Inability to terminate translation",
+      "Inability to produce rRNA",
     ],
-    correctAnswer: "Run the RNA through an oligo-dT affinity column",
+    correctAnswer: "Inability to initiate translation",
     explanation:
-      "Run the RNA through an oligo-dT affin- ity column. Mature mRNA from eukaryotes has a poly-A tail, which is added posttranscriptionally by poly-A polymerase (see the figure below for an overview of eukaryotic mRNA synthesis). The poly-A tail will hybridize to the oligo-dT on a column, thereby allow- ing the mRNA to bind to the column and other types of RNA to pass through the column. Altering the salt conditions (through a reduction of salt concentration) can then elute the mRNA specifically from the column. Phenol extraction is required for nucleic acid isolation, but it is not specific for mRNA. Electrophoresis, either agarose or polyacrylamide, will separate nucleic acids by size but does not by itself lead to mRNA isolation. An oligo-dA column will not hybridize to the poly-A tail of mRNA.",
+      "Inability to initiate translation. As muscle works, and AMP levels rise, the muscle wants to preserve its ATP for muscle contraction, and not to use it for new protein synthesis. The increase in AMP levels leads to the activation of AMP-activated protein kinase, which will phosphorylate and inactivate eIF4E (eukary- otic initiation factor 4E), which is a necessary compo- nent in recognizing the 5′ cap structure of the mRNA to allow ribosome assembly on the mRNA (see the fi gure in the answer to the previous question). The activa- tion of the AMP-activated protein kinase does not alter elongation or the termination of translation. It does not block overall transcription, either of mRNA or rRNA (although it may lead to an inhibition of ribosomal bio- genesis as well as the transcription of certain specifi c genes).",
     image: "",
   },
   {
@@ -34,258 +34,245 @@ const data = [
     question:
       "A young child exhibits the following symptoms: Coarse facial features, congenital hip dislocation, inguinal hernias, and severe developmental delay. These symptoms are fully evident at the child’s age of 1. Cellular analysis demonstrated the presence of inclusion bodies within the cytoplasm of liver cells. The inclusion bodies are the result of which of the following?",
     incorrectAnswers: [
-      "Codon degeneracy within the genetic code",
-      "Tissue-specific posttranslational modifications",
-      "Polyadenylation is lacking in certain tissues",
-      "Differences in location of 5′-cap formation in the tissues",
+      "Enhanced lysosomal enzyme activity",
+      "Enhanced peroxisomal enzyme activity",
+      "Reduced peroxisomal enzyme activity",
+      "Enhanced protein secretion",
     ],
-    correctAnswer:
-      "Tissue-specific alternative splicing of the primary transcript",
+    correctAnswer: "Reduced lysosomal enzyme activity",
     explanation:
-      "Tissue-specific alternative splicing of the primary transcript. Tissue-specific alternative splicing of one primary transcript can give rise to a number of dis- tinct mature mRNAs, each of which gives rise to a variant of the parent protein (but all separate proteins in their own right) (see the figure below). Posttranslational modifica- tions are made primarily to membrane bound or targeted proteins, but not cytosolic proteins. Polyadenylation and cap formation do not alter the reading frame of the pro- tein and are required to fully mature the mRNA. Codon degeneracy will allow a number of different codons to specify the same amino acid in the protein’s primary sequence; it will not alter the sequence of amino acids in the final protein as will alternative splicing.",
-    image: "RNA-3.png",
+      "Reduced lysosomal enzyme activity. The child has I-cell disease (mucolipidosis type II), which is a defi ciency in protein sorting, particularly of sending lyso- somal enzymes to the lysosome (a lysosomal storage dis- ease). The I of I-cell disease stands for inclusion bodies. If the child develops these clinical and radiologic symptoms later in life, one would consider the diagnosis of Hurler syndrome (mucopolysaccharidosis). Lysosomal enzymes are tagged with mannose-6-phosphate (M6P) during post- translational modifi cation. Enzymes containing M6P then bind to a M6P receptor, which transports the enzymes to the lysosomes. Lacking such a signal, patients with I-cell disease secrete their lysosomal contents into the plasma and interstitial fl uids. This leads to lysosomal dysfunction and cellular and tissue destruction. The enzyme that is defective is shown on page 41. This disease is not peroxi- somal, nor does it enhance protein secretion.",
+    image: "",
   },
   {
     id: "4",
     question:
       "A eukaryotic cell line contains an aberrant, temper- ature-sensitive ribonuclease that specifically cleaves the large rRNA molecule into many pieces, destroy- ing its secondary structure and its ability to bind to ribosomal proteins. This cell line, at the nonpermis- sive temperature, has greatly reduced the rates of protein synthesis. This rate-limiting step is which of the following?",
     incorrectAnswers: [
-      "The presence of a nonsense mutation in the DNA",
-      "A lack of capping of the mRNA",
-      "An extended poly-A tail",
-      "A loss of AUG codons",
+      "Initiation",
+      "Termination",
+      "Elongation",
+      "tRNA activation and charging",
     ],
-    correctAnswer: "A mutation which creates an alternative splice site",
+    correctAnswer: "Peptide bond formation",
     explanation:
-      "A mutation which creates an alterna- tive splice site. The patient has developed a mutation in an intron which acts, only a small percentage of the time, as a splice donor site instead of the normal site at the intron/exon boundary. Thus, when this site is uti- lized by the splicesome, a piece of the intron is incorpo- rated into the mRNA product, producing a longer than normal mRNA. This is an infrequent event, however, as judged by the finding that the density of the normal sized mRNA band on the gel is darker than this abnor- mal band. A nonsense mutation in the DNA will not affect transcription (although it does affect the protein product made from the mRNA). The lack of a cap would result in an unstable mRNA that perhaps would not be translated but would not significantly change the size of the mRNA. Poly-A polymerase adds the poly-A tail and would add the same size tail to both species of mRNA. If the polyadenylation signal were mutated, then the overall mRNA size would be larger, but there would not be two different proteins produced. Since the patient has a β-thalassemia, defective β-globin protein is being produced from the larger mRNA. Loss of methionine codons will affect translation, but not transcription.",
+      "Peptide bond formation. It is the large ribosomal RNA that catalyzes peptide bond formation, using peptides and amino acids in the “A” and “P” sites on the ribosome. Destroying the secondary structure of this rRNA via the aberrant ribonuclease will limit the ability of the ribosome to create peptide bonds. The large, ribosomal RNA molecule is not essential for the initiation, termination, elongation (moving the ribo- some along the mRNA after peptide bond formation has occurred), or tRNA activation and charging.",
     image: "",
   },
   {
     id: "5",
     question:
-      "A careful analysis of cellular components discovers short-lived RNA species in which an adenine nucleotide is found with three phosphodiester bonds (linked to the 2′, 3′, and 5′ carbons). This transient structure is formed during which of the following processes?",
+      "A cell contains a mutated alanine-tRNAala synthetase that recognizes glycine instead of alanine as its substrate. The anticodon of the tRNA recognized by this enzyme is IGC. When the cell translates the following portion of an mRNA molecule (presented in frame beginning with the 5′ nucleotide), what will be the amino acid sequence of the protein produced from this stretch of mRNA? -AUGGCGGACUCGGCUAUG-",
     incorrectAnswers: [
-      "mRNA cap formation",
-      "mRNA polyadenylation",
-      "Transcription of microRNAs",
-      "Transcription of rRNA",
+      "M-G-S-D-G-M",
+      "M-A-D-S-A-M",
+      "M-A-S-D-A-M",
+      "M-G-D-S-A-M",
     ],
-    correctAnswer: "Splicing of hnRNA",
+    correctAnswer: "M-A-D-S-G-M",
     explanation:
-      "Splicing of hnRNA. As seen on page 34, an adenine nucleotide in the middle of the intron is a required component for splicing to occur, and the sugar residue attached to this adenine is involved in three phosphodiester linkages; the normal 3′ and 5′ and also 2′ to the splice site. The resulting structure resembles a lariat. Such a structure does not form during capping, polyadenylation, or the normal transcription of genes. It is unique to the splicing mechanism.",
+      "The variant cell line will mischarge a tRNAala with glycine, but only the tRNAala that has, as its anticodon, IGC. IGC will recognize three codons: GCA, GCU, and GCC. Thus, when these codons are present in the mRNA, glycine will replace alanine. Thus, reading the RNA from the 5′ end (as translation reads the mRNA 5′ to 3′) provided in a series of 3, we have AUG (which is methionine), GCG (which is alanine—the anti- codon for this codon is CGC; IGC will not recognize the GCG codon), GAC (which is aspartic acid), UCG (which is serine), GCU (which, in this cell line, is glycine and not alanine, since the IGC anticodon will recognize the GCU codon), and AUG (methionine). The answer choices uti- lize the single-letter codes to represent the amino acids.",
     image: "",
   },
   {
     id: "6",
     question:
-      "A patient suffering from chills, vomiting, and cramping was rushed to the emergency department. He had eaten wild mushrooms for dinner that he had picked earlier in the day. His symptoms are due to an inhibition of which of the following enzymes?",
-    incorrectAnswers: [
-      "RNA polymerase I",
-      "RNA polymerase III",
-      "Telomerase",
-      "DNA primase",
-    ],
-    correctAnswer: "RNA polymerase II",
+      "A necessary cofactor for allowing these symptoms to appear in the child is which of the following?",
+    incorrectAnswers: ["ATP", "FAD", "Acetyl-CoA", "UDP-glucose"],
+    correctAnswer: "NAD+",
     explanation:
-      "RNA polymerase II. The patient has ingested α-amanitin, a toxin that, at very low concentra- tions, inhibits RNA polymerase II and blocks the tran- scription of single-copy genes. RNA polymerase I and III are more resistant to the effects of amanitin, and this toxin has no effect on telomerase or any type of DNA polymerase. The inability to synthesize new proteins in all cells leads to the symptoms observed. The structure of amanitin is shown below. Amanitin poisoning initially causes gastrointestinal disturbances, then electrolyte imbalance and fever, followed by liver and kidney dys- function. Death can follow 2 to 3 days after ingestion.",
+      "NAD+. Diphtheria toxin, after entering cells, is cleaved by a protease to form an active enzyme, which, utilizing NAD+ as a substrate, ADP-ribosylates eEF2, thereby inhibiting protein translation. ATP, FAD, acetyl-CoA, and UDP-glucose are not required for the ADP-ribosylation reaction. The fi nal modifi ed product, an arginine with an ADP-ribose attached, is shown below.",
     image: "",
   },
   {
     id: "7",
     question:
-      "The message identical strand is best represented by which letter on the diagram?",
-    incorrectAnswers: ["Id-A", "Id-C", "Id-D", "Id-E"],
-    correctAnswer: "Id-B",
+      "The molecular mechanism responsible for these physi- cal observations in the boy is which of the following?",
+    incorrectAnswers: [
+      "Inhibition of protein kinase A",
+      "Glycosylation of a G protein",
+      "Activation of an elongation factor for translation",
+      "Activation of protein kinase A",
+    ],
+    correctAnswer: "Inhibition of an elongation factor for translation",
     explanation:
-      "The message-identical strand of DNA is the one that has the same sequence of bases as the mRNA product (with the exception that when there is a U in RNA, there is a T in DNA). Thus, this is the strand that is complementary to the strand that is being used as the template for RNA synthesis (which is designated as C in the figure).",
-    image: "RNA-78.png",
+      "Inhibition of an elongation factor for translation. The child has diphtheria, which is caused by a bacterium (Corynebacterium diphtheriae), which produces a toxin that leads to the inhibition of eEF2 (eukaryotic elongation factor 2), which is required for the movement of tRNA from the “A” site to the “P” site. The toxin catalyzes the ADP-ribosy- lation (using NAD+ as a substrate) of eEF2 to bring about this inhibition. If one treats such a child with nicotinamide (the reaction product resulting from the loss of ADP-ribose from NAD+ ), one can reverse and block the ADP-ribosylation reaction catalyzed by the toxin. The toxin has no effect on protein kinase A, nor does it glycosylate a G protein. Diphtheria causes sore throat, fever, swollen nodes (bull neck), weak- ness, hoarseness, painful swallowing, and chills. The hallmark of the disease is a thick, gray membrane cov- ering the pharynx.",
+    image: "",
   },
   {
     id: "8",
     question:
-      "The 3′ end of the newly synthesized RNA is best repre- sented by which letter on the above diagram?",
-    incorrectAnswers: ["Id-A", "Id-B", "Id-C", "Id-"],
-    correctAnswer: "Id-D",
+      "A 2-year-old girl exhibits a very high fever of sudden onset and complains of a stiff neck. Physical exam reveals a positive Brudzinski and Kernig sign and petechiae on the extremities. The pediatrician, in addition to rushing the child to the hospital, prescribes a drug that blocks prokaryotic peptide bond formation, even though it can have serious side effects. That drug is which of the following?",
+    incorrectAnswers: ["Rifampin", "Rapamycin", "Cycloheximide", "Puromycin"],
+    correctAnswer: "Chloramphenicol",
     explanation:
-      "The newly synthesized RNA strand is made in the 5′–3′ direction, so letter A represents the 5′ end of the newly synthesized RNA and letter D repre- sents the 3′ end. The DNA template is being read in the 3′–5′ direction (letter C would represent the 3′ end of the template strand).",
+      "Chloramphenicol. Chloramphenicol blocks peptide bond formation in prokaryotic ribo- somes (with no effect on eukaryotic ribosomes). This concept is the basis of certain antibiotic therapy; the differences in ribosome structure between eukaryotic and prokaryotic cells allow selective drug inhibition. The child has meningococcal meningitis, and chloram- phenicol, despite its side effects of inhibiting mito- chondrial protein synthesis, is a very effective agent for this disorder. Cycloheximide has the same effect as chloramphenicol in eukaryotic cells but has no effect on prokaryotes. Rapamycin leads to the blockage of trans- lation initiation, not peptide bond formation. Puromy- cin is a chain terminator, stopping protein synthesis but not directly inhibiting peptide bond formation. Rifampin inhibits prokaryotic mRNA synthesis and has no direct effect on translation. Rifampin might be used as prophylaxis for household contacts of meningococ- cal meningitis but is not as effective a treatment for the actual disease.",
     image: "RNA-78.png",
   },
   {
     id: "9",
     question:
-      "A 22-year-old woman (see the figure below) sees her physician for a variety of complaints over the past year. These include fevers that come and go, fatigue, joint pain and stiffness, a butterfly rash on the face, sores in her mouth, easy bruising, and increased feelings of anxiety and depression. A diagnostic blood test is likely to show autoimmune antibodies directed against which class of molecules?",
+      "A Russian youngster was prescribed erythromycin for a bacterial infection, but he developed hearing loss due to use of this drug. This occurred due to which of the following?",
     incorrectAnswers: [
-      "DNA polymerases",
-      "Carbohydrates",
-      "tRNA complexes",
-      "Peroxisomal proteins",
+      "Inhibition of mitochondrial RNA synthesis",
+      "Inhibition of mitochondrial DNA replication",
+      "Weakening and tearing of the eardrum",
+      "Increased neuronal signaling in the inner ear",
     ],
-    correctAnswer: "Ribonuclear protein complexes",
+    correctAnswer: "Inhibition of mitochondrial protein synthesis",
     explanation:
-      "Ribonuclear protein complexes. The woman has lupus, an autoimmune disorder. One class of antibodies developed is against the snurps, small ribonuclear protein complexes, which are involved in mRNA splicing. Autoantibodies are not developed against DNA polymerase (although antibodies against DNA are often found), carbohydrates, tRNA complexes, or peroxisomal proteins.",
+      "Inhibition of mitochondrial protein synthesis. Ototoxicity (hearing loss) occurs with a subset of antibiotics because, in addition to affecting prokaryotic ribosomes, the drugs also have an effect on mitochondrial ribosomes. Mitochondria con- tain their own DNA, RNA polymerase, and protein synthesizing apparatus (recall that it is thought that during evolution, bacteria invaded eukaryotic cells and formed a symbiotic relationship, with the bac- teria eventually becoming the mitochondria), which is very similar to the prokaryotic apparatus. Thus, certain drugs will affect mitochondrial protein syn- thesis, and the effects seem to be greatest on those organs that have high energy needs (such as neuronal tissue). Erythromycin does not affect mitochondrial RNA synthesis or DNA replication. It does not affect the ear drum, nor does it increase neuronal signaling in the inner ear.",
     image: "",
   },
   {
     id: "10",
     question:
-      "When first discovered, introns were not thought to code for a functional product. Recently, however, introns have been found to code for products that can regulate the expression of a large number of genes. This regula- tion occurs at which stage of gene expression?",
-    incorrectAnswers: [
-      "Transcription of mRNA",
-      "Posttranscriptional processing",
-      "Export of mRNA into the cytoplasm",
-      "Ribosome biogenesis",
-    ],
-    correctAnswer: "Degradation of the mRNA",
+      "While investigating structure–function studies in a membrane transport protein, a researcher discovered a single nucleotide mutation that led to the loss of a key α-helical segment of the protein. The mutation that led to this fi nding is most likely which of the following?",
+    incorrectAnswers: ["GUU to GCU", "UUG to CUG", "AUC to GUC", "GUG to UUG"],
+    correctAnswer: "CUC to CCC",
     explanation:
-      "Degradation of the mRNA. Introns have been shown to contain genes for microRNAs, which are processed to small, interfering RNAs, which can regu- late gene expression either by binding to and initiating degradation of a particular mRNA or by binding to a particular mRNA and blocking translation of the mRNA. These small RNA molecules do not affect the transcrip- tion of the target mRNA, nor posttranscriptional pro- cessing (capping and polyadenylation). They also do not affect the export of mRNA into the cytoplasm, nor do they alter ribosome biogenesis. As an example, the miR- 17-92 cluster encodes seven microRNAs and resides within an intron of the C13 or F25 gene on chromo- some 13. These miRNAs are upregulated in lung cancer, and may contribute to the progression of the disease by downregulating their target genes.",
+      "CUC to CCC. The most effi cient way to destroy an α-helix is to insert a proline into the middle of it, as proline cannot form an α-helix due to the restriction of rotation of certain bond angles. Choice (A) has a leucine going to proline; all of the other substitutions (val to ala, leu to leu, ile to val, and val to leu) would still allow α-helix formation after the substitution took effect as these are conservative sub- stitutions.",
     image: "",
   },
   {
     id: "11",
     question:
-      "A researcher, while studying a liver cell line, found the following anomalous result. He was studying protein X production within the liver cell. Western blot analysis using a polyclonal antibody showed a normal size, and amount, for protein X. Enzyme assays demonstrated normal levels of activity for protein X. Northern blot analysis, however, yielded two bands of equal intensity: one the expected size and the other 237 nucleotides longer. One possible explanation for this finding is which of the following?",
+      "An adult male is diagnosed with a typical pneumonia. His physician prescribes clarithromycin, which is spe- cifi c for prokaryotic cells. Which of the following best explains the mechanism of prokaryotic specifi city?",
     incorrectAnswers: [
-      "A nonsense mutation in the DNA",
-      "A loss of an intron/exon junction",
-      "Inefficient transcription initiation",
-      "Gain of an alternative splice site",
+      "The drug binds to the 50S ribosomal subunit of bacteria and inhibits f-met-tRNAi binding",
+      "The drug binds to the 30S ribosomal subunit of bacteria and blocks initiation of protein synthesis",
+      "The drug binds to the 30S ribosomal subunit of bacteria and blocks peptide bond formation",
+      "The drug binds to both ribosomal subunits and prevents bacterial ribosome assembly",
     ],
-    correctAnswer: "Loss of a transcription termination site",
+    correctAnswer:
+      "The drug binds to the 50S ribosomal subunit of bacteria and blocks translocation",
     explanation:
-      "Loss of a transcription termination site. One of the genes that encoded protein X had a mutation at the transcription termination site, which enabled the mRNA to be transcribed into a longer form (237 nucleotides longer). The reading frame of the mRNA was intact, as was the start and stop codons, so the protein produced from this lengthened mRNA was normal. If a nonsense mutation had been created in gene X, a truncated, likely inactive, protein would have been produced. The loss of an intron/exon junction would alter the splicing pattern of the mRNA, and would most likely alter the reading frame of the protein and create a nonfunctional protein. Another possibility is that the loss of an intron/exon junction would produce an elon- gated protein (due to intronic DNA being transcribed as part of the mRNA), with a concomitant loss of activity. Gaining an alternative splice site would potentially lead to two forms of the final protein being produced, yet only one is seen by Western blot. Inefficient transcrip- tion initiation would not produce two distinct mRNAs.",
+      "The drug binds to the 50S ribosomal subunit of bacteria and blocks translocation. Clarithro- mycin (an antibiotic in the macrolide family with erythromycin and azithromycin) is specifi c for the large ribosomal subunit of prokaryotes (it will not bind to eukaryotic ribosomes). When this drug binds to the large ribosomal subunit, translocation of the ribosome (movement along the mRNA) is blocked, which blocks overall protein synthesis. tRNA binding is not affected by clarithromycin, nor is there a blockage of the forma- tion of an initiation complex. It is the large subunit (50S) that contains the peptidyl transferase activity, which is also not blocked by this agent.",
     image: "",
   },
   {
     id: "12",
     question:
-      "A young child of Mediterranean parents was brought to the pediatrician due to lethargy, tiredness, and pallor. Blood analysis revealed a microcytic anemia, although iron levels were normal (see the figure below). What test should be run to determine that the child has a variant of thalassemia?",
+      "A patient underwent a kidney transplant and among the many drugs she received poststransplant was rapamycin. Rapamycin aids in preventing an immune response to the transplant via which of the following mechanisms?",
     incorrectAnswers: [
-      "PCR of the gene for RNA polymerase",
-      "Western blot of snurps in the child",
-      "Western blot of TFIID",
-      "PCR of the gene for γ-globin in the child",
+      "The drug inhibits ribosome subunit assembly",
+      "The drug inhibits cap formation",
+      "The drug specifi cally inhibits RNA polymerase III",
+      "The drug inhibits antibody-specifi c transcription factors from binding to DNA",
     ],
-    correctAnswer: "Westernblottingofthepeptidechainsinhemoglobin",
+    correctAnswer: "The drug inhibits initiation of protein synthesis",
     explanation:
-      "Western blotting of the peptide chains in hemoglobin. Thalassemias are the result of an imbalance in the synthesis of α- and β-globin genes. If this were to occur, a Western blot analysis of the α and β chains would show a difference in the amount of each in the red blood cells, suggesting either an α- or β-thalassemia (in an α-thalassemia, one would see less α chains or variants of α chains being pro- duced, as compared to just one, normal β chain. The opposite would be true for a β-thalassemia). As many α-thalassemias are caused by gene deletions, FISH might be another way to determine this condition, using a probe specific for the α-globin gene. Most β-thalassemias are not due to gene deletions. PCR for γ-globin (fetal Hb) or RNA polymerase will not address an imbalance in α- and/or β-globin chain synthesis. Similarly, Western blots of snurps or TFIID will not address an imbalance in synthesis (if there was a prob- lem with snurps, all RNA splicing would be affected, not just the α or β-globin gene; similarly, if TFIID were altered, all mRNA synthesis would be altered). Clinical labs will also use hemoglobin electrophoresis to quanti- tate the levels of globin chains in a patient. The illustra- tion used in the question was obtained from a patient with β-thalassemia.",
+      "The drug inhibits initiation of protein synthesis. Rapamycin inhibits the mammalian tar- get of rapamycin (mTOR), which is a protein kinase. One of the many targets of mTOR is eIF4E binding protein (eIF4E is a required initiation factor for pro- tein synthesis). When not phosphorylated, the binding protein binds tightly to eIF4E and prevents it from par- ticipating in the formation of the translational initiation complex, thereby blocking protein synthesis. When phosphorylated at multiple locations by mTOR, the binding protein falls off the initiation factor and allows translational initiation complexes to form. In the pres- ence of rapamycin, mTOR has no kinase activity, and the binding protein remains bound to eIF4E, thereby inhibiting protein synthesis. The drug does not affect ribosome assembly. The drug also has no effect on tran- scription or RNA processing.",
     image: "",
   },
   {
     id: "13",
     question:
-      "An intestinal cell line was being studied for its ability to produce lipid-containing particles. Surprisingly, a mutated variant of this cell line was unable to do so. Western blot analysis yielded a protein with the same size as apolipoprotein B100. A potential mutation in this cell line, which would lead to this result, is which of the following?",
+      "You see a very sick patient (vomiting and bloody diarrhea, dehydration, and mental status changes) in the emergency department, who, you are told, was an amateur chef trying out a new creation in which he wanted to experiment with the extracts of castor beans. This person’s symptoms are all due to which of the following?",
     incorrectAnswers: [
-      "Splicing defect",
-      "Cap formation altered",
-      "Inefficient poly-A tail addition",
-      "Promoter alteration",
+      "Inhibition of RNA polymerase I",
+      "Inhibition of RNA polymerase II",
+      "Ribosomal disassembly due to covalent modifi cation",
+      "Inhibition of amino-acyl tRNA synthetases",
     ],
-    correctAnswer: "RNA editing defect",
+    correctAnswer: "Ribosomal inactivation by covalent modifi cation",
     explanation:
-      "C. The intestine con- tains an RNA editing complex that alters one base in the apo B100 mRNA, which creates a stop codon, such that when the mRNA is translated, protein synthesis stops after 48% of the codons have been translated. This is a unique type of posttranscriptional modification. The ini- tial transcripts for both apo B48 and apo B100 are the same. Mutations that alter splicing, cap formation, or polyadenylation would not produce the full size protein in place of apo B48. Mutations in the promoter would alter initiation of transcription, but not the end product formed. RNA editing in this case is shown in the figure below.",
+      "Ribosomal inactivation by covalent modifi cation. Ricin, a toxin found in castor oil beans, specifi cally cleaves an N-glycosidic bond in the 28S rRNA of the large ribosomal subunit (an adenine base is removed, but the phosphodiester backbone remains intact). The sequence of the rRNA that is altered is required for binding elongation factors during protein synthesis. As ribosomes become inactivated by ricin, protein synthesis in cells stops, leading to cell death. Ricin does not inhibit RNA polymerases or amino- acyl tRNA synthetases. Ricin does not initially affect ribosome assembly. The LD50 for ricin is 30 mg/kg body weight.",
     image: "",
   },
   {
     id: "14",
     question:
-      "A patient displays tiredness and lethargy, and blood work demonstrates an anemia. Western blot analysis indicates significantly greater levels of α-globin than β-globin. Molecular analysis indicates a single nucleotide change in an intron of the β-globin gene. How does such a mutation lead to this clinical finding?",
+      "A 2-year-old boy with an ear infection was given amoxi- cillin, but it did not clear up the problem. Switching to azithromycin successfully eradicated the infection, and subsequent laboratory work indicated that the offending bacterium was resistant to amoxicillin. Bacte- rial resistance to antibiotics is often due to which of the following?",
     incorrectAnswers: [
-      "A microRNA is produced, which is targeted against the β-globin mRNA, thereby reducing β-globin production",
-      "Creation of a new transcription initiation site, such that the mRNA for β-globin is now out of framea",
-      "Creation of a stop codon in the β-globin mRNA",
-      "Elimination of the polyadenylation signal, thereby reducing β-globin production",
+      "Altered ribosome structure",
+      "Altered cell wall",
+      "Inability to transport the drug into the bacteria",
+      "A mutation in RNA polymerase",
     ],
-    correctAnswer:
-      "Creation of an alternative splice site, such that β-globin levels are decreased",
+    correctAnswer: "Enzymatic destruction of the antibiotic",
     explanation:
-      "Creation of an alternative splice site, such that b-globin levels are decreased. If an intronic mutation created an alternative splice site, the splice- some would utilize this site for splicing a certain percent- age of the time, forming an mRNA that would not code for functional β-globin protein. This would lead to a reduction in β-globin synthesis relative to α-globin syn- thesis, thereby creating a β-thalassemia. If a microRNA were created which targeted the β-globin mRNA, then there would be a drastic reduction in β-globin synthesis as all β-globin mRNA would be targeted for destruction, which is not observed. Since the introns would be nor- mally spliced from the mature mRNA, the creation of a transcription initiation site would have no effect on the mature mRNA. Similarly, the creation of a stop codon in an intron would have no effect on the mature mRNA. The polyadenylation signal is not found in introns, so the mutation could not be at this location within the gene.",
+      "The answer is C: Enzymatic destruction of the antibi- otic. Bacteria that develop resistance to antibiotics usually do so by containing an enzymatic activity that destroys the structure of the antibiotic so that it cannot effectively inhibit its target within the cell. Amoxicillin works by destroying the bacterial cell wall, by being incorporated into the growing cell wall, which leads to a cessation of cell wall synthesis. It does not alter ribo- some structure. Mutations in RNA polymerase will not lead to resistance to drugs. Azithromycin was effective because the bacteria did not produce an enzyme that destroyed the drug.",
     image: "",
   },
   {
     id: "15",
     question:
-      "Consider two individuals, each with some form of thala- ssemia. Patient X has a deletion of the α genes on one chromosome but normal expression of all other α and β genes. This person has a mild form of the disease. Patient Y has a normal complement of α genes but has a homozygous mutation in the β genes in which an abnor- mal splice site is used 80% of the time, producing a tran- script with a premature stop codon. Patient Y has a more severe disease than patient X. Why is patient Y’s disease more severe than patient X’s?",
+      "A young boy exhibits myopathy, encephalopathy, lactic acidosis, and strokelike episodes. All of his siblings have some aspects of the same symptoms. The boy most likely has which type of mutation?",
     incorrectAnswers: [
-      "The ratio of α/β in patient X is 1:2, whereas in patient Y it is 1:5",
-      "The ratio of α/β in patient X is 2:1, whereas in patient Y it is 1.2:1",
-      "The ratio of α/β in patient X is 2:1, whereas in patient Y it is 1:1.2",
-      "The ratio of α/β in patient X is 1:2, whereas in patient Y it is 1.2:1",
+      "A defect in mRNA synthesis",
+      "A defect in mitochondrial rRNA production",
+      "A defect in cytoplasmic tRNA",
+      "A defect in cytoplasmic rRNA",
     ],
-    correctAnswer:
-      "The ratio of α/β in patient X is 1:2, whereas in patient Y it is 5:1",
+    correctAnswer: "A defect in mitochondrial tRNA production",
     explanation:
-      "The ratio of a/b in patient X is 1:2, whereas in patient Y it is 5:1. An individual with the genotype of patient X is producing 50% normal α chain (two normal genes, two deleted) and 100% β-globin for a ratio of 1:2 of α to β(each chromosome 11 contains two α-genes, for a total of four α-genes per cell). Such a ratio would lead to little, if any, clinical symptoms. Patient Y is producing 100% α chain and 20% β chain for a 5:1 ratio of α to β. This ratio is big enough to lead to clinical symptoms. Recall, the major biochemi- cal problem in thalassemia is the imbalance in synthe- sis of α and β chains, leading to nonfunctional α4 and β4 tetramers forming from the excess chains produced. The other ratios presented as answers do not represent the mutations present in the patients.",
+      "A defect in mitochondrial tRNA production. The boy has MELAS (Mitochondrial myopathy, encephalopathy, lactic acidosis, and stroke), a neurodegenerative disorder due to a mutation in mitochondrial tRNA, leading to defective protein synthesis within the mitochondria. The component most often affected is complex 1 of the respiratory chain. The severity of the disease will be dependent on the extent of heteroplasmy (what percentage of the mitochondria codes for the altered tRNA). The more mutant mitochondria present, the more severe the symptoms.",
     image: "",
   },
   {
     id: "16",
     question:
-      "Dideoxynucleotides are effective agents against DNA synthesis, but appear to have little, or no, effect on RNA synthesis. This is most likely due to which of the following?",
-    incorrectAnswers: [
-      "Lack of a 3′-OH group",
-      "Presence of a 5′-phosphodiester bond",
-      "Presence of an N-glycosidic bond at carbon 1",
-      "Factor TFIID does not recognize deoxyribonucleotides",
-    ],
-    correctAnswer: "Lack of a 2′-OH group",
+      "Given the serine codons shown below, what is the minimum number of tRNAs which is required to bind to them? UCU, UCC, UCA, UCG, AGU, AGC",
+    incorrectAnswers: ["1", "2", "4", "5"],
+    correctAnswer: "3",
     explanation:
-      "Lack of a 2′-OH group. RNA polymerase is looking for substrates that contain a 2′-hydroxyl group (recall, DNA polymerase utilized dNTPs, which normally lack a hydroxyl group at the 2′ position). As this substrate lacks a 2′-hydroxyl group, therefore the binding affinity of this drug for RNA polymerase is very low, such that the likelihood that this chain termina- tor will be incorporated into a growing RNA chain is minimal. DNA polymerase, however, utilizes substrates lacking a 2′-hydroxyl group, and can bind and utilize this substrate.",
+      "A tRNA with the anticodon IGA will bind to UCU, UCC, and UCA (with wobbling at the third position of the codon). A tRNA with the anti- codon CGA will bind to UCG. And the third tRNA, with an anticodon of ICU, can base-pair with both AGU and AGC. Recall that I will base-pair with A, C, or U in the wobble position.",
     image: "",
   },
   {
     id: "17",
     question:
-      "TFIIIA is a necessary transcription factor for the synthe- sis of which class of molecules?",
-    incorrectAnswers: ["mRNA", "rRNA", "hnRNA", "microRNAs"],
-    correctAnswer: "tRNA",
+      "A young boy has edema, protruding abdomen, and very thin arms and legs. The edema has its origins which of the following?",
+    incorrectAnswers: [
+      "Lack of muscle protein synthesis",
+      "Lack of intestinal protein synthesis",
+      "Excessive water production due to protein hydrolysis",
+      "Excessive water production due to triglyceride hydrolysis",
+    ],
+    correctAnswer: "Lack of liver protein synthesis",
     explanation:
-      "tRNA. RNA polymerase III requires transcription factors to bind to promoters, which are labeled as TFIIIx, where x is a variable letter. Polymerase III will synthesize tRNA molecules and 5S rRNA. RNA polymerase II synthesizes mRNA while RNA polymerase I synthesizes primarily rRNA. Accessory factors for the polymerases are labeled TFIIx or TFIx, respectively. MicroRNAs are synthesized by polymerase II. hnRNA is the precursor for mature mRNA, also synthesized by RNA polymerase II.",
+      "Lack of liver protein synthesis. The boy is displaying kwashiorkor due to a calorie- defi cient diet low in protein. Since the boy is tak- ing in less protein than he needs, he is becoming defi cient in the essential amino acids. Thus, to syn- thesize new proteins, existing proteins need to be degraded such that a pool of essential amino acids is available for the new protein synthesis. This protein degradation occurs in the muscles, leaving the boy with very thin arms and legs. The liver, despite the increased muscle protein turnover, is still defi cient in essential amino acids and reduces its level of protein synthesis, including those proteins normally found in the blood, such as serum albumin. The reduced pro- tein content in the blood reduces the osmotic strength of the blood such that when the blood fl ows through the body, the osmotic strength of the tissues is higher, and fl uid leaves the blood and enters the interstitial space around the tissues. This leads to the protruding abdomen seen in these starving individuals. The prob- lem is not related to reduced muscle protein synthe- sis (which does occur, but does not affect the osmotic strength of the blood), or reduced intestinal protein synthesis, for the same reason as the muscle. Both protein hydrolysis and triglyceride hydrolysis require water; water is not produced when these molecules are broken down.",
     image: "",
   },
   {
     id: "18",
     question:
-      "A 2-year-old has been diagnosed with a rhabdomyo- sarcoma and is placed on chemotherapy, including the drug dactinomycin. Dactinomycin exerts its effects by which of the following mechanisms?",
-    incorrectAnswers: [
-      "Binding of the drug to ribosomes, thereby blocking translation",
-      "Binding of the drug to transcription factors, thereby blocking RNA synthesis",
-      "Binding of the drug to RNA polymerase II, thereby blocking RNA synthesis",
-      "Binding of the drug to DNA, thereby blocking DNA synthesis",
-    ],
-    correctAnswer: "Binding of the drug to DNA, thereby blocking RNA synthesis",
+      "A patient taking lovastatin and Zetia® for elevated cho- lesterol was found to produce lower levels of glycosy- lated proteins. This is most likely due to the unintended consequence of blocking the synthesis of which of the following compounds?",
+    incorrectAnswers: ["Coenzyme Q", "Cholesterol", "HMG-CoA", "Ketone bodies"],
+    correctAnswer: "Dolichol",
     explanation:
-      "Binding of the drug to DNA, thereby blocking RNA synthesis. Dactinomycin binds to DNA and blocks the ability of RNA polymerase to transcribe genes, thereby blocking transcription. The drug does not bind specifically to ribosomes, transcription factors, or RNA polymerase II. It also does not interfere with DNA synthesis.",
+      "Dolichol. The biosynthesis of both coenzyme Q and dolichol is dependent on isoprene units, specifi cally isopentenylpyrophosphate, which is derived from mevalonic acid in the de novo pathway of cholesterol biosynthesis. Lovastatin inhibits HMG- CoA reductase, which reduces mevalonate production. This can have, then, the unintended consequence of a reduction in dolichol production, thereby leading to underglycosylation of processed proteins. A reduction of coenzyme Q synthesis can lead to muscle weakness (a side effect of the statin class of drugs), but coenzyme Q is not involved in protein glycosylation. Cholesterol, HMG-CoA, and ketone bodies are not required for pro- tein glycosylation as well. The structure of dolichol, in which the isoprene building block is highlighted, is shown below.",
     image: "",
   },
   {
     id: "19",
     question:
-      "A man with a bacterial infection was prescribed rifampin to resolve the infection. Rifampin does not affect eukary- otic cells due to which of the following?",
+      "A patient with type 2 diabetes has been prescribed recombinant insulin to help control his disease. Three months after starting this regime, a blood test is done, which indicates that the patient is still producing endo- genous insulin, in addition to the recombinant insulin the patient is taking. The blood test has, at its basis, which of the following?",
     incorrectAnswers: [
-      "Differences in ribosome structure between eukary- otes and prokaryotes",
-      "Differences in transcription factors between eukaryotes and prokaryotes",
-      "Inability of the drug to bind to DNA containing nucleosomes",
-      "Differences in snurp structure between eukaryotes and prokaryotes",
+      "Posttranslational glycosylation",
+      "Posttranslational modifi cation of amino acid side chains",
+      "Posttranslational acylation",
+      "Posttranslational quaternary structure formation",
     ],
-    correctAnswer:
-      "Structural differences in RNA polymerase between eukaryotes and prokaryotes",
+    correctAnswer: "Posttranslational proteolytic processing",
     explanation:
-      "Structural differences in RNA polymerase between eukaryotes and prokaryotes. Rifampin binds to prokaryotic RNA polymerase but cannot bind (due to the different structures of the RNA polymerase between prokaryotic and eukaryotic cells) to eukaryotic RNA polymerase. The drug does not bind to ribosomes, DNA, snurps, or transcription factors. Snurps are not present in prokaryotic cells.",
+      "Posttranslational proteolytic processing. As shown on page 44, insulin is synthesized as a prepro- insulin. The pre sequence is the signal sequence, which is cleaved when the protein enters the endoplasmic reticulum. Proinsulin contains the C-peptide, which is removed to form mature insulin, and disulfi de bonds that hold the A and B chains together. The modifi ca- tion is thus proteolytic processing, and not glycosyla- tion, modifi cation of side chains, acylation, or altered quaternary structure. The test is a C-peptide level. If a person is producing insulin, a C-peptide level can show this. This is also a way to see if a person has type 1 dia- betes mellitus (no C-peptide, since they cannot produce endogenous insulin) or type 2 (normal or high C-peptide levels, since this disease is a reduced response to nor- mally produced insulin).",
     image: "",
   },
   {
     id: "20",
     question:
-      "A cell line was derived, which was temperature sensitive for splicing hnRNA. At the nonpermissive temperature, splicing was unable to occur. A potential activity that is mutated in the splicesome is which of the following?",
+      "A hospital laboratory made an error and mistyped a patient’s blood as AB, instead of B. When given type A blood, the patient had an adverse reaction. The major difference between individuals with AB and B type blood is due to which of the following?",
     incorrectAnswers: [
-      "Ability to carry out RNA synthesis",
-      "Ability to carry out DNA synthesis",
-      "Loss of 3′–5′ exonuclease activity",
-      "Loss of ability for transcription-coupled DNA repair",
+      "The presence of a specifi c acyl transferase",
+      "The presence of a specifi c peptidase",
+      "The lack of dolichol pyrophosphate",
+      "Increased levels of dolichol pyrophosphate",
     ],
-    correctAnswer: "Loss of endonuclease activity",
+    correctAnswer: "The presence of a specifi c glycosyl transferase",
     explanation:
-      "Loss of endonuclease activity. The act of splicing requires the breakage of internal phos- phodiester bonds, which is the job of an endonuclease. Splicing does not require new RNA synthesis, DNA syn- thesis, error-checking (the 3′–5′ exonuclease activity), or DNA repair. The process of splicing is shown again below.",
+      "The presence of a specifi c glycosyl trans- ferase. As shown below, type A and B blood differ by the presence of one sugar on glycosylated proteins. Individuals with type A blood add one type of sugar (N-acetylgalactosamine), while individuals with type B blood add a different sugar (galactose) due to differences in the specifi city of a glycosyl transferase that recognizes the base carbohydrate structure. The differences in blood group antigens are not due to acylation or proteolytic processing on the cell surface. As these carbohydrates are O-linked, dolichol (which is required for N-linked glycosylation) is not required for their synthesis.",
     image: "",
   },
 ];

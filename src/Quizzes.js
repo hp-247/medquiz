@@ -15,9 +15,13 @@ import Exam13 from "./Exam13/Exam13";
 import Exam14 from "./Exam14/Exam14";
 import Exam15 from "./Exam15/Exam15";
 import Exam16 from "./Exam16/Exam16";
+import Exam17 from "./Exam17/Exam17";
+import Exam18 from "./Exam18/Exam18";
 
 function Quizzes() {
-  const [activeTab, setActiveTab] = useState("Protein Synthesis");
+  const [activeTab, setActiveTab] = useState(
+    "Molecular Medicines and Techniques"
+  );
 
   const handle1 = () => {
     setActiveTab("Epithelial Tissue");
@@ -70,6 +74,14 @@ function Quizzes() {
     setActiveTab("Protein Synthesis");
   };
 
+  const handle17 = () => {
+    setActiveTab("Regulation of Gene Expression");
+  };
+
+  const handle18 = () => {
+    setActiveTab("Molecular Medicines and Techniques");
+  };
+
   const handleSelect = () => {
     let selected = document.getElementById("quizzes").value;
     setActiveTab(selected);
@@ -109,6 +121,10 @@ function Quizzes() {
         return <Exam15 />;
       case "Protein Synthesis":
         return <Exam16 />;
+      case "Regulation of Gene Expression":
+        return <Exam17 />;
+      case "Molecular Medicines and Techniques":
+        return <Exam18 />;
       default:
         return null;
     }
@@ -124,11 +140,33 @@ function Quizzes() {
           <hr />
           <div
             className={
+              activeTab === "Molecular Medicines and Techniques"
+                ? "each_topic active"
+                : "each_topic"
+            }
+            onClick={handle18}
+          >
+            Lippincott: Molecular Medicines and Techniques
+            <span className="coming">(20 questions)</span>
+          </div>
+          <div
+            className={
+              activeTab === "Regulation of Gene Expression"
+                ? "each_topic active"
+                : "each_topic"
+            }
+            onClick={handle17}
+          >
+            Lippincott: Regulation of Gene Expression
+            <span className="coming">(20 questions)</span>
+          </div>
+          <div
+            className={
               activeTab === "Protein Synthesis"
                 ? "each_topic active"
                 : "each_topic"
             }
-            onClick={handle15}
+            onClick={handle16}
           >
             Lippincott: Protein Synthesis
             <span className="coming">(20 questions)</span>
@@ -137,7 +175,7 @@ function Quizzes() {
             className={
               activeTab === "RNA Synthesis" ? "each_topic active" : "each_topic"
             }
-            onClick={handle16}
+            onClick={handle15}
           >
             Lippincott: RNA Synthesis
             <span className="coming">(20 questions)</span>
@@ -166,111 +204,117 @@ function Quizzes() {
           </div>
           <h4 className="archived_quizzes">Archived Quizzes</h4>
           <hr />
-          <div
-            className={
-              activeTab === "Head and Neck" ? "each_topic active" : "each_topic"
-            }
-            onClick={handle12}
-          >
-            Head and Neck <span className="coming">(308 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Back" ? "each_topic active" : "each_topic"
-            }
-            onClick={handle9}
-          >
-            Back <span className="coming">(129 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Upper Limb" ? "each_topic active" : "each_topic"
-            }
-            onClick={handle10}
-          >
-            Upper Limb <span className="coming">(186 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Lower Limb" ? "each_topic active" : "each_topic"
-            }
-            onClick={handle11}
-          >
-            Lower Limb <span className="coming">(166 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Epithelial Tissue"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle1}
-          >
-            Epithelial Tissue <span className="coming">(20 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Connective Tissue"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle2}
-          >
-            Connective Tissue <span className="coming">(73 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Nervous Tissue"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle3}
-          >
-            Nervous Tissue <span className="coming">(39 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Digestive System"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle4}
-          >
-            Digestive System <span className="coming">(47 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Abdomen" ? "each_topic active" : "each_topic"
-            }
-            onClick={handle7}
-          >
-            Abdomen <span className="coming">(12 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Pelvis" ? "each_topic active" : "each_topic"
-            }
-            onClick={handle8}
-          >
-            Pelvis <span className="coming">(10 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Muscle Tissue" ? "each_topic active" : "each_topic"
-            }
-            onClick={handle5}
-          >
-            Muscle Tissue <span className="coming">TBD</span>
-          </div>
-          <div
-            className={
-              activeTab === "Cartilage & Bone"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle6}
-          >
-            Cartilage & Bone <span className="coming">TBD</span>
+          <div className="container_scroll">
+            <div
+              className={
+                activeTab === "Head and Neck"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle12}
+            >
+              Head and Neck <span className="coming">(308 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Back" ? "each_topic active" : "each_topic"
+              }
+              onClick={handle9}
+            >
+              Back <span className="coming">(129 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Upper Limb" ? "each_topic active" : "each_topic"
+              }
+              onClick={handle10}
+            >
+              Upper Limb <span className="coming">(186 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Lower Limb" ? "each_topic active" : "each_topic"
+              }
+              onClick={handle11}
+            >
+              Lower Limb <span className="coming">(166 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Epithelial Tissue"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle1}
+            >
+              Epithelial Tissue <span className="coming">(20 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Connective Tissue"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle2}
+            >
+              Connective Tissue <span className="coming">(73 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Nervous Tissue"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle3}
+            >
+              Nervous Tissue <span className="coming">(39 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Digestive System"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle4}
+            >
+              Digestive System <span className="coming">(47 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Abdomen" ? "each_topic active" : "each_topic"
+              }
+              onClick={handle7}
+            >
+              Abdomen <span className="coming">(12 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Pelvis" ? "each_topic active" : "each_topic"
+              }
+              onClick={handle8}
+            >
+              Pelvis <span className="coming">(10 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Muscle Tissue"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle5}
+            >
+              Muscle Tissue <span className="coming">TBD</span>
+            </div>
+            <div
+              className={
+                activeTab === "Cartilage & Bone"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle6}
+            >
+              Cartilage & Bone <span className="coming">TBD</span>
+            </div>
           </div>
         </div>
       </div>

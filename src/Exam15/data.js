@@ -123,7 +123,7 @@ const data = [
     correctAnswer: "Ribonuclear protein complexes",
     explanation:
       "Ribonuclear protein complexes. The woman has lupus, an autoimmune disorder. One class of antibodies developed is against the snurps, small ribonuclear protein complexes, which are involved in mRNA splicing. Autoantibodies are not developed against DNA polymerase (although antibodies against DNA are often found), carbohydrates, tRNA complexes, or peroxisomal proteins.",
-    image: "",
+    image: "RNA-9.png",
   },
   {
     id: "10",
@@ -168,7 +168,7 @@ const data = [
     correctAnswer: "Westernblottingofthepeptidechainsinhemoglobin",
     explanation:
       "Western blotting of the peptide chains in hemoglobin. Thalassemias are the result of an imbalance in the synthesis of α- and β-globin genes. If this were to occur, a Western blot analysis of the α and β chains would show a difference in the amount of each in the red blood cells, suggesting either an α- or β-thalassemia (in an α-thalassemia, one would see less α chains or variants of α chains being pro- duced, as compared to just one, normal β chain. The opposite would be true for a β-thalassemia). As many α-thalassemias are caused by gene deletions, FISH might be another way to determine this condition, using a probe specific for the α-globin gene. Most β-thalassemias are not due to gene deletions. PCR for γ-globin (fetal Hb) or RNA polymerase will not address an imbalance in α- and/or β-globin chain synthesis. Similarly, Western blots of snurps or TFIID will not address an imbalance in synthesis (if there was a prob- lem with snurps, all RNA splicing would be affected, not just the α or β-globin gene; similarly, if TFIID were altered, all mRNA synthesis would be altered). Clinical labs will also use hemoglobin electrophoresis to quanti- tate the levels of globin chains in a patient. The illustra- tion used in the question was obtained from a patient with β-thalassemia.",
-    image: "",
+    image: "RNA-12.png",
   },
   {
     id: "13",
@@ -230,7 +230,7 @@ const data = [
     correctAnswer: "Lack of a 2′-OH group",
     explanation:
       "Lack of a 2′-OH group. RNA polymerase is looking for substrates that contain a 2′-hydroxyl group (recall, DNA polymerase utilized dNTPs, which normally lack a hydroxyl group at the 2′ position). As this substrate lacks a 2′-hydroxyl group, therefore the binding affinity of this drug for RNA polymerase is very low, such that the likelihood that this chain termina- tor will be incorporated into a growing RNA chain is minimal. DNA polymerase, however, utilizes substrates lacking a 2′-hydroxyl group, and can bind and utilize this substrate.",
-    image: "",
+    image: "RNA-16.png",
   },
   {
     id: "17",
