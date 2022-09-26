@@ -17,6 +17,7 @@ import Exam15 from "./Exam15/Exam15";
 import Exam16 from "./Exam16/Exam16";
 import Exam17 from "./Exam17/Exam17";
 import Exam18 from "./Exam18/Exam18";
+import Exam19 from "./Exam19/Exam19";
 
 function Quizzes() {
   const [activeTab, setActiveTab] = useState(
@@ -62,7 +63,7 @@ function Quizzes() {
     setActiveTab("Head and Neck");
   };
   const handle13 = () => {
-    setActiveTab("Pretest: Biochemistry & Genetics");
+    setActiveTab("PreTest: DNA Structure, Replication, and Repair");
   };
   const handle14 = () => {
     setActiveTab("Lippincott: DNA Structure, Replication, and Repair");
@@ -80,6 +81,10 @@ function Quizzes() {
 
   const handle18 = () => {
     setActiveTab("Molecular Medicines and Techniques");
+  };
+
+  const handle19 = () => {
+    setActiveTab("PreTest: Gene Expression");
   };
 
   const handleSelect = () => {
@@ -113,7 +118,7 @@ function Quizzes() {
         return <Exam11 />;
       case "Head and Neck":
         return <Exam12 />;
-      case "Pretest: Biochemistry & Genetics":
+      case "PreTest: DNA Structure, Replication, and Repair":
         return <Exam13 />;
       case "Lippincott: DNA Structure, Replication, and Repair":
         return <Exam14 />;
@@ -125,6 +130,8 @@ function Quizzes() {
         return <Exam17 />;
       case "Molecular Medicines and Techniques":
         return <Exam18 />;
+      case "PreTest: Gene Expression":
+        return <Exam19 />;
       default:
         return null;
     }
@@ -138,6 +145,17 @@ function Quizzes() {
         <div className="topic">
           <h4 className="new_quizzes glow">New Quizzes</h4>
           <hr />
+          <div
+            className={
+              activeTab === "PreTest: Gene Expression"
+                ? "each_topic active"
+                : "each_topic"
+            }
+            onClick={handle19}
+          >
+            PreTest: Gene Expression
+            <span className="coming">(20 questions)</span>
+          </div>
           <div
             className={
               activeTab === "Molecular Medicines and Techniques"
@@ -193,13 +211,13 @@ function Quizzes() {
           </div>
           <div
             className={
-              activeTab === "Pretest: Biochemistry & Genetics"
+              activeTab === "PreTest: DNA Structure, Replication, and Repair"
                 ? "each_topic active"
                 : "each_topic"
             }
             onClick={handle13}
           >
-            Pretest: Biochemistry & Genetics
+            PreTest: DNA Structure, Replication, and Repair
             <span className="coming">(32 questions)</span>
           </div>
           <h4 className="archived_quizzes">Archived Quizzes</h4>
