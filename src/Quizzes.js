@@ -18,11 +18,11 @@ import Exam16 from "./Exam16/Exam16";
 import Exam17 from "./Exam17/Exam17";
 import Exam18 from "./Exam18/Exam18";
 import Exam19 from "./Exam19/Exam19";
+import Exam20 from "./Exam20/Exam20";
+import Exam21 from "./Exam21/Exam21";
 
 function Quizzes() {
-  const [activeTab, setActiveTab] = useState(
-    "Molecular Medicines and Techniques"
-  );
+  const [activeTab, setActiveTab] = useState("Glycolysis and Gluconeogenesis");
 
   const handle1 = () => {
     setActiveTab("Epithelial Tissue");
@@ -87,6 +87,13 @@ function Quizzes() {
     setActiveTab("PreTest: Gene Expression");
   };
 
+  const handle20 = () => {
+    setActiveTab("PreTest: Gene Regulation");
+  };
+  const handle21 = () => {
+    setActiveTab("Glycolysis and Gluconeogenesis");
+  };
+
   const handleSelect = () => {
     let selected = document.getElementById("quizzes").value;
     setActiveTab(selected);
@@ -132,6 +139,10 @@ function Quizzes() {
         return <Exam18 />;
       case "PreTest: Gene Expression":
         return <Exam19 />;
+      case "PreTest: Gene Regulation":
+        return <Exam20 />;
+      case "Glycolysis and Gluconeogenesis":
+        return <Exam21 />;
       default:
         return null;
     }
@@ -147,82 +158,109 @@ function Quizzes() {
           <hr />
           <div
             className={
-              activeTab === "PreTest: Gene Expression"
+              activeTab === "Glycolysis and Gluconeogenesis"
                 ? "each_topic active"
                 : "each_topic"
             }
-            onClick={handle19}
+            onClick={handle21}
           >
-            PreTest: Gene Expression
+            Glycolysis and Gluconeogenesis
             <span className="coming">(20 questions)</span>
           </div>
-          <div
-            className={
-              activeTab === "Molecular Medicines and Techniques"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle18}
-          >
-            Lippincott: Molecular Medicines and Techniques
-            <span className="coming">(20 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Regulation of Gene Expression"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle17}
-          >
-            Lippincott: Regulation of Gene Expression
-            <span className="coming">(20 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Protein Synthesis"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle16}
-          >
-            Lippincott: Protein Synthesis
-            <span className="coming">(20 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "RNA Synthesis" ? "each_topic active" : "each_topic"
-            }
-            onClick={handle15}
-          >
-            Lippincott: RNA Synthesis
-            <span className="coming">(20 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "Lippincott: DNA Structure, Replication, and Repair"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle14}
-          >
-            Lippincott: DNA Structure, Replication, and Repair
-            <span className="coming">(20 questions)</span>
-          </div>
-          <div
-            className={
-              activeTab === "PreTest: DNA Structure, Replication, and Repair"
-                ? "each_topic active"
-                : "each_topic"
-            }
-            onClick={handle13}
-          >
-            PreTest: DNA Structure, Replication, and Repair
-            <span className="coming">(32 questions)</span>
-          </div>
+
           <h4 className="archived_quizzes">Archived Quizzes</h4>
           <hr />
+
           <div className="container_scroll">
+            <div
+              className={
+                activeTab === "PreTest: Gene Regulation"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle20}
+            >
+              PreTest: Gene Regulation
+              <span className="coming">(22 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "PreTest: Gene Expression"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle19}
+            >
+              PreTest: Gene Expression
+              <span className="coming">(38 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Molecular Medicines and Techniques"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle18}
+            >
+              Lippincott: Molecular Medicines and Techniques
+              <span className="coming">(20 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Regulation of Gene Expression"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle17}
+            >
+              Lippincott: Regulation of Gene Expression
+              <span className="coming">(20 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "Protein Synthesis"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle16}
+            >
+              Lippincott: Protein Synthesis
+              <span className="coming">(20 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "RNA Synthesis"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle15}
+            >
+              Lippincott: RNA Synthesis
+              <span className="coming">(20 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab ===
+                "Lippincott: DNA Structure, Replication, and Repair"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle14}
+            >
+              Lippincott: DNA Structure, Replication, and Repair
+              <span className="coming">(20 questions)</span>
+            </div>
+            <div
+              className={
+                activeTab === "PreTest: DNA Structure, Replication, and Repair"
+                  ? "each_topic active"
+                  : "each_topic"
+              }
+              onClick={handle13}
+            >
+              PreTest: DNA Structure, Replication, and Repair
+              <span className="coming">(32 questions)</span>
+            </div>
             <div
               className={
                 activeTab === "Head and Neck"

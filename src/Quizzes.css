@@ -266,7 +266,7 @@
 .container_scroll {
   box-sizing: border-box;
   width: 92%;
-  height: 150px;
+  height: 300px;
   border: 1px solid darkblue;
   padding-left: 12px;
   display: flex;
